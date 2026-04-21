@@ -1,3 +1,6 @@
+#Signing key
+*.der
+
 # Compiled class file
 *.class
 
