@@ -3,132 +3,617 @@
     <manifest filename="C:\Users\pette\Projects\garmin-startup\SailStartup\manifest.xml"/>
     <pcToLineNum>
         <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="1" lineNum="4" parent="globals/SailStartupDelegate" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="2" lineNum="5" parent="globals/SailStartupApp" pc="268435472" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="3" lineNum="26" parent="globals" pc="268435484" symbol="getApp"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="3" lineNum="27" parent="globals" pc="268435494" symbol="getApp"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="2" lineNum="7" parent="globals/SailStartupApp" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="3" lineNum="52" parent="globals" pc="268435484" symbol="getApp"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="3" lineNum="53" parent="globals" pc="268435494" symbol="getApp"/>
         <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="5" lineNum="5" parent="globals/SailStartupMenuDelegate" pc="268435525" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="6" lineNum="4" parent="globals/SailStartupView" pc="268435537" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="10" parent="globals/SailStartupDelegate" pc="268435549" symbol="onMenu"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="11" parent="globals/SailStartupDelegate" pc="268435551" symbol="onMenu"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="12" parent="globals/SailStartupDelegate" pc="268435616" symbol="onMenu"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="8" lineNum="6" parent="globals/SailStartupDelegate" pc="268435618" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="8" lineNum="7" parent="globals/SailStartupDelegate" pc="268435620" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="9" lineNum="12" parent="globals/SailStartupApp" pc="268435633" symbol="onStart"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="10" lineNum="20" parent="globals/SailStartupApp" pc="268435636" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="10" lineNum="21" parent="globals/SailStartupApp" pc="268435638" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="11" lineNum="7" parent="globals/SailStartupApp" pc="268435685" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="11" lineNum="8" parent="globals/SailStartupApp" pc="268435687" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="12" lineNum="16" parent="globals/SailStartupApp" pc="268435700" symbol="onStop"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="13" lineNum="11" parent="globals/SailStartupMenuDelegate" pc="268435703" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="13" lineNum="12" parent="globals/SailStartupMenuDelegate" pc="268435705" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="13" lineNum="13" parent="globals/SailStartupMenuDelegate" pc="268435716" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="13" lineNum="14" parent="globals/SailStartupMenuDelegate" pc="268435737" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="13" lineNum="15" parent="globals/SailStartupMenuDelegate" pc="268435748" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="14" lineNum="7" parent="globals/SailStartupMenuDelegate" pc="268435770" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="14" lineNum="8" parent="globals/SailStartupMenuDelegate" pc="268435772" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="16" lineNum="11" parent="globals/SailStartupView" pc="268435785" symbol="onLayout"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="16" lineNum="12" parent="globals/SailStartupView" pc="268435787" symbol="onLayout"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="17" lineNum="6" parent="globals/SailStartupView" pc="268435821" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="17" lineNum="7" parent="globals/SailStartupView" pc="268435823" symbol="initialize"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="19" lineNum="22" parent="globals/SailStartupView" pc="268435836" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="19" lineNum="24" parent="globals/SailStartupView" pc="268435838" symbol="onUpdate"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268435855" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="15" parent="globals/Rez/Layouts" pc="268435866" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="17" parent="globals/Rez/Layouts" pc="268435875" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="19" parent="globals/Rez/Layouts" pc="268435978" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436062" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436093" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="21" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268436108" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268436120" symbol="initialize"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="22" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268436122" symbol="initialize"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268436134" symbol="initialize"/>
-        <entry filename="c:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="22" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268436179" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="6" lineNum="6" parent="globals/SailStartupView" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="35" parent="globals/SailStartupDelegate" pc="268435549" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="36" parent="globals/SailStartupDelegate" pc="268435552" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="38" parent="globals/SailStartupDelegate" pc="268435568" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="39" parent="globals/SailStartupDelegate" pc="268435582" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="41" parent="globals/SailStartupDelegate" pc="268435606" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="42" parent="globals/SailStartupDelegate" pc="268435611" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="44" parent="globals/SailStartupDelegate" pc="268435627" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="45" parent="globals/SailStartupDelegate" pc="268435639" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="45" parent="globals/SailStartupDelegate" pc="268435645" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="46" parent="globals/SailStartupDelegate" pc="268435651" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="47" parent="globals/SailStartupDelegate" pc="268435683" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="48" parent="globals/SailStartupDelegate" pc="268435688" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="50" parent="globals/SailStartupDelegate" pc="268435704" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="51" parent="globals/SailStartupDelegate" pc="268435716" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="54" parent="globals/SailStartupDelegate" pc="268435721" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="56" parent="globals/SailStartupDelegate" pc="268435734" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="57" parent="globals/SailStartupDelegate" pc="268435764" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="60" parent="globals/SailStartupDelegate" pc="268435769" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="61" parent="globals/SailStartupDelegate" pc="268435796" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="62" parent="globals/SailStartupDelegate" pc="268435820" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="63" parent="globals/SailStartupDelegate" pc="268435831" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="7" lineNum="65" parent="globals/SailStartupDelegate" pc="268435836" symbol="onBack"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="8" lineNum="78" parent="globals/SailStartupDelegate" pc="268435839" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="8" lineNum="79" parent="globals/SailStartupDelegate" pc="268435841" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="8" lineNum="80" parent="globals/SailStartupDelegate" pc="268435868" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="8" lineNum="81" parent="globals/SailStartupDelegate" pc="268435879" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="85" parent="globals/SailStartupDelegate" pc="268435881" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="86" parent="globals/SailStartupDelegate" pc="268435883" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="88" parent="globals/SailStartupDelegate" pc="268435899" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="89" parent="globals/SailStartupDelegate" pc="268435915" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="90" parent="globals/SailStartupDelegate" pc="268435931" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="91" parent="globals/SailStartupDelegate" pc="268435947" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="93" parent="globals/SailStartupDelegate" pc="268435963" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="95" parent="globals/SailStartupDelegate" pc="268435976" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="96" parent="globals/SailStartupDelegate" pc="268435987" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="97" parent="globals/SailStartupDelegate" pc="268435992" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="99" parent="globals/SailStartupDelegate" pc="268436023" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="100" parent="globals/SailStartupDelegate" pc="268436047" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="101" parent="globals/SailStartupDelegate" pc="268436063" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="104" parent="globals/SailStartupDelegate" pc="268436079" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="105" parent="globals/SailStartupDelegate" pc="268436093" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="107" parent="globals/SailStartupDelegate" pc="268436120" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="108" parent="globals/SailStartupDelegate" pc="268436131" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="9" lineNum="110" parent="globals/SailStartupDelegate" pc="268436136" symbol="onMenu"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="10" lineNum="7" parent="globals/SailStartupDelegate" pc="268436138" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="10" lineNum="8" parent="globals/SailStartupDelegate" pc="268436140" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="10" lineNum="9" parent="globals/SailStartupDelegate" pc="268436152" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="13" parent="globals/SailStartupDelegate" pc="268436162" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="14" parent="globals/SailStartupDelegate" pc="268436165" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="16" parent="globals/SailStartupDelegate" pc="268436181" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="17" parent="globals/SailStartupDelegate" pc="268436195" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="19" parent="globals/SailStartupDelegate" pc="268436222" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="21" parent="globals/SailStartupDelegate" pc="268436238" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="22" parent="globals/SailStartupDelegate" pc="268436250" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="22" parent="globals/SailStartupDelegate" pc="268436256" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="23" parent="globals/SailStartupDelegate" pc="268436262" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="24" parent="globals/SailStartupDelegate" pc="268436293" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="26" parent="globals/SailStartupDelegate" pc="268436309" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="29" parent="globals/SailStartupDelegate" pc="268436324" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="11" lineNum="31" parent="globals/SailStartupDelegate" pc="268436346" symbol="onSelect"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="12" lineNum="71" parent="globals/SailStartupDelegate" pc="268436348" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="12" lineNum="72" parent="globals/SailStartupDelegate" pc="268436350" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="12" lineNum="73" parent="globals/SailStartupDelegate" pc="268436377" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupDelegate.mc" id="12" lineNum="74" parent="globals/SailStartupDelegate" pc="268436388" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="13" lineNum="16" parent="globals/SailStartupApp" pc="268436390" symbol="onStart"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="13" lineNum="17" parent="globals/SailStartupApp" pc="268436392" symbol="onStart"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="26" parent="globals/SailStartupApp" pc="268436421" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="27" parent="globals/SailStartupApp" pc="268436424" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="28" parent="globals/SailStartupApp" pc="268436430" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="29" parent="globals/SailStartupApp" pc="268436441" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="31" parent="globals/SailStartupApp" pc="268436462" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="32" parent="globals/SailStartupApp" pc="268436473" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="34" parent="globals/SailStartupApp" pc="268436500" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="36" parent="globals/SailStartupApp" pc="268436511" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="37" parent="globals/SailStartupApp" pc="268436526" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="38" parent="globals/SailStartupApp" pc="268436533" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="14" lineNum="40" parent="globals/SailStartupApp" pc="268436546" symbol="onPosition"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="15" lineNum="46" parent="globals/SailStartupApp" pc="268436569" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="15" lineNum="47" parent="globals/SailStartupApp" pc="268436571" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="16" lineNum="10" parent="globals/SailStartupApp" pc="268436628" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="16" lineNum="11" parent="globals/SailStartupApp" pc="268436630" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="16" lineNum="12" parent="globals/SailStartupApp" pc="268436642" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="17" lineNum="21" parent="globals/SailStartupApp" pc="268436668" symbol="onStop"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupApp.mc" id="17" lineNum="22" parent="globals/SailStartupApp" pc="268436670" symbol="onStop"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="163" parent="globals/RaceState" pc="268436699" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="164" parent="globals/RaceState" pc="268436702" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="165" parent="globals/RaceState" pc="268436729" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="168" parent="globals/RaceState" pc="268436734" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="169" parent="globals/RaceState" pc="268436747" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="171" parent="globals/RaceState" pc="268436760" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="171" parent="globals/RaceState" pc="268436766" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="172" parent="globals/RaceState" pc="268436773" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="172" parent="globals/RaceState" pc="268436779" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="174" parent="globals/RaceState" pc="268436786" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="175" parent="globals/RaceState" pc="268436793" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="178" parent="globals/RaceState" pc="268436806" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="179" parent="globals/RaceState" pc="268436831" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="180" parent="globals/RaceState" pc="268436841" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="182" parent="globals/RaceState" pc="268436866" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="183" parent="globals/RaceState" pc="268436873" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="186" parent="globals/RaceState" pc="268436882" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="187" parent="globals/RaceState" pc="268436889" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="191" parent="globals/RaceState" pc="268436896" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="192" parent="globals/RaceState" pc="268436915" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="193" parent="globals/RaceState" pc="268436931" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="195" parent="globals/RaceState" pc="268436947" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="197" parent="globals/RaceState" pc="268436960" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="197" parent="globals/RaceState" pc="268436971" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="198" parent="globals/RaceState" pc="268436981" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="198" parent="globals/RaceState" pc="268436992" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="200" parent="globals/RaceState" pc="268437002" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="201" parent="globals/RaceState" pc="268437018" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="203" parent="globals/RaceState" pc="268437040" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="204" parent="globals/RaceState" pc="268437048" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="205" parent="globals/RaceState" pc="268437066" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="206" parent="globals/RaceState" pc="268437074" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="18" lineNum="208" parent="globals/RaceState" pc="268437094" symbol="getFavoredEnd"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="212" parent="globals/RaceState" pc="268437101" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="213" parent="globals/RaceState" pc="268437104" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="214" parent="globals/RaceState" pc="268437130" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="217" parent="globals/RaceState" pc="268437135" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="218" parent="globals/RaceState" pc="268437143" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="219" parent="globals/RaceState" pc="268437158" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="223" parent="globals/RaceState" pc="268437163" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="225" parent="globals/RaceState" pc="268437176" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="226" parent="globals/RaceState" pc="268437187" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="229" parent="globals/RaceState" pc="268437192" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="19" lineNum="233" parent="globals/RaceState" pc="268437199" symbol="getTimeToBurnSeconds"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="89" parent="globals/RaceState" pc="268437214" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="90" parent="globals/RaceState" pc="268437217" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="91" parent="globals/RaceState" pc="268437226" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="92" parent="globals/RaceState" pc="268437234" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="93" parent="globals/RaceState" pc="268437242" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="94" parent="globals/RaceState" pc="268437250" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="96" parent="globals/RaceState" pc="268437261" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="97" parent="globals/RaceState" pc="268437269" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="98" parent="globals/RaceState" pc="268437289" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="99" parent="globals/RaceState" pc="268437313" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="100" parent="globals/RaceState" pc="268437329" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="100" parent="globals/RaceState" pc="268437336" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="101" parent="globals/RaceState" pc="268437349" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="20" lineNum="103" parent="globals/RaceState" pc="268437361" symbol="togglePortRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="71" parent="globals/RaceState" pc="268437369" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="72" parent="globals/RaceState" pc="268437372" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="73" parent="globals/RaceState" pc="268437381" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="74" parent="globals/RaceState" pc="268437389" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="75" parent="globals/RaceState" pc="268437397" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="76" parent="globals/RaceState" pc="268437405" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="78" parent="globals/RaceState" pc="268437416" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="79" parent="globals/RaceState" pc="268437424" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="80" parent="globals/RaceState" pc="268437444" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="81" parent="globals/RaceState" pc="268437468" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="82" parent="globals/RaceState" pc="268437484" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="82" parent="globals/RaceState" pc="268437491" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="83" parent="globals/RaceState" pc="268437504" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="21" lineNum="85" parent="globals/RaceState" pc="268437516" symbol="toggleStarboardRecording"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="107" parent="globals/RaceState" pc="268437524" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="108" parent="globals/RaceState" pc="268437527" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="109" parent="globals/RaceState" pc="268437545" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="110" parent="globals/RaceState" pc="268437564" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="112" parent="globals/RaceState" pc="268437583" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="113" parent="globals/RaceState" pc="268437614" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="117" parent="globals/RaceState" pc="268437645" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="118" parent="globals/RaceState" pc="268437663" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="120" parent="globals/RaceState" pc="268437679" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="121" parent="globals/RaceState" pc="268437686" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="22" lineNum="123" parent="globals/RaceState" pc="268437699" symbol="updateWindFromTacks"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="55" parent="globals/RaceState" pc="268437717" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="56" parent="globals/RaceState" pc="268437720" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="57" parent="globals/RaceState" pc="268437729" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="58" parent="globals/RaceState" pc="268437745" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="59" parent="globals/RaceState" pc="268437761" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="61" parent="globals/RaceState" pc="268437777" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="62" parent="globals/RaceState" pc="268437785" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="63" parent="globals/RaceState" pc="268437800" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="65" parent="globals/RaceState" pc="268437818" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="66" parent="globals/RaceState" pc="268437826" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="23" lineNum="67" parent="globals/RaceState" pc="268437841" symbol="setCurrentHeading"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="127" parent="globals/RaceState" pc="268437860" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="128" parent="globals/RaceState" pc="268437863" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="129" parent="globals/RaceState" pc="268437890" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="132" parent="globals/RaceState" pc="268437895" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="133" parent="globals/RaceState" pc="268437908" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="134" parent="globals/RaceState" pc="268437921" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="136" parent="globals/RaceState" pc="268437934" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="136" parent="globals/RaceState" pc="268437940" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="137" parent="globals/RaceState" pc="268437947" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="137" parent="globals/RaceState" pc="268437953" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="138" parent="globals/RaceState" pc="268437960" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="138" parent="globals/RaceState" pc="268437966" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="140" parent="globals/RaceState" pc="268437973" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="142" parent="globals/RaceState" pc="268437980" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="143" parent="globals/RaceState" pc="268437993" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="144" parent="globals/RaceState" pc="268438018" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="146" parent="globals/RaceState" pc="268438028" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="147" parent="globals/RaceState" pc="268438041" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="148" parent="globals/RaceState" pc="268438066" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="150" parent="globals/RaceState" pc="268438076" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="152" parent="globals/RaceState" pc="268438101" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="153" parent="globals/RaceState" pc="268438108" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="156" parent="globals/RaceState" pc="268438141" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="157" parent="globals/RaceState" pc="268438154" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="158" parent="globals/RaceState" pc="268438161" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="24" lineNum="160" parent="globals/RaceState" pc="268438170" symbol="getDistanceToLineMeters"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="31" parent="globals/RaceState" pc="268438182" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="32" parent="globals/RaceState" pc="268438184" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="33" parent="globals/RaceState" pc="268438192" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="34" parent="globals/RaceState" pc="268438201" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="35" parent="globals/RaceState" pc="268438216" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="36" parent="globals/RaceState" pc="268438224" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="38" parent="globals/RaceState" pc="268438233" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="39" parent="globals/RaceState" pc="268438241" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="40" parent="globals/RaceState" pc="268438249" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="41" parent="globals/RaceState" pc="268438257" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="42" parent="globals/RaceState" pc="268438265" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="43" parent="globals/RaceState" pc="268438273" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="44" parent="globals/RaceState" pc="268438281" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="45" parent="globals/RaceState" pc="268438289" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="47" parent="globals/RaceState" pc="268438297" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="48" parent="globals/RaceState" pc="268438305" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="49" parent="globals/RaceState" pc="268438313" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="50" parent="globals/RaceState" pc="268438321" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="51" parent="globals/RaceState" pc="268438329" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\RaceState.mc" id="25" lineNum="52" parent="globals/RaceState" pc="268438337" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="26" lineNum="11" parent="globals/SailStartupMenuDelegate" pc="268438346" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="26" lineNum="12" parent="globals/SailStartupMenuDelegate" pc="268438348" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="26" lineNum="13" parent="globals/SailStartupMenuDelegate" pc="268438359" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="26" lineNum="14" parent="globals/SailStartupMenuDelegate" pc="268438380" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="26" lineNum="15" parent="globals/SailStartupMenuDelegate" pc="268438391" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="27" lineNum="7" parent="globals/SailStartupMenuDelegate" pc="268438413" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupMenuDelegate.mc" id="27" lineNum="8" parent="globals/SailStartupMenuDelegate" pc="268438415" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="63" parent="globals/SailStartupView" pc="268438428" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="64" parent="globals/SailStartupView" pc="268438431" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="65" parent="globals/SailStartupView" pc="268438443" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="66" parent="globals/SailStartupView" pc="268438450" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="67" parent="globals/SailStartupView" pc="268438457" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="69" parent="globals/SailStartupView" pc="268438502" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="70" parent="globals/SailStartupView" pc="268438519" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="72" parent="globals/SailStartupView" pc="268438551" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="73" parent="globals/SailStartupView" pc="268438568" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="78" parent="globals/SailStartupView" pc="268438612" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="79" parent="globals/SailStartupView" pc="268438636" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="80" parent="globals/SailStartupView" pc="268438653" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="82" parent="globals/SailStartupView" pc="268438681" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="83" parent="globals/SailStartupView" pc="268438722" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="28" lineNum="84" parent="globals/SailStartupView" pc="268438739" symbol="drawTimerPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="29" lineNum="23" parent="globals/SailStartupView" pc="268438774" symbol="onShow"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="29" lineNum="25" parent="globals/SailStartupView" pc="268438776" symbol="onShow"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="29" lineNum="26" parent="globals/SailStartupView" pc="268438805" symbol="onShow"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="122" parent="globals/SailStartupView" pc="268438837" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="123" parent="globals/SailStartupView" pc="268438840" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="124" parent="globals/SailStartupView" pc="268438857" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="126" parent="globals/SailStartupView" pc="268438889" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="127" parent="globals/SailStartupView" pc="268438901" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="128" parent="globals/SailStartupView" pc="268438908" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="129" parent="globals/SailStartupView" pc="268438915" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="131" parent="globals/SailStartupView" pc="268438960" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="132" parent="globals/SailStartupView" pc="268438977" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="134" parent="globals/SailStartupView" pc="268439006" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="135" parent="globals/SailStartupView" pc="268439019" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="136" parent="globals/SailStartupView" pc="268439056" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="138" parent="globals/SailStartupView" pc="268439085" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="139" parent="globals/SailStartupView" pc="268439098" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="140" parent="globals/SailStartupView" pc="268439104" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="141" parent="globals/SailStartupView" pc="268439111" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="142" parent="globals/SailStartupView" pc="268439118" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="143" parent="globals/SailStartupView" pc="268439135" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="145" parent="globals/SailStartupView" pc="268439154" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="146" parent="globals/SailStartupView" pc="268439170" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="148" parent="globals/SailStartupView" pc="268439188" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="150" parent="globals/SailStartupView" pc="268439219" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="151" parent="globals/SailStartupView" pc="268439232" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="152" parent="globals/SailStartupView" pc="268439238" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="30" lineNum="153" parent="globals/SailStartupView" pc="268439255" symbol="drawRacePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="31" lineNum="16" parent="globals/SailStartupView" pc="268439293" symbol="onLayout"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="158" parent="globals/SailStartupView" pc="268439296" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="159" parent="globals/SailStartupView" pc="268439299" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="160" parent="globals/SailStartupView" pc="268439316" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="162" parent="globals/SailStartupView" pc="268439348" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="163" parent="globals/SailStartupView" pc="268439360" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="165" parent="globals/SailStartupView" pc="268439397" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="166" parent="globals/SailStartupView" pc="268439414" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="169" parent="globals/SailStartupView" pc="268439458" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="170" parent="globals/SailStartupView" pc="268439475" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="171" parent="globals/SailStartupView" pc="268439533" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="174" parent="globals/SailStartupView" pc="268439591" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="32" lineNum="175" parent="globals/SailStartupView" pc="268439615" symbol="drawWindPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="88" parent="globals/SailStartupView" pc="268439644" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="89" parent="globals/SailStartupView" pc="268439647" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="90" parent="globals/SailStartupView" pc="268439664" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="92" parent="globals/SailStartupView" pc="268439696" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="93" parent="globals/SailStartupView" pc="268439709" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="94" parent="globals/SailStartupView" pc="268439715" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="95" parent="globals/SailStartupView" pc="268439738" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="96" parent="globals/SailStartupView" pc="268439755" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="98" parent="globals/SailStartupView" pc="268439799" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="99" parent="globals/SailStartupView" pc="268439812" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="100" parent="globals/SailStartupView" pc="268439818" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="101" parent="globals/SailStartupView" pc="268439835" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="104" parent="globals/SailStartupView" pc="268439875" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="105" parent="globals/SailStartupView" pc="268439892" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="109" parent="globals/SailStartupView" pc="268439939" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="110" parent="globals/SailStartupView" pc="268439949" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="111" parent="globals/SailStartupView" pc="268439986" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="112" parent="globals/SailStartupView" pc="268440019" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="113" parent="globals/SailStartupView" pc="268440036" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="116" parent="globals/SailStartupView" pc="268440094" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="117" parent="globals/SailStartupView" pc="268440104" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="118" parent="globals/SailStartupView" pc="268440142" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="119" parent="globals/SailStartupView" pc="268440175" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="33" lineNum="120" parent="globals/SailStartupView" pc="268440192" symbol="drawLinePage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="34" lineNum="10" parent="globals/SailStartupView" pc="268440251" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="34" lineNum="11" parent="globals/SailStartupView" pc="268440253" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="34" lineNum="12" parent="globals/SailStartupView" pc="268440265" symbol="initialize"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="35" lineNum="243" parent="globals/SailStartupView" pc="268440275" symbol="onHide"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="35" lineNum="244" parent="globals/SailStartupView" pc="268440277" symbol="onHide"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="35" lineNum="245" parent="globals/SailStartupView" pc="268440286" symbol="onHide"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="35" lineNum="246" parent="globals/SailStartupView" pc="268440298" symbol="onHide"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="178" parent="globals/SailStartupView" pc="268440310" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="179" parent="globals/SailStartupView" pc="268440313" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="180" parent="globals/SailStartupView" pc="268440330" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="182" parent="globals/SailStartupView" pc="268440362" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="183" parent="globals/SailStartupView" pc="268440374" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="185" parent="globals/SailStartupView" pc="268440411" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="186" parent="globals/SailStartupView" pc="268440428" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="189" parent="globals/SailStartupView" pc="268440478" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="190" parent="globals/SailStartupView" pc="268440488" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="191" parent="globals/SailStartupView" pc="268440494" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="193" parent="globals/SailStartupView" pc="268440507" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="194" parent="globals/SailStartupView" pc="268440529" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="196" parent="globals/SailStartupView" pc="268440541" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="197" parent="globals/SailStartupView" pc="268440555" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="199" parent="globals/SailStartupView" pc="268440564" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="200" parent="globals/SailStartupView" pc="268440578" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="201" parent="globals/SailStartupView" pc="268440611" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="203" parent="globals/SailStartupView" pc="268440628" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="204" parent="globals/SailStartupView" pc="268440635" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="205" parent="globals/SailStartupView" pc="268440648" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="206" parent="globals/SailStartupView" pc="268440658" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="207" parent="globals/SailStartupView" pc="268440672" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="209" parent="globals/SailStartupView" pc="268440712" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="212" parent="globals/SailStartupView" pc="268440767" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="213" parent="globals/SailStartupView" pc="268440777" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="214" parent="globals/SailStartupView" pc="268440783" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="215" parent="globals/SailStartupView" pc="268440796" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="216" parent="globals/SailStartupView" pc="268440818" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="218" parent="globals/SailStartupView" pc="268440831" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="219" parent="globals/SailStartupView" pc="268440845" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="221" parent="globals/SailStartupView" pc="268440855" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="222" parent="globals/SailStartupView" pc="268440869" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="223" parent="globals/SailStartupView" pc="268440902" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="225" parent="globals/SailStartupView" pc="268440919" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="226" parent="globals/SailStartupView" pc="268440926" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="227" parent="globals/SailStartupView" pc="268440939" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="228" parent="globals/SailStartupView" pc="268440949" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="229" parent="globals/SailStartupView" pc="268440963" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="231" parent="globals/SailStartupView" pc="268441003" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="233" parent="globals/SailStartupView" pc="268441058" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="234" parent="globals/SailStartupView" pc="268441070" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="235" parent="globals/SailStartupView" pc="268441104" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="36" lineNum="236" parent="globals/SailStartupView" pc="268441121" symbol="drawTacksPage"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="30" parent="globals/SailStartupView" pc="268441178" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="32" parent="globals/SailStartupView" pc="268441181" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="33" parent="globals/SailStartupView" pc="268441197" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="36" parent="globals/SailStartupView" pc="268441205" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="37" parent="globals/SailStartupView" pc="268441214" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="39" parent="globals/SailStartupView" pc="268441223" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="40" parent="globals/SailStartupView" pc="268441238" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="41" parent="globals/SailStartupView" pc="268441256" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="42" parent="globals/SailStartupView" pc="268441272" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="43" parent="globals/SailStartupView" pc="268441290" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="44" parent="globals/SailStartupView" pc="268441306" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="45" parent="globals/SailStartupView" pc="268441324" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="46" parent="globals/SailStartupView" pc="268441340" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="47" parent="globals/SailStartupView" pc="268441358" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="48" parent="globals/SailStartupView" pc="268441374" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="52" parent="globals/SailStartupView" pc="268441392" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="53" parent="globals/SailStartupView" pc="268441396" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="54" parent="globals/SailStartupView" pc="268441400" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="55" parent="globals/SailStartupView" pc="268441419" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="57" parent="globals/SailStartupView" pc="268441429" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="58" parent="globals/SailStartupView" pc="268441440" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="37" lineNum="59" parent="globals/SailStartupView" pc="268441480" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="38" lineNum="251" parent="globals/SailStartupView" pc="268441518" symbol="onTimer"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="38" lineNum="252" parent="globals/SailStartupView" pc="268441520" symbol="onTimer"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="38" lineNum="253" parent="globals/SailStartupView" pc="268441533" symbol="onTimer"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="38" lineNum="254" parent="globals/SailStartupView" pc="268441548" symbol="onTimer"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="38" lineNum="257" parent="globals/SailStartupView" pc="268441570" symbol="onTimer"/>
+        <entry filename="C:\\Users\\pette\\Projects\\garmin-startup\\SailStartup\\source\\SailStartupView.mc" id="38" lineNum="260" parent="globals/SailStartupView" pc="268441585" symbol="onTimer"/>
     </pcToLineNum>
     <symbolTable>
-        <entry id="10" object="true" symbol="SailStartupView"/>
+        <entry id="9" object="true" symbol="SailStartupView"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="8389346" symbol="text"/>
+        <entry field="true" id="26" symbol="isRecordingPort"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="8" object="true" symbol="SailStartupDelegate"/>
-        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="15" method="true" symbol="MainLayout"/>
-        <entry id="7" object="true" symbol="SailStartupApp"/>
+        <entry id="7" object="true" symbol="SailStartupDelegate"/>
+        <entry id="24" method="true" symbol="getFavoredEnd"/>
+        <entry id="23" method="true" symbol="getDistanceToLineMeters"/>
+        <entry field="true" id="10" symbol="&lt;globals/SailStartupDelegate/&lt;&gt;_raceState&gt;"/>
+        <entry id="33" method="true" symbol="togglePortRecording"/>
+        <entry field="true" id="21" symbol="currentSpeedKnots"/>
+        <entry field="true" id="18" symbol="countdownTimerRunning"/>
+        <entry id="12" method="true" symbol="onPosition"/>
+        <entry id="6" object="true" symbol="SailStartupApp"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="17" symbol="AppName"/>
-        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="8388757" symbol="currentHeading"/>
+        <entry id="44" method="true" symbol="drawWindPage"/>
+        <entry field="true" id="47" symbol="AppName"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
-        <entry id="8389345" symbol="rezId"/>
+        <entry id="42" method="true" symbol="drawTacksPage"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry id="30" method="true" symbol="setCurrentHeading"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="20" symbol="prompt"/>
-        <entry field="true" id="14" symbol="id_monkey"/>
+        <entry field="true" id="37" symbol="windIncrement"/>
+        <entry id="43" method="true" symbol="drawTimerPage"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="8389065" symbol="locY"/>
-        <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="8389348" symbol="font"/>
-        <entry id="22" symbol="item_2"/>
-        <entry id="21" symbol="item_1"/>
-        <entry id="12" module="true" symbol="Menus"/>
+        <entry id="49" symbol="item_2"/>
+        <entry id="48" symbol="item_1"/>
+        <entry id="8389079" method="true" symbol="onPreviousPage"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-        <entry id="9" object="true" symbol="SailStartupMenuDelegate"/>
+        <entry field="true" id="19" symbol="currentPage"/>
+        <entry id="8" object="true" symbol="SailStartupMenuDelegate"/>
+        <entry field="true" id="14" symbol="&lt;globals/RaceState/&lt;&gt;_portSumY&gt;"/>
+        <entry field="true" id="13" symbol="&lt;globals/RaceState/&lt;&gt;_portSumX&gt;"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="8389063" symbol="identifier"/>
-        <entry id="8389349" symbol="justification"/>
+        <entry id="41" method="true" symbol="drawRacePage"/>
+        <entry field="true" id="16" symbol="&lt;globals/RaceState/&lt;&gt;_stbdSumY&gt;"/>
+        <entry field="true" id="15" symbol="&lt;globals/RaceState/&lt;&gt;_stbdSumX&gt;"/>
+        <entry field="true" id="27" symbol="isRecordingStarboard"/>
+        <entry field="true" id="36" symbol="windDirectionDegrees"/>
+        <entry id="34" method="true" symbol="toggleStarboardRecording"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="16" object="true" symbol="MainMenu"/>
+        <entry id="35" method="true" symbol="updateWindFromTacks"/>
+        <entry field="true" id="39" symbol="&lt;globals/SailStartupView/&lt;&gt;_updateTimer&gt;"/>
         <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="11" symbol="&lt;globals/SailStartupApp/&lt;&gt;_raceState&gt;"/>
+        <entry id="40" method="true" symbol="drawLinePage"/>
+        <entry field="true" id="22" symbol="defaultTimerMinutes"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry field="true" id="46" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="17" symbol="boatEndLocation"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="32" symbol="timeToGunSeconds"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
-        <entry field="true" id="8389347" symbol="color"/>
-        <entry id="11" module="true" symbol="Layouts"/>
+        <entry field="true" id="28" symbol="pinEndLocation"/>
+        <entry field="true" id="38" symbol="&lt;globals/SailStartupView/&lt;&gt;_raceState&gt;"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="31" symbol="starboardTackHeading"/>
+        <entry field="true" id="29" symbol="portTackHeading"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="20" symbol="currentPosition"/>
+        <entry id="8389078" method="true" symbol="onNextPage"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="19" symbol="menu_label_2"/>
-        <entry field="true" id="18" symbol="menu_label_1"/>
+        <entry id="45" method="true" symbol="onTimer"/>
+        <entry id="5" object="true" symbol="RaceState"/>
+        <entry id="25" method="true" symbol="getTimeToBurnSeconds"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435769" name="item" stackId="1" startPc="268435703"/>
-        <entry arg="true" endPc="268435820" name="dc" stackId="1" startPc="268435785"/>
-        <entry arg="true" endPc="268435854" name="dc" stackId="1" startPc="268435836"/>
-        <entry arg="true" endPc="268436107" name="dc" stackId="1" startPc="268435855"/>
-        <entry endPc="268436107" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268435866"/>
-        <entry endPc="268436107" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268435866"/>
-        <entry endPc="268436107" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268435866"/>
+        <entry endPc="268435684" name="wind" stackId="1" startPc="268435627"/>
+        <entry arg="true" endPc="268436161" name="raceState" stackId="1" startPc="268436138"/>
+        <entry endPc="268436289" name="wind" stackId="1" startPc="268436238"/>
+        <entry arg="true" endPc="268436420" name="state" stackId="1" startPc="268436390"/>
+        <entry arg="true" endPc="268436568" name="info" stackId="1" startPc="268436421"/>
+        <entry endPc="268436561" name="headingDeg" stackId="2" startPc="268436511"/>
+        <entry arg="true" endPc="268436698" name="state" stackId="1" startPc="268436668"/>
+        <entry endPc="268437099" name="p" stackId="1" startPc="268436702"/>
+        <entry endPc="268437099" name="b" stackId="2" startPc="268436702"/>
+        <entry endPc="268437099" name="pLat" stackId="3" startPc="268436702"/>
+        <entry endPc="268437099" name="pLon" stackId="4" startPc="268436702"/>
+        <entry endPc="268437099" name="bLat" stackId="5" startPc="268436702"/>
+        <entry endPc="268437099" name="bLon" stackId="6" startPc="268436702"/>
+        <entry endPc="268437099" name="R" stackId="7" startPc="268436702"/>
+        <entry endPc="268437099" name="avgLat" stackId="8" startPc="268436702"/>
+        <entry endPc="268437099" name="dx" stackId="9" startPc="268436702"/>
+        <entry endPc="268437099" name="dy" stackId="10" startPc="268436702"/>
+        <entry endPc="268437099" name="lineLen" stackId="11" startPc="268436702"/>
+        <entry endPc="268437099" name="nx" stackId="12" startPc="268436702"/>
+        <entry endPc="268437099" name="ny" stackId="13" startPc="268436702"/>
+        <entry endPc="268437099" name="windRad" stackId="14" startPc="268436702"/>
+        <entry endPc="268437099" name="wx" stackId="15" startPc="268436702"/>
+        <entry endPc="268437099" name="wy" stackId="16" startPc="268436702"/>
+        <entry endPc="268437099" name="dot" stackId="17" startPc="268436702"/>
+        <entry endPc="268437099" name="biasRad" stackId="18" startPc="268436702"/>
+        <entry endPc="268437099" name="biasDeg" stackId="19" startPc="268436702"/>
+        <entry endPc="268437213" name="distMeters" stackId="1" startPc="268437104"/>
+        <entry endPc="268437213" name="speedMs" stackId="2" startPc="268437104"/>
+        <entry endPc="268437213" name="timeToLineSeconds" stackId="3" startPc="268437104"/>
+        <entry endPc="268437357" name="rad" stackId="1" startPc="268437289"/>
+        <entry endPc="268437357" name="deg" stackId="2" startPc="268437289"/>
+        <entry endPc="268437512" name="rad" stackId="1" startPc="268437444"/>
+        <entry endPc="268437512" name="deg" stackId="2" startPc="268437444"/>
+        <entry endPc="268437712" name="pRad" stackId="1" startPc="268437545"/>
+        <entry endPc="268437712" name="sRad" stackId="2" startPc="268437545"/>
+        <entry endPc="268437712" name="sinSum" stackId="3" startPc="268437545"/>
+        <entry endPc="268437712" name="cosSum" stackId="4" startPc="268437545"/>
+        <entry endPc="268437712" name="windRad" stackId="5" startPc="268437545"/>
+        <entry endPc="268437712" name="windDeg" stackId="6" startPc="268437545"/>
+        <entry arg="true" endPc="268437859" name="headingDeg" stackId="1" startPc="268437717"/>
+        <entry endPc="268437858" name="rad" stackId="2" startPc="268437720"/>
+        <entry endPc="268437858" name="sinH" stackId="3" startPc="268437720"/>
+        <entry endPc="268437858" name="cosH" stackId="4" startPc="268437720"/>
+        <entry endPc="268438181" name="p" stackId="1" startPc="268437863"/>
+        <entry endPc="268438181" name="b" stackId="2" startPc="268437863"/>
+        <entry endPc="268438181" name="c" stackId="3" startPc="268437863"/>
+        <entry endPc="268438181" name="pLat" stackId="4" startPc="268437863"/>
+        <entry endPc="268438181" name="pLon" stackId="5" startPc="268437863"/>
+        <entry endPc="268438181" name="bLat" stackId="6" startPc="268437863"/>
+        <entry endPc="268438181" name="bLon" stackId="7" startPc="268437863"/>
+        <entry endPc="268438181" name="cLat" stackId="8" startPc="268437863"/>
+        <entry endPc="268438181" name="cLon" stackId="9" startPc="268437863"/>
+        <entry endPc="268438181" name="R" stackId="10" startPc="268437863"/>
+        <entry endPc="268438181" name="avgLatB" stackId="11" startPc="268437863"/>
+        <entry endPc="268438181" name="xB" stackId="12" startPc="268437863"/>
+        <entry endPc="268438181" name="yB" stackId="13" startPc="268437863"/>
+        <entry endPc="268438181" name="avgLatC" stackId="14" startPc="268437863"/>
+        <entry endPc="268438181" name="xC" stackId="15" startPc="268437863"/>
+        <entry endPc="268438181" name="yC" stackId="16" startPc="268437863"/>
+        <entry endPc="268438181" name="lenA" stackId="17" startPc="268437863"/>
+        <entry endPc="268438181" name="cross" stackId="18" startPc="268437863"/>
+        <entry arg="true" endPc="268438412" name="item" stackId="1" startPc="268438346"/>
+        <entry arg="true" endPc="268438773" name="dc" stackId="1" startPc="268438428"/>
+        <entry arg="true" endPc="268438773" name="width" stackId="2" startPc="268438428"/>
+        <entry arg="true" endPc="268438773" name="height" stackId="3" startPc="268438428"/>
+        <entry endPc="268438772" name="timeToGun" stackId="4" startPc="268438431"/>
+        <entry endPc="268438772" name="minutes" stackId="5" startPc="268438431"/>
+        <entry endPc="268438772" name="seconds" stackId="6" startPc="268438431"/>
+        <entry endPc="268438772" name="timerString" stackId="7" startPc="268438431"/>
+        <entry endPc="268438772" name="lengthString" stackId="8" startPc="268438431"/>
+        <entry arg="true" endPc="268439292" name="dc" stackId="1" startPc="268438837"/>
+        <entry arg="true" endPc="268439292" name="width" stackId="2" startPc="268438837"/>
+        <entry arg="true" endPc="268439292" name="height" stackId="3" startPc="268438837"/>
+        <entry endPc="268439291" name="timeToGun" stackId="4" startPc="268438840"/>
+        <entry endPc="268439291" name="minutes" stackId="5" startPc="268438840"/>
+        <entry endPc="268439291" name="seconds" stackId="6" startPc="268438840"/>
+        <entry endPc="268439291" name="timerString" stackId="7" startPc="268438840"/>
+        <entry endPc="268439291" name="dist" stackId="8" startPc="268438840"/>
+        <entry endPc="268439291" name="distString" stackId="9" startPc="268438840"/>
+        <entry endPc="268439291" name="timeToBurn" stackId="10" startPc="268438840"/>
+        <entry endPc="268439215" name="burnString" stackId="11" startPc="268439104"/>
+        <entry endPc="268439291" name="favored" stackId="12" startPc="268439219"/>
+        <entry arg="true" endPc="268439643" name="dc" stackId="1" startPc="268439296"/>
+        <entry arg="true" endPc="268439643" name="width" stackId="2" startPc="268439296"/>
+        <entry arg="true" endPc="268439643" name="height" stackId="3" startPc="268439296"/>
+        <entry endPc="268439642" name="wind" stackId="4" startPc="268439299"/>
+        <entry endPc="268439642" name="windString" stackId="5" startPc="268439299"/>
+        <entry endPc="268439642" name="stepString" stackId="6" startPc="268439299"/>
+        <entry arg="true" endPc="268440250" name="dc" stackId="1" startPc="268439644"/>
+        <entry arg="true" endPc="268440250" name="width" stackId="2" startPc="268439644"/>
+        <entry arg="true" endPc="268440250" name="height" stackId="3" startPc="268439644"/>
+        <entry endPc="268440249" name="dist" stackId="4" startPc="268439647"/>
+        <entry endPc="268439871" name="distString" stackId="5" startPc="268439715"/>
+        <entry endPc="268439871" name="favored" stackId="6" startPc="268439715"/>
+        <entry endPc="268440249" name="boatY" stackId="7" startPc="268439647"/>
+        <entry endPc="268440249" name="pinY" stackId="8" startPc="268439647"/>
+        <entry arg="true" endPc="268440274" name="raceState" stackId="1" startPc="268440251"/>
+        <entry arg="true" endPc="268441177" name="dc" stackId="1" startPc="268440310"/>
+        <entry arg="true" endPc="268441177" name="width" stackId="2" startPc="268440310"/>
+        <entry arg="true" endPc="268441177" name="height" stackId="3" startPc="268440310"/>
+        <entry endPc="268441176" name="heading" stackId="4" startPc="268440313"/>
+        <entry endPc="268441176" name="headingString" stackId="5" startPc="268440313"/>
+        <entry endPc="268441176" name="stbY" stackId="6" startPc="268440313"/>
+        <entry endPc="268441176" name="stbdColor" stackId="7" startPc="268440313"/>
+        <entry endPc="268441176" name="stbdText" stackId="8" startPc="268440313"/>
+        <entry endPc="268441176" name="portY" stackId="9" startPc="268440313"/>
+        <entry endPc="268441176" name="portColor" stackId="10" startPc="268440313"/>
+        <entry endPc="268441176" name="portText" stackId="11" startPc="268440313"/>
+        <entry endPc="268441176" name="wind" stackId="12" startPc="268440313"/>
+        <entry arg="true" endPc="268441517" name="dc" stackId="1" startPc="268441178"/>
+        <entry endPc="268441516" name="width" stackId="2" startPc="268441181"/>
+        <entry endPc="268441516" name="height" stackId="3" startPc="268441181"/>
+        <entry endPc="268441516" name="numPages" stackId="4" startPc="268441181"/>
+        <entry endPc="268441516" name="dotSpacing" stackId="5" startPc="268441181"/>
+        <entry endPc="268441516" name="startX" stackId="6" startPc="268441181"/>
+        <entry endPc="268441516" name="y" stackId="7" startPc="268441181"/>
+        <entry endPc="268441516" name="i" stackId="8" startPc="268441440"/>
     </localVars>
     <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B3992-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/SailStartupDelegate" offset="152" parentId="globals" symbolId="SailStartupDelegate" type="class"/>
-        <dataEntry label="globals/SailStartupApp" offset="205" parentId="globals" symbolId="SailStartupApp" type="class"/>
-        <dataEntry label="globals/Rez" offset="276" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/SailStartupMenuDelegate" offset="338" parentId="globals" symbolId="SailStartupMenuDelegate" type="class"/>
-        <dataEntry label="globals/SailStartupView" offset="391" parentId="globals" symbolId="SailStartupView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="471" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="515" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="550" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="585" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="647" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/SailStartupDelegate" offset="143" parentId="globals" symbolId="SailStartupDelegate" type="class"/>
+        <dataEntry label="globals/SailStartupApp" offset="241" parentId="globals" symbolId="SailStartupApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="330" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/RaceState" offset="374" parentId="globals" symbolId="RaceState" type="class"/>
+        <dataEntry label="globals/SailStartupMenuDelegate" offset="652" parentId="globals" symbolId="SailStartupMenuDelegate" type="class"/>
+        <dataEntry label="globals/SailStartupView" offset="705" parentId="globals" symbolId="SailStartupView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="857" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="892" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="SailStartupDelegate" startPc="268435460">
@@ -143,76 +628,139 @@
         <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="RaceState">
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="SailStartupMenuDelegate" startPc="268435525">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="SailStartupView" startPc="268435537">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435617" name="onMenu" parent="SailStartupDelegate" startPc="268435549">
+        <functionEntry accessMode="public" endPc="268435838" name="onBack" parent="SailStartupDelegate" startPc="268435549">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435632" name="initialize" parent="SailStartupDelegate" startPc="268435618">
+        <functionEntry accessMode="public" endPc="268435880" name="onPreviousPage" parent="SailStartupDelegate" startPc="268435839">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435635" name="onStart" parent="SailStartupApp" startPc="268435633">
+        <functionEntry accessMode="public" endPc="268436137" name="onMenu" parent="SailStartupDelegate" startPc="268435881">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436161" name="initialize" parent="SailStartupDelegate" startPc="268436138">
+            <param id="raceState"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436347" name="onSelect" parent="SailStartupDelegate" startPc="268436162">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436389" name="onNextPage" parent="SailStartupDelegate" startPc="268436348">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436420" name="onStart" parent="SailStartupApp" startPc="268436390">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435684" name="getInitialView" parent="SailStartupApp" startPc="268435636">
+        <functionEntry accessMode="public" endPc="268436568" name="onPosition" parent="SailStartupApp" startPc="268436421">
+            <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435699" name="initialize" parent="SailStartupApp" startPc="268435685">
+        <functionEntry accessMode="public" endPc="268436627" name="getInitialView" parent="SailStartupApp" startPc="268436569">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435702" name="onStop" parent="SailStartupApp" startPc="268435700">
+        <functionEntry accessMode="public" endPc="268436667" name="initialize" parent="SailStartupApp" startPc="268436628">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436698" name="onStop" parent="SailStartupApp" startPc="268436668">
             <param id="state"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
-            <documentation/>
-        </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435769" name="onMenuItem" parent="SailStartupMenuDelegate" startPc="268435703">
+        <functionEntry accessMode="public" endPc="268437100" name="getFavoredEnd" parent="RaceState" startPc="268436699">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437213" name="getTimeToBurnSeconds" parent="RaceState" startPc="268437101">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437368" name="togglePortRecording" parent="RaceState" startPc="268437214">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437523" name="toggleStarboardRecording" parent="RaceState" startPc="268437369">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437716" name="updateWindFromTacks" parent="RaceState" startPc="268437524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437859" name="setCurrentHeading" parent="RaceState" startPc="268437717">
+            <param id="headingDeg"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438181" name="getDistanceToLineMeters" parent="RaceState" startPc="268437860">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438345" name="initialize" parent="RaceState" startPc="268438182">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438412" name="onMenuItem" parent="SailStartupMenuDelegate" startPc="268438346">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435784" name="initialize" parent="SailStartupMenuDelegate" startPc="268435770">
+        <functionEntry accessMode="public" endPc="268438427" name="initialize" parent="SailStartupMenuDelegate" startPc="268438413">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onShow" parent="SailStartupView">
+        <functionEntry accessMode="public" endPc="268438773" name="drawTimerPage" parent="SailStartupView" startPc="268438428">
+            <param id="dc"/>
+            <param id="width"/>
+            <param id="height"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435820" name="onLayout" parent="SailStartupView" startPc="268435785">
+        <functionEntry accessMode="public" endPc="268438836" name="onShow" parent="SailStartupView" startPc="268438774">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439292" name="drawRacePage" parent="SailStartupView" startPc="268438837">
+            <param id="dc"/>
+            <param id="width"/>
+            <param id="height"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439295" name="onLayout" parent="SailStartupView" startPc="268439293">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435835" name="initialize" parent="SailStartupView" startPc="268435821">
+        <functionEntry accessMode="public" endPc="268439643" name="drawWindPage" parent="SailStartupView" startPc="268439296">
+            <param id="dc"/>
+            <param id="width"/>
+            <param id="height"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onHide" parent="SailStartupView">
+        <functionEntry accessMode="public" endPc="268440250" name="drawLinePage" parent="SailStartupView" startPc="268439644">
+            <param id="dc"/>
+            <param id="width"/>
+            <param id="height"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435854" name="onUpdate" parent="SailStartupView" startPc="268435836">
+        <functionEntry accessMode="public" endPc="268440274" name="initialize" parent="SailStartupView" startPc="268440251">
+            <param id="raceState"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440309" name="onHide" parent="SailStartupView" startPc="268440275">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441177" name="drawTacksPage" parent="SailStartupView" startPc="268440310">
+            <param id="dc"/>
+            <param id="width"/>
+            <param id="height"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441517" name="onUpdate" parent="SailStartupView" startPc="268441178">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436107" name="MainLayout" parent="Layouts" startPc="268435855">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436119" name="&lt;init&gt;" parent="MainMenu" startPc="268436108">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436224" name="initialize" parent="MainMenu" startPc="268436120">
+        <functionEntry accessMode="public" endPc="268441596" name="onTimer" parent="SailStartupView" startPc="268441518">
             <documentation/>
         </functionEntry>
     </functions>

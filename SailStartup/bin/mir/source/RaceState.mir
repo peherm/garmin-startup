@@ -1,0 +1,1505 @@
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Position,1,14,22]; ]
+import Toybox.Position;
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Math,3,14,18]; ]
+import Toybox.Math;
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 5; @symbol_classdef = [RaceState,5,6,15]; ]
+class RaceState {
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 6; @position = 15; @symbol_vardef = [countdownTimerRunning,6,15,36]; @symbol_type<0> = [Boolean,6,40,47]; ]
+    public
+    var countdownTimerRunning as Boolean;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 7; @position = 15; @symbol_vardef = [timeToGunSeconds,7,15,31]; @symbol_type<0> = [Number,7,35,41]; ]
+    public
+    var timeToGunSeconds as Number;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 9; @position = 15; @symbol_vardef = [currentPosition,9,15,30]; @symbol_type<0> = [Position,9,34,42]; @symbol_type<1> = [Location,9,43,51]; ]
+    public
+    var currentPosition as Position.Location or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 10; @position = 15; @symbol_vardef = [pinEndLocation,10,15,29]; @symbol_type<0> = [Position,10,33,41]; @symbol_type<1> = [Location,10,42,50]; ]
+    public
+    var pinEndLocation as Position.Location or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 11; @position = 15; @symbol_vardef = [boatEndLocation,11,15,30]; @symbol_type<0> = [Position,11,34,42]; @symbol_type<1> = [Location,11,43,51]; ]
+    public
+    var boatEndLocation as Position.Location or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 13; @position = 15; @symbol_vardef = [windDirectionDegrees,13,15,35]; @symbol_type<0> = [Number,13,39,45]; ]
+    public
+    var windDirectionDegrees as Number or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 14; @position = 15; @symbol_vardef = [currentSpeedKnots,14,15,32]; @symbol_type<0> = [Float,14,36,41]; ]
+    public
+    var currentSpeedKnots as Float or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 15; @position = 15; @symbol_vardef = [currentHeading,15,15,29]; @symbol_type<0> = [Float,15,33,38]; ]
+    public
+    var currentHeading as Float or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 16; @position = 15; @symbol_vardef = [currentPage,16,15,26]; @symbol_type<0> = [Number,16,30,36]; ]
+    public
+    var currentPage as Number;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 17; @position = 15; @symbol_vardef = [windIncrement,17,15,28]; @symbol_type<0> = [Number,17,32,38]; ]
+    public
+    var windIncrement as Number;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 18; @position = 15; @symbol_vardef = [defaultTimerMinutes,18,15,34]; @symbol_type<0> = [Number,18,38,44]; ]
+    public
+    var defaultTimerMinutes as Number;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 20; @position = 15; @symbol_vardef = [portTackHeading,20,15,30]; @symbol_type<0> = [Float,20,34,39]; ]
+    public
+    var portTackHeading as Float or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 21; @position = 15; @symbol_vardef = [starboardTackHeading,21,15,35]; @symbol_type<0> = [Float,21,39,44]; ]
+    public
+    var starboardTackHeading as Float or Null;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 23; @position = 15; @symbol_vardef = [isRecordingPort,23,15,30]; @symbol_type<0> = [Boolean,23,34,41]; ]
+    public
+    var isRecordingPort as Boolean;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 24; @position = 15; @symbol_vardef = [isRecordingStarboard,24,15,35]; @symbol_type<0> = [Boolean,24,39,46]; ]
+    public
+    var isRecordingStarboard as Boolean;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 26; @position = 16; @symbol_vardef = [_portSumX,26,16,25]; @symbol_type<0> = [Float,26,29,34]; ]
+    private
+    var _portSumX as Float;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 27; @position = 16; @symbol_vardef = [_portSumY,27,16,25]; @symbol_type<0> = [Float,27,29,34]; ]
+    private
+    var _portSumY as Float;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 28; @position = 16; @symbol_vardef = [_stbdSumX,28,16,25]; @symbol_type<0> = [Float,28,29,34]; ]
+    private
+    var _stbdSumX as Float;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 29; @position = 16; @symbol_vardef = [_stbdSumY,29,16,25]; @symbol_type<0> = [Float,29,29,34]; ]
+    private
+    var _stbdSumY as Float;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 31; @symbol_functiondef = [initialize,31,13,23]; ]
+    function initialize() as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_31_26_53_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 32 8 ]
+        %tmp.1 = false;
+        symbol [ countdownTimerRunning ? 32 8 29 ];
+        putv self :countdownTimerRunning %tmp.1;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 33 8 ]
+        %tmp.2 = 5;
+        symbol [ defaultTimerMinutes ? 33 8 27 ];
+        putv self :defaultTimerMinutes %tmp.2;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 34 8 ]
+        symbol [ defaultTimerMinutes %tmp.4 34 27 46 ];
+        %tmp.4 = getv ? :defaultTimerMinutes;
+        %tmp.5 = 60;
+        %tmp.6 = mul %tmp.4 %tmp.5;
+        symbol [ timeToGunSeconds ? 34 8 24 ];
+        putv self :timeToGunSeconds %tmp.6;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 35 8 ]
+        %tmp.7 = 0;
+        symbol [ currentPage ? 35 8 19 ];
+        putv self :currentPage %tmp.7;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 36 8 ]
+        %tmp.8 = 5;
+        symbol [ windIncrement ? 36 8 21 ];
+        putv self :windIncrement %tmp.8;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 38 8 ]
+        %tmp.9 = null;
+        symbol [ currentPosition ? 38 8 23 ];
+        putv self :currentPosition %tmp.9;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 39 8 ]
+        %tmp.10 = null;
+        symbol [ pinEndLocation ? 39 8 22 ];
+        putv self :pinEndLocation %tmp.10;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 40 8 ]
+        %tmp.11 = null;
+        symbol [ boatEndLocation ? 40 8 23 ];
+        putv self :boatEndLocation %tmp.11;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 41 8 ]
+        %tmp.12 = null;
+        symbol [ windDirectionDegrees ? 41 8 28 ];
+        putv self :windDirectionDegrees %tmp.12;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 42 8 ]
+        %tmp.13 = null;
+        symbol [ currentSpeedKnots ? 42 8 25 ];
+        putv self :currentSpeedKnots %tmp.13;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 43 8 ]
+        %tmp.14 = null;
+        symbol [ currentHeading ? 43 8 22 ];
+        putv self :currentHeading %tmp.14;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 44 8 ]
+        %tmp.15 = null;
+        symbol [ portTackHeading ? 44 8 23 ];
+        putv self :portTackHeading %tmp.15;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 45 8 ]
+        %tmp.16 = null;
+        symbol [ starboardTackHeading ? 45 8 28 ];
+        putv self :starboardTackHeading %tmp.16;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 47 8 ]
+        %tmp.17 = false;
+        symbol [ isRecordingPort ? 47 8 23 ];
+        putv self :isRecordingPort %tmp.17;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 48 8 ]
+        %tmp.18 = false;
+        symbol [ isRecordingStarboard ? 48 8 28 ];
+        putv self :isRecordingStarboard %tmp.18;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 49 8 ]
+        %tmp.19 = 0.0;
+        symbol [ _portSumX ? 49 8 17 ];
+        putv self :_portSumX %tmp.19;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 50 8 ]
+        %tmp.20 = 0.0;
+        symbol [ _portSumY ? 50 8 17 ];
+        putv self :_portSumY %tmp.20;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 51 8 ]
+        %tmp.21 = 0.0;
+        symbol [ _stbdSumX ? 51 8 17 ];
+        putv self :_stbdSumX %tmp.21;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 52 8 ]
+        %tmp.22 = 0.0;
+        symbol [ _stbdSumY ? 52 8 17 ];
+        putv self :_stbdSumY %tmp.22;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_31_26_53_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 55; @symbol_functiondef = [setCurrentHeading,55,20,37]; @symbol_param<0> = [headingDeg,55,38,48]; @symbol_param<0>_type<0> = [Float,55,52,57]; ]
+    public
+    function setCurrentHeading(headingDeg as Float) as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 56 8 ]
+        %tmp.1 = lgetv %headingDeg;
+        symbol [ headingDeg %tmp.1 56 25 35 ];
+        symbol [ currentHeading ? 56 8 22 ];
+        putv self :currentHeading %tmp.1;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 57 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_stop" ]
+        %rad.1 = local;
+        symbol [ rad %rad.1 57 12 15 ];
+        %tmp.2 = lgetv %headingDeg;
+        symbol [ headingDeg %tmp.2 57 18 28 ];
+        symbol [ Math %tmp.3 57 31 35 ];
+        %tmp.3 = getm $.Toybox.Math;
+        symbol [ PI %tmp.4 57 36 38 ];
+        %tmp.4 = getv %tmp.3 :PI;
+        %tmp.5 = mul %tmp.2 %tmp.4;
+        %tmp.6 = 180.0;
+        %tmp.7 = div %tmp.5 %tmp.6;
+        lputv %rad.1 %tmp.7;
+        symbol [ rad %rad.1 57 12 15 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 58 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_stop" ]
+        %sinH.2 = local;
+        symbol [ sinH %sinH.2 58 12 16 ];
+        symbol [ Math %tmp.8 58 19 23 ];
+        %tmp.8 = getm $.Toybox.Math;
+        symbol [ sin %tmp.9 58 24 27 ];
+        %tmp.9 = getv function %tmp.8 :sin;
+        %tmp.10 = lgetv %rad.1;
+        symbol [ rad %tmp.10 58 28 31 ];
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        lputv %sinH.2 %tmp.11;
+        symbol [ sinH %sinH.2 58 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 59 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_stop" ]
+        %cosH.3 = local;
+        symbol [ cosH %cosH.3 59 12 16 ];
+        symbol [ Math %tmp.12 59 19 23 ];
+        %tmp.12 = getm $.Toybox.Math;
+        symbol [ cos %tmp.13 59 24 27 ];
+        %tmp.13 = getv function %tmp.12 :cos;
+        %tmp.14 = lgetv %rad.1;
+        symbol [ rad %tmp.14 59 28 31 ];
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        lputv %cosH.3 %tmp.15;
+        symbol [ cosH %cosH.3 59 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 61 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_61_8_64_8_if_stmt:
+        symbol [ isRecordingStarboard %tmp.17 61 12 32 ];
+        %tmp.17 = getv ? :isRecordingStarboard;
+        bf %tmp.17 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_61_8_64_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_61_8_64_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_61_34_64_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 62 12 ]
+        symbol [ _stbdSumX %tmp.18 62 12 21 ];
+        %tmp.18 = getv self :_stbdSumX;
+        %tmp.19 = lgetv %sinH.2;
+        symbol [ sinH %tmp.19 62 25 29 ];
+        %tmp.20 = add %tmp.18 %tmp.19;
+        symbol [ _stbdSumX ? 62 12 21 ];
+        putv self :_stbdSumX dup %tmp.20;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 63 12 ]
+        symbol [ _stbdSumY %tmp.21 63 12 21 ];
+        %tmp.21 = getv self :_stbdSumY;
+        %tmp.22 = lgetv %cosH.3;
+        symbol [ cosH %tmp.22 63 25 29 ];
+        %tmp.23 = add %tmp.21 %tmp.22;
+        symbol [ _stbdSumY ? 63 12 21 ];
+        putv self :_stbdSumY dup %tmp.23;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_61_34_64_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_61_8_64_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_61_8_64_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 65 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_65_8_68_8_if_stmt:
+        symbol [ isRecordingPort %tmp.25 65 12 27 ];
+        %tmp.25 = getv ? :isRecordingPort;
+        bf %tmp.25 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_65_8_68_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_65_8_68_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_65_29_68_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 66 12 ]
+        symbol [ _portSumX %tmp.26 66 12 21 ];
+        %tmp.26 = getv self :_portSumX;
+        %tmp.27 = lgetv %sinH.2;
+        symbol [ sinH %tmp.27 66 25 29 ];
+        %tmp.28 = add %tmp.26 %tmp.27;
+        symbol [ _portSumX ? 66 12 21 ];
+        putv self :_portSumX dup %tmp.28;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 67 12 ]
+        symbol [ _portSumY %tmp.29 67 12 21 ];
+        %tmp.29 = getv self :_portSumY;
+        %tmp.30 = lgetv %cosH.3;
+        symbol [ cosH %tmp.30 67 25 29 ];
+        %tmp.31 = add %tmp.29 %tmp.30;
+        symbol [ _portSumY ? 67 12 21 ];
+        putv self :_portSumY dup %tmp.31;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_65_29_68_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_65_8_68_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_65_8_68_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_55_67_69_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 71; @symbol_functiondef = [toggleStarboardRecording,71,20,44]; ]
+    public
+    function toggleStarboardRecording() as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_71_55_87_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 72 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_8_86_8_if_stmt:
+        symbol [ isRecordingStarboard %tmp.2 72 13 33 ];
+        %tmp.2 = getv ? :isRecordingStarboard;
+        %tmp.3 = not %tmp.2;
+        bf %tmp.3 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_8_86_8_if_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_8_86_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_35_77_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 73 12 ]
+        %tmp.4 = true;
+        symbol [ isRecordingStarboard ? 73 12 32 ];
+        putv self :isRecordingStarboard %tmp.4;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 74 12 ]
+        %tmp.5 = 0.0;
+        symbol [ _stbdSumX ? 74 12 21 ];
+        putv self :_stbdSumX %tmp.5;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 75 12 ]
+        %tmp.6 = 0.0;
+        symbol [ _stbdSumY ? 75 12 21 ];
+        putv self :_stbdSumY %tmp.6;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 76 12 ]
+        %tmp.7 = null;
+        symbol [ starboardTackHeading ? 76 12 32 ];
+        putv self :starboardTackHeading %tmp.7;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_35_77_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_8_86_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_8_86_8_if_else_false:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_77_15_86_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 78 12 ]
+        %tmp.8 = false;
+        symbol [ isRecordingStarboard ? 78 12 32 ];
+        putv self :isRecordingStarboard %tmp.8;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 79 12 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_12_84_12_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_16_79_49_begin:
+        symbol [ _stbdSumX %tmp.10 79 16 25 ];
+        %tmp.10 = getv ? :_stbdSumX;
+        %tmp.11 = 0.0;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bt %tmp.12 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_12_84_12_if_true;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_36_79_49_false:
+        symbol [ _stbdSumY %tmp.14 79 36 45 ];
+        %tmp.14 = getv ? :_stbdSumY;
+        %tmp.15 = 0.0;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        push %tmp.16;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_36_79_49_end:
+        %tmp.17 = phi [%tmp.12 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_16_79_49_begin] [%tmp.16 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_36_79_49_false] [%tmp.17 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_36_79_49_end];
+        bf %tmp.17 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_12_84_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_12_84_12_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_54_84_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 80 16 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_54_84_12_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_54_84_12_stop" ]
+        %rad.1 = local;
+        symbol [ rad %rad.1 80 20 23 ];
+        symbol [ Math %tmp.18 80 26 30 ];
+        %tmp.18 = getm $.Toybox.Math;
+        symbol [ atan2 %tmp.19 80 31 36 ];
+        %tmp.19 = getv function %tmp.18 :atan2;
+        symbol [ _stbdSumX %tmp.21 80 37 46 ];
+        %tmp.21 = getv ? :_stbdSumX;
+        symbol [ _stbdSumY %tmp.23 80 48 57 ];
+        %tmp.23 = getv ? :_stbdSumY;
+        %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
+        lputv %rad.1 %tmp.24;
+        symbol [ rad %rad.1 80 20 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 81 16 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_54_84_12_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_54_84_12_stop" ]
+        %deg.2 = local;
+        symbol [ deg %deg.2 81 20 23 ];
+        %tmp.25 = lgetv %rad.1;
+        symbol [ rad %tmp.25 81 26 29 ];
+        %tmp.26 = 180.0;
+        %tmp.27 = mul %tmp.25 %tmp.26;
+        symbol [ Math %tmp.28 81 40 44 ];
+        %tmp.28 = getm $.Toybox.Math;
+        symbol [ PI %tmp.29 81 45 47 ];
+        %tmp.29 = getv %tmp.28 :PI;
+        %tmp.30 = div %tmp.27 %tmp.29;
+        lputv %deg.2 %tmp.30;
+        symbol [ deg %deg.2 81 20 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 82 16 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_82_16_82_45_if_stmt:
+        %tmp.31 = lgetv %deg.2;
+        symbol [ deg %tmp.31 82 20 23 ];
+        %tmp.32 = 0;
+        %tmp.33 = lt %tmp.31 %tmp.32;
+        bf %tmp.33 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_82_16_82_45_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_82_16_82_45_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_82_29_82_45_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 82 31 ]
+        %tmp.34 = lgetv %deg.2;
+        symbol [ deg %tmp.34 82 31 34 ];
+        %tmp.35 = 360.0;
+        %tmp.36 = add %tmp.34 %tmp.35;
+        lputv %deg.2 %tmp.36;
+        symbol [ deg %deg.2 82 31 34 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_82_29_82_45_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_82_16_82_45_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_82_16_82_45_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 83 16 ]
+        %tmp.37 = lgetv %deg.2;
+        symbol [ deg %tmp.37 83 39 42 ];
+        symbol [ starboardTackHeading ? 83 16 36 ];
+        putv self :starboardTackHeading %tmp.37;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_54_84_12_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_12_84_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_79_12_84_12_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 85 12 ]
+        %tmp.38 = self;
+        symbol [ updateWindFromTacks %tmp.39 85 12 31 ];
+        %tmp.39 = getv function %tmp.38 :updateWindFromTacks;
+        invoke %tmp.38 %tmp.39();
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_77_15_86_8_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_72_8_86_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_71_55_87_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 89; @symbol_functiondef = [togglePortRecording,89,20,39]; ]
+    public
+    function togglePortRecording() as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_89_50_105_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 90 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_8_104_8_if_stmt:
+        symbol [ isRecordingPort %tmp.2 90 13 28 ];
+        %tmp.2 = getv ? :isRecordingPort;
+        %tmp.3 = not %tmp.2;
+        bf %tmp.3 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_8_104_8_if_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_8_104_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_30_95_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 91 12 ]
+        %tmp.4 = true;
+        symbol [ isRecordingPort ? 91 12 27 ];
+        putv self :isRecordingPort %tmp.4;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 92 12 ]
+        %tmp.5 = 0.0;
+        symbol [ _portSumX ? 92 12 21 ];
+        putv self :_portSumX %tmp.5;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 93 12 ]
+        %tmp.6 = 0.0;
+        symbol [ _portSumY ? 93 12 21 ];
+        putv self :_portSumY %tmp.6;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 94 12 ]
+        %tmp.7 = null;
+        symbol [ portTackHeading ? 94 12 27 ];
+        putv self :portTackHeading %tmp.7;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_30_95_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_8_104_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_8_104_8_if_else_false:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_95_15_104_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 96 12 ]
+        %tmp.8 = false;
+        symbol [ isRecordingPort ? 96 12 27 ];
+        putv self :isRecordingPort %tmp.8;
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 97 12 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_12_102_12_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_16_97_49_begin:
+        symbol [ _portSumX %tmp.10 97 16 25 ];
+        %tmp.10 = getv ? :_portSumX;
+        %tmp.11 = 0.0;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bt %tmp.12 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_12_102_12_if_true;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_36_97_49_false:
+        symbol [ _portSumY %tmp.14 97 36 45 ];
+        %tmp.14 = getv ? :_portSumY;
+        %tmp.15 = 0.0;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        push %tmp.16;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_36_97_49_end:
+        %tmp.17 = phi [%tmp.12 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_16_97_49_begin] [%tmp.16 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_36_97_49_false] [%tmp.17 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_36_97_49_end];
+        bf %tmp.17 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_12_102_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_12_102_12_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_54_102_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 98 16 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_54_102_12_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_54_102_12_stop" ]
+        %rad.1 = local;
+        symbol [ rad %rad.1 98 20 23 ];
+        symbol [ Math %tmp.18 98 26 30 ];
+        %tmp.18 = getm $.Toybox.Math;
+        symbol [ atan2 %tmp.19 98 31 36 ];
+        %tmp.19 = getv function %tmp.18 :atan2;
+        symbol [ _portSumX %tmp.21 98 37 46 ];
+        %tmp.21 = getv ? :_portSumX;
+        symbol [ _portSumY %tmp.23 98 48 57 ];
+        %tmp.23 = getv ? :_portSumY;
+        %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
+        lputv %rad.1 %tmp.24;
+        symbol [ rad %rad.1 98 20 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 99 16 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_54_102_12_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_54_102_12_stop" ]
+        %deg.2 = local;
+        symbol [ deg %deg.2 99 20 23 ];
+        %tmp.25 = lgetv %rad.1;
+        symbol [ rad %tmp.25 99 26 29 ];
+        %tmp.26 = 180.0;
+        %tmp.27 = mul %tmp.25 %tmp.26;
+        symbol [ Math %tmp.28 99 40 44 ];
+        %tmp.28 = getm $.Toybox.Math;
+        symbol [ PI %tmp.29 99 45 47 ];
+        %tmp.29 = getv %tmp.28 :PI;
+        %tmp.30 = div %tmp.27 %tmp.29;
+        lputv %deg.2 %tmp.30;
+        symbol [ deg %deg.2 99 20 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 100 16 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_100_16_100_45_if_stmt:
+        %tmp.31 = lgetv %deg.2;
+        symbol [ deg %tmp.31 100 20 23 ];
+        %tmp.32 = 0;
+        %tmp.33 = lt %tmp.31 %tmp.32;
+        bf %tmp.33 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_100_16_100_45_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_100_16_100_45_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_100_29_100_45_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 100 31 ]
+        %tmp.34 = lgetv %deg.2;
+        symbol [ deg %tmp.34 100 31 34 ];
+        %tmp.35 = 360.0;
+        %tmp.36 = add %tmp.34 %tmp.35;
+        lputv %deg.2 %tmp.36;
+        symbol [ deg %deg.2 100 31 34 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_100_29_100_45_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_100_16_100_45_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_100_16_100_45_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 101 16 ]
+        %tmp.37 = lgetv %deg.2;
+        symbol [ deg %tmp.37 101 34 37 ];
+        symbol [ portTackHeading ? 101 16 31 ];
+        putv self :portTackHeading %tmp.37;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_54_102_12_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_12_102_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_97_12_102_12_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 103 12 ]
+        %tmp.38 = self;
+        symbol [ updateWindFromTacks %tmp.39 103 12 31 ];
+        %tmp.39 = getv function %tmp.38 :updateWindFromTacks;
+        invoke %tmp.38 %tmp.39();
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_95_15_104_8_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_90_8_104_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_89_50_105_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 107; @symbol_functiondef = [updateWindFromTacks,107,20,39]; ]
+    public
+    function updateWindFromTacks() as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_107_50_125_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 108 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_8_124_8_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_12_108_63_begin:
+        symbol [ portTackHeading %tmp.2 108 12 27 ];
+        %tmp.2 = getv ? :portTackHeading;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_8_124_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_39_108_63_true:
+        symbol [ starboardTackHeading %tmp.6 108 39 59 ];
+        %tmp.6 = getv ? :starboardTackHeading;
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        push %tmp.8;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_39_108_63_end:
+        %tmp.9 = phi [%tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_12_108_63_begin] [%tmp.8 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_39_108_63_true] [%tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_39_108_63_end];
+        bf %tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_8_124_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_8_124_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 109 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_stop" ]
+        %pRad.1 = local;
+        symbol [ pRad %pRad.1 109 16 20 ];
+        symbol [ portTackHeading %tmp.11 109 23 38 ];
+        %tmp.11 = getv ? :portTackHeading;
+        %tmp.12 = as %tmp.11 { (!Null) };
+        symbol [ Math %tmp.13 109 41 45 ];
+        %tmp.13 = getm $.Toybox.Math;
+        symbol [ PI %tmp.14 109 46 48 ];
+        %tmp.14 = getv %tmp.13 :PI;
+        %tmp.15 = mul %tmp.12 %tmp.14;
+        %tmp.16 = 180.0;
+        %tmp.17 = div %tmp.15 %tmp.16;
+        lputv %pRad.1 %tmp.17;
+        symbol [ pRad %pRad.1 109 16 20 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 110 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_stop" ]
+        %sRad.2 = local;
+        symbol [ sRad %sRad.2 110 16 20 ];
+        symbol [ starboardTackHeading %tmp.19 110 23 43 ];
+        %tmp.19 = getv ? :starboardTackHeading;
+        %tmp.20 = as %tmp.19 { (!Null) };
+        symbol [ Math %tmp.21 110 46 50 ];
+        %tmp.21 = getm $.Toybox.Math;
+        symbol [ PI %tmp.22 110 51 53 ];
+        %tmp.22 = getv %tmp.21 :PI;
+        %tmp.23 = mul %tmp.20 %tmp.22;
+        %tmp.24 = 180.0;
+        %tmp.25 = div %tmp.23 %tmp.24;
+        lputv %sRad.2 %tmp.25;
+        symbol [ sRad %sRad.2 110 16 20 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 112 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_stop" ]
+        %sinSum.3 = local;
+        symbol [ sinSum %sinSum.3 112 16 22 ];
+        symbol [ Math %tmp.26 112 25 29 ];
+        %tmp.26 = getm $.Toybox.Math;
+        symbol [ sin %tmp.27 112 30 33 ];
+        %tmp.27 = getv function %tmp.26 :sin;
+        %tmp.28 = lgetv %pRad.1;
+        symbol [ pRad %tmp.28 112 34 38 ];
+        %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
+        symbol [ Math %tmp.30 112 42 46 ];
+        %tmp.30 = getm $.Toybox.Math;
+        symbol [ sin %tmp.31 112 47 50 ];
+        %tmp.31 = getv function %tmp.30 :sin;
+        %tmp.32 = lgetv %sRad.2;
+        symbol [ sRad %tmp.32 112 51 55 ];
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        %tmp.34 = add %tmp.29 %tmp.33;
+        lputv %sinSum.3 %tmp.34;
+        symbol [ sinSum %sinSum.3 112 16 22 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 113 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_stop" ]
+        %cosSum.4 = local;
+        symbol [ cosSum %cosSum.4 113 16 22 ];
+        symbol [ Math %tmp.35 113 25 29 ];
+        %tmp.35 = getm $.Toybox.Math;
+        symbol [ cos %tmp.36 113 30 33 ];
+        %tmp.36 = getv function %tmp.35 :cos;
+        %tmp.37 = lgetv %pRad.1;
+        symbol [ pRad %tmp.37 113 34 38 ];
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        symbol [ Math %tmp.39 113 42 46 ];
+        %tmp.39 = getm $.Toybox.Math;
+        symbol [ cos %tmp.40 113 47 50 ];
+        %tmp.40 = getv function %tmp.39 :cos;
+        %tmp.41 = lgetv %sRad.2;
+        symbol [ sRad %tmp.41 113 51 55 ];
+        %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
+        %tmp.43 = add %tmp.38 %tmp.42;
+        lputv %cosSum.4 %tmp.43;
+        symbol [ cosSum %cosSum.4 113 16 22 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 117 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_stop" ]
+        %windRad.5 = local;
+        symbol [ windRad %windRad.5 117 16 23 ];
+        symbol [ Math %tmp.44 117 26 30 ];
+        %tmp.44 = getm $.Toybox.Math;
+        symbol [ atan2 %tmp.45 117 31 36 ];
+        %tmp.45 = getv function %tmp.44 :atan2;
+        %tmp.46 = lgetv %sinSum.3;
+        symbol [ sinSum %tmp.46 117 37 43 ];
+        %tmp.47 = lgetv %cosSum.4;
+        symbol [ cosSum %tmp.47 117 45 51 ];
+        %tmp.48 = invoke %tmp.44 %tmp.45(%tmp.46, %tmp.47);
+        lputv %windRad.5 %tmp.48;
+        symbol [ windRad %windRad.5 117 16 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 118 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_stop" ]
+        %windDeg.6 = local;
+        symbol [ windDeg %windDeg.6 118 16 23 ];
+        %tmp.49 = lgetv %windRad.5;
+        symbol [ windRad %tmp.49 118 26 33 ];
+        %tmp.50 = 180.0;
+        %tmp.51 = mul %tmp.49 %tmp.50;
+        symbol [ Math %tmp.52 118 44 48 ];
+        %tmp.52 = getm $.Toybox.Math;
+        symbol [ PI %tmp.53 118 49 51 ];
+        %tmp.53 = getv %tmp.52 :PI;
+        %tmp.54 = div %tmp.51 %tmp.53;
+        lputv %windDeg.6 %tmp.54;
+        symbol [ windDeg %windDeg.6 118 16 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 120 12 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_120_12_122_12_if_stmt:
+        %tmp.55 = lgetv %windDeg.6;
+        symbol [ windDeg %tmp.55 120 16 23 ];
+        %tmp.56 = 0;
+        %tmp.57 = lt %tmp.55 %tmp.56;
+        bf %tmp.57 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_120_12_122_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_120_12_122_12_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_120_29_122_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 121 16 ]
+        %tmp.58 = lgetv %windDeg.6;
+        symbol [ windDeg %tmp.58 121 16 23 ];
+        %tmp.59 = 360.0;
+        %tmp.60 = add %tmp.58 %tmp.59;
+        lputv %windDeg.6 %tmp.60;
+        symbol [ windDeg %windDeg.6 121 16 23 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_120_29_122_12_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_120_12_122_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_120_12_122_12_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 123 12 ]
+        %tmp.61 = lgetv %windDeg.6;
+        symbol [ windDeg %tmp.61 123 35 42 ];
+        symbol [ toNumber %tmp.62 123 43 51 ];
+        %tmp.62 = getv function %tmp.61 :toNumber;
+        %tmp.63 = invoke %tmp.61 %tmp.62();
+        symbol [ windDirectionDegrees ? 123 12 32 ];
+        putv self :windDirectionDegrees %tmp.63;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_69_124_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_8_124_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_108_8_124_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_107_50_125_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 127; @symbol_functiondef = [getDistanceToLineMeters,127,20,43]; @symbol_return<0> = [Float,127,49,54]; ]
+    public
+    function getDistanceToLineMeters() as Float or Null {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 128 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_8_130_8_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_12_128_84_begin:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_12_128_57_begin:
+        symbol [ pinEndLocation %tmp.2 128 12 26 ];
+        %tmp.2 = getv ? :pinEndLocation;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bt %tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_8_130_8_if_true;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_38_128_57_false:
+        symbol [ boatEndLocation %tmp.6 128 38 53 ];
+        %tmp.6 = getv ? :boatEndLocation;
+        %tmp.7 = null;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        push %tmp.8;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_38_128_57_end:
+        %tmp.9 = phi [%tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_12_128_57_begin] [%tmp.8 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_38_128_57_false] [%tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_38_128_57_end];
+        bt %tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_8_130_8_if_true;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_65_128_84_false:
+        symbol [ currentPosition %tmp.11 128 65 80 ];
+        %tmp.11 = getv ? :currentPosition;
+        %tmp.12 = null;
+        %tmp.13 = eq %tmp.11 %tmp.12;
+        push %tmp.13;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_65_128_84_end:
+        %tmp.14 = phi [%tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_12_128_84_begin] [%tmp.13 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_65_128_84_false] [%tmp.14 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_65_128_84_end];
+        bf %tmp.14 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_8_130_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_8_130_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_90_130_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 129 12 ]
+        %tmp.15 = null;
+        ret %tmp.15;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_90_130_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_8_130_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_128_8_130_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 132 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %p.1 = local;
+        symbol [ p %p.1 132 12 13 ];
+        symbol [ pinEndLocation %tmp.17 132 16 30 ];
+        %tmp.17 = getv ? :pinEndLocation;
+        symbol [ toRadians %tmp.18 132 31 40 ];
+        %tmp.18 = getv function %tmp.17 :toRadians;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        lputv %p.1 %tmp.19;
+        symbol [ p %p.1 132 12 13 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 133 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %b.2 = local;
+        symbol [ b %b.2 133 12 13 ];
+        symbol [ boatEndLocation %tmp.21 133 16 31 ];
+        %tmp.21 = getv ? :boatEndLocation;
+        symbol [ toRadians %tmp.22 133 32 41 ];
+        %tmp.22 = getv function %tmp.21 :toRadians;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        lputv %b.2 %tmp.23;
+        symbol [ b %b.2 133 12 13 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 134 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %c.3 = local;
+        symbol [ c %c.3 134 12 13 ];
+        symbol [ currentPosition %tmp.25 134 16 31 ];
+        %tmp.25 = getv ? :currentPosition;
+        symbol [ toRadians %tmp.26 134 32 41 ];
+        %tmp.26 = getv function %tmp.25 :toRadians;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        lputv %c.3 %tmp.27;
+        symbol [ c %c.3 134 12 13 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 136 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %pLat.4 = local;
+        symbol [ pLat %pLat.4 136 12 16 ];
+        %tmp.28 = lgetv %p.1;
+        symbol [ p %tmp.28 136 19 20 ];
+        %tmp.29 = 0;
+        %tmp.30 = agetv %tmp.28 %tmp.29;
+        lputv %pLat.4 %tmp.30;
+        symbol [ pLat %pLat.4 136 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 136 25 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %pLon.5 = local;
+        symbol [ pLon %pLon.5 136 29 33 ];
+        %tmp.31 = lgetv %p.1;
+        symbol [ p %tmp.31 136 36 37 ];
+        %tmp.32 = 1;
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        lputv %pLon.5 %tmp.33;
+        symbol [ pLon %pLon.5 136 29 33 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 137 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %bLat.6 = local;
+        symbol [ bLat %bLat.6 137 12 16 ];
+        %tmp.34 = lgetv %b.2;
+        symbol [ b %tmp.34 137 19 20 ];
+        %tmp.35 = 0;
+        %tmp.36 = agetv %tmp.34 %tmp.35;
+        lputv %bLat.6 %tmp.36;
+        symbol [ bLat %bLat.6 137 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 137 25 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %bLon.7 = local;
+        symbol [ bLon %bLon.7 137 29 33 ];
+        %tmp.37 = lgetv %b.2;
+        symbol [ b %tmp.37 137 36 37 ];
+        %tmp.38 = 1;
+        %tmp.39 = agetv %tmp.37 %tmp.38;
+        lputv %bLon.7 %tmp.39;
+        symbol [ bLon %bLon.7 137 29 33 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 138 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %cLat.8 = local;
+        symbol [ cLat %cLat.8 138 12 16 ];
+        %tmp.40 = lgetv %c.3;
+        symbol [ c %tmp.40 138 19 20 ];
+        %tmp.41 = 0;
+        %tmp.42 = agetv %tmp.40 %tmp.41;
+        lputv %cLat.8 %tmp.42;
+        symbol [ cLat %cLat.8 138 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 138 25 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %cLon.9 = local;
+        symbol [ cLon %cLon.9 138 29 33 ];
+        %tmp.43 = lgetv %c.3;
+        symbol [ c %tmp.43 138 36 37 ];
+        %tmp.44 = 1;
+        %tmp.45 = agetv %tmp.43 %tmp.44;
+        lputv %cLon.9 %tmp.45;
+        symbol [ cLon %cLon.9 138 29 33 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 140 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %R.10 = local;
+        symbol [ R %R.10 140 12 13 ];
+        %tmp.46 = 6371000.0;
+        lputv %R.10 %tmp.46;
+        symbol [ R %R.10 140 12 13 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 142 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %avgLatB.11 = local;
+        symbol [ avgLatB %avgLatB.11 142 12 19 ];
+        %tmp.47 = lgetv %bLat.6;
+        symbol [ bLat %tmp.47 142 23 27 ];
+        %tmp.48 = lgetv %pLat.4;
+        symbol [ pLat %tmp.48 142 30 34 ];
+        %tmp.49 = add %tmp.47 %tmp.48;
+        %tmp.50 = 2.0;
+        %tmp.51 = div %tmp.49 %tmp.50;
+        lputv %avgLatB.11 %tmp.51;
+        symbol [ avgLatB %avgLatB.11 142 12 19 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 143 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %xB.12 = local;
+        symbol [ xB %xB.12 143 12 14 ];
+        %tmp.52 = lgetv %bLon.7;
+        symbol [ bLon %tmp.52 143 18 22 ];
+        %tmp.53 = lgetv %pLon.5;
+        symbol [ pLon %tmp.53 143 25 29 ];
+        %tmp.54 = sub %tmp.52 %tmp.53;
+        symbol [ Math %tmp.55 143 33 37 ];
+        %tmp.55 = getm $.Toybox.Math;
+        symbol [ cos %tmp.56 143 38 41 ];
+        %tmp.56 = getv function %tmp.55 :cos;
+        %tmp.57 = lgetv %avgLatB.11;
+        symbol [ avgLatB %tmp.57 143 42 49 ];
+        %tmp.58 = invoke %tmp.55 %tmp.56(%tmp.57);
+        %tmp.59 = mul %tmp.54 %tmp.58;
+        %tmp.60 = lgetv %R.10;
+        symbol [ R %tmp.60 143 53 54 ];
+        %tmp.61 = mul %tmp.59 %tmp.60;
+        lputv %xB.12 %tmp.61;
+        symbol [ xB %xB.12 143 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 144 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %yB.13 = local;
+        symbol [ yB %yB.13 144 12 14 ];
+        %tmp.62 = lgetv %bLat.6;
+        symbol [ bLat %tmp.62 144 18 22 ];
+        %tmp.63 = lgetv %pLat.4;
+        symbol [ pLat %tmp.63 144 25 29 ];
+        %tmp.64 = sub %tmp.62 %tmp.63;
+        %tmp.65 = lgetv %R.10;
+        symbol [ R %tmp.65 144 33 34 ];
+        %tmp.66 = mul %tmp.64 %tmp.65;
+        lputv %yB.13 %tmp.66;
+        symbol [ yB %yB.13 144 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 146 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %avgLatC.14 = local;
+        symbol [ avgLatC %avgLatC.14 146 12 19 ];
+        %tmp.67 = lgetv %cLat.8;
+        symbol [ cLat %tmp.67 146 23 27 ];
+        %tmp.68 = lgetv %pLat.4;
+        symbol [ pLat %tmp.68 146 30 34 ];
+        %tmp.69 = add %tmp.67 %tmp.68;
+        %tmp.70 = 2.0;
+        %tmp.71 = div %tmp.69 %tmp.70;
+        lputv %avgLatC.14 %tmp.71;
+        symbol [ avgLatC %avgLatC.14 146 12 19 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 147 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %xC.15 = local;
+        symbol [ xC %xC.15 147 12 14 ];
+        %tmp.72 = lgetv %cLon.9;
+        symbol [ cLon %tmp.72 147 18 22 ];
+        %tmp.73 = lgetv %pLon.5;
+        symbol [ pLon %tmp.73 147 25 29 ];
+        %tmp.74 = sub %tmp.72 %tmp.73;
+        symbol [ Math %tmp.75 147 33 37 ];
+        %tmp.75 = getm $.Toybox.Math;
+        symbol [ cos %tmp.76 147 38 41 ];
+        %tmp.76 = getv function %tmp.75 :cos;
+        %tmp.77 = lgetv %avgLatC.14;
+        symbol [ avgLatC %tmp.77 147 42 49 ];
+        %tmp.78 = invoke %tmp.75 %tmp.76(%tmp.77);
+        %tmp.79 = mul %tmp.74 %tmp.78;
+        %tmp.80 = lgetv %R.10;
+        symbol [ R %tmp.80 147 53 54 ];
+        %tmp.81 = mul %tmp.79 %tmp.80;
+        lputv %xC.15 %tmp.81;
+        symbol [ xC %xC.15 147 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 148 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %yC.16 = local;
+        symbol [ yC %yC.16 148 12 14 ];
+        %tmp.82 = lgetv %cLat.8;
+        symbol [ cLat %tmp.82 148 18 22 ];
+        %tmp.83 = lgetv %pLat.4;
+        symbol [ pLat %tmp.83 148 25 29 ];
+        %tmp.84 = sub %tmp.82 %tmp.83;
+        %tmp.85 = lgetv %R.10;
+        symbol [ R %tmp.85 148 33 34 ];
+        %tmp.86 = mul %tmp.84 %tmp.85;
+        lputv %yC.16 %tmp.86;
+        symbol [ yC %yC.16 148 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 150 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %lenA.17 = local;
+        symbol [ lenA %lenA.17 150 12 16 ];
+        symbol [ Math %tmp.87 150 19 23 ];
+        %tmp.87 = getm $.Toybox.Math;
+        symbol [ sqrt %tmp.88 150 24 28 ];
+        %tmp.88 = getv function %tmp.87 :sqrt;
+        %tmp.89 = lgetv %xB.12;
+        symbol [ xB %tmp.89 150 29 31 ];
+        %tmp.90 = lgetv %xB.12;
+        symbol [ xB %tmp.90 150 34 36 ];
+        %tmp.91 = mul %tmp.89 %tmp.90;
+        %tmp.92 = lgetv %yB.13;
+        symbol [ yB %tmp.92 150 39 41 ];
+        %tmp.93 = lgetv %yB.13;
+        symbol [ yB %tmp.93 150 44 46 ];
+        %tmp.94 = mul %tmp.92 %tmp.93;
+        %tmp.95 = add %tmp.91 %tmp.94;
+        %tmp.96 = invoke %tmp.87 %tmp.88(%tmp.95);
+        lputv %lenA.17 %tmp.96;
+        symbol [ lenA %lenA.17 150 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 152 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_152_8_154_8_if_stmt:
+        %tmp.97 = lgetv %lenA.17;
+        symbol [ lenA %tmp.97 152 12 16 ];
+        %tmp.98 = 0.0;
+        %tmp.99 = eq %tmp.97 %tmp.98;
+        bf %tmp.99 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_152_8_154_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_152_8_154_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_152_25_154_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 153 12 ]
+        symbol [ Math %tmp.100 153 19 23 ];
+        %tmp.100 = getm $.Toybox.Math;
+        symbol [ sqrt %tmp.101 153 24 28 ];
+        %tmp.101 = getv function %tmp.100 :sqrt;
+        %tmp.102 = lgetv %xC.15;
+        symbol [ xC %tmp.102 153 29 31 ];
+        %tmp.103 = lgetv %xC.15;
+        symbol [ xC %tmp.103 153 34 36 ];
+        %tmp.104 = mul %tmp.102 %tmp.103;
+        %tmp.105 = lgetv %yC.16;
+        symbol [ yC %tmp.105 153 39 41 ];
+        %tmp.106 = lgetv %yC.16;
+        symbol [ yC %tmp.106 153 44 46 ];
+        %tmp.107 = mul %tmp.105 %tmp.106;
+        %tmp.108 = add %tmp.104 %tmp.107;
+        %tmp.109 = invoke %tmp.100 %tmp.101(%tmp.108);
+        symbol [ toFloat %tmp.110 153 48 55 ];
+        %tmp.110 = getv function %tmp.109 :toFloat;
+        %tmp.111 = invoke %tmp.109 %tmp.110();
+        ret %tmp.111;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_152_25_154_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_152_8_154_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_152_8_154_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 156 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop" ]
+        %cross.18 = local;
+        symbol [ cross %cross.18 156 12 17 ];
+        %tmp.112 = lgetv %xC.15;
+        symbol [ xC %tmp.112 156 20 22 ];
+        %tmp.113 = lgetv %yB.13;
+        symbol [ yB %tmp.113 156 25 27 ];
+        %tmp.114 = mul %tmp.112 %tmp.113;
+        %tmp.115 = lgetv %yC.16;
+        symbol [ yC %tmp.115 156 30 32 ];
+        %tmp.116 = lgetv %xB.12;
+        symbol [ xB %tmp.116 156 35 37 ];
+        %tmp.117 = mul %tmp.115 %tmp.116;
+        %tmp.118 = sub %tmp.114 %tmp.117;
+        lputv %cross.18 %tmp.118;
+        symbol [ cross %cross.18 156 12 17 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 157 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_157_8_159_8_if_stmt:
+        %tmp.119 = lgetv %cross.18;
+        symbol [ cross %tmp.119 157 12 17 ];
+        %tmp.120 = 0;
+        %tmp.121 = lt %tmp.119 %tmp.120;
+        bf %tmp.121 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_157_8_159_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_157_8_159_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_157_23_159_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 158 12 ]
+        %tmp.122 = lgetv %cross.18;
+        symbol [ cross %tmp.122 158 21 26 ];
+        %tmp.123 = sub 0 %tmp.122;
+        lputv %cross.18 %tmp.123;
+        symbol [ cross %cross.18 158 12 17 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_157_23_159_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_157_8_159_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_157_8_159_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 160 8 ]
+        %tmp.124 = lgetv %cross.18;
+        symbol [ cross %tmp.124 160 16 21 ];
+        %tmp.125 = lgetv %lenA.17;
+        symbol [ lenA %tmp.125 160 24 28 ];
+        %tmp.126 = div %tmp.124 %tmp.125;
+        symbol [ toFloat %tmp.127 160 30 37 ];
+        %tmp.127 = getv function %tmp.126 :toFloat;
+        %tmp.128 = invoke %tmp.126 %tmp.127();
+        ret %tmp.128;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_127_56_161_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 163; @symbol_functiondef = [getFavoredEnd,163,20,33]; @symbol_return<0> = [String,163,39,45]; ]
+    public
+    function getFavoredEnd() as String or Null {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 164 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_8_166_8_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_12_164_89_begin:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_12_164_57_begin:
+        symbol [ pinEndLocation %tmp.2 164 12 26 ];
+        %tmp.2 = getv ? :pinEndLocation;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bt %tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_8_166_8_if_true;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_38_164_57_false:
+        symbol [ boatEndLocation %tmp.6 164 38 53 ];
+        %tmp.6 = getv ? :boatEndLocation;
+        %tmp.7 = null;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        push %tmp.8;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_38_164_57_end:
+        %tmp.9 = phi [%tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_12_164_57_begin] [%tmp.8 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_38_164_57_false] [%tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_38_164_57_end];
+        bt %tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_8_166_8_if_true;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_65_164_89_false:
+        symbol [ windDirectionDegrees %tmp.11 164 65 85 ];
+        %tmp.11 = getv ? :windDirectionDegrees;
+        %tmp.12 = null;
+        %tmp.13 = eq %tmp.11 %tmp.12;
+        push %tmp.13;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_65_164_89_end:
+        %tmp.14 = phi [%tmp.9 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_12_164_89_begin] [%tmp.13 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_65_164_89_false] [%tmp.14 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_65_164_89_end];
+        bf %tmp.14 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_8_166_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_8_166_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_95_166_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 165 12 ]
+        %tmp.15 = null;
+        ret %tmp.15;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_95_166_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_8_166_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_164_8_166_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 168 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %p.1 = local;
+        symbol [ p %p.1 168 12 13 ];
+        symbol [ pinEndLocation %tmp.17 168 16 30 ];
+        %tmp.17 = getv ? :pinEndLocation;
+        symbol [ toRadians %tmp.18 168 31 40 ];
+        %tmp.18 = getv function %tmp.17 :toRadians;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        lputv %p.1 %tmp.19;
+        symbol [ p %p.1 168 12 13 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 169 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %b.2 = local;
+        symbol [ b %b.2 169 12 13 ];
+        symbol [ boatEndLocation %tmp.21 169 16 31 ];
+        %tmp.21 = getv ? :boatEndLocation;
+        symbol [ toRadians %tmp.22 169 32 41 ];
+        %tmp.22 = getv function %tmp.21 :toRadians;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        lputv %b.2 %tmp.23;
+        symbol [ b %b.2 169 12 13 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 171 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %pLat.3 = local;
+        symbol [ pLat %pLat.3 171 12 16 ];
+        %tmp.24 = lgetv %p.1;
+        symbol [ p %tmp.24 171 19 20 ];
+        %tmp.25 = 0;
+        %tmp.26 = agetv %tmp.24 %tmp.25;
+        lputv %pLat.3 %tmp.26;
+        symbol [ pLat %pLat.3 171 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 171 25 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %pLon.4 = local;
+        symbol [ pLon %pLon.4 171 29 33 ];
+        %tmp.27 = lgetv %p.1;
+        symbol [ p %tmp.27 171 36 37 ];
+        %tmp.28 = 1;
+        %tmp.29 = agetv %tmp.27 %tmp.28;
+        lputv %pLon.4 %tmp.29;
+        symbol [ pLon %pLon.4 171 29 33 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 172 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %bLat.5 = local;
+        symbol [ bLat %bLat.5 172 12 16 ];
+        %tmp.30 = lgetv %b.2;
+        symbol [ b %tmp.30 172 19 20 ];
+        %tmp.31 = 0;
+        %tmp.32 = agetv %tmp.30 %tmp.31;
+        lputv %bLat.5 %tmp.32;
+        symbol [ bLat %bLat.5 172 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 172 25 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %bLon.6 = local;
+        symbol [ bLon %bLon.6 172 29 33 ];
+        %tmp.33 = lgetv %b.2;
+        symbol [ b %tmp.33 172 36 37 ];
+        %tmp.34 = 1;
+        %tmp.35 = agetv %tmp.33 %tmp.34;
+        lputv %bLon.6 %tmp.35;
+        symbol [ bLon %bLon.6 172 29 33 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 174 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %R.7 = local;
+        symbol [ R %R.7 174 12 13 ];
+        %tmp.36 = 6371000.0;
+        lputv %R.7 %tmp.36;
+        symbol [ R %R.7 174 12 13 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 175 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %avgLat.8 = local;
+        symbol [ avgLat %avgLat.8 175 12 18 ];
+        %tmp.37 = lgetv %bLat.5;
+        symbol [ bLat %tmp.37 175 22 26 ];
+        %tmp.38 = lgetv %pLat.3;
+        symbol [ pLat %tmp.38 175 29 33 ];
+        %tmp.39 = add %tmp.37 %tmp.38;
+        %tmp.40 = 2.0;
+        %tmp.41 = div %tmp.39 %tmp.40;
+        lputv %avgLat.8 %tmp.41;
+        symbol [ avgLat %avgLat.8 175 12 18 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 178 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %dx.9 = local;
+        symbol [ dx %dx.9 178 12 14 ];
+        %tmp.42 = lgetv %bLon.6;
+        symbol [ bLon %tmp.42 178 18 22 ];
+        %tmp.43 = lgetv %pLon.4;
+        symbol [ pLon %tmp.43 178 25 29 ];
+        %tmp.44 = sub %tmp.42 %tmp.43;
+        symbol [ Math %tmp.45 178 33 37 ];
+        %tmp.45 = getm $.Toybox.Math;
+        symbol [ cos %tmp.46 178 38 41 ];
+        %tmp.46 = getv function %tmp.45 :cos;
+        %tmp.47 = lgetv %avgLat.8;
+        symbol [ avgLat %tmp.47 178 42 48 ];
+        %tmp.48 = invoke %tmp.45 %tmp.46(%tmp.47);
+        %tmp.49 = mul %tmp.44 %tmp.48;
+        %tmp.50 = lgetv %R.7;
+        symbol [ R %tmp.50 178 52 53 ];
+        %tmp.51 = mul %tmp.49 %tmp.50;
+        lputv %dx.9 %tmp.51;
+        symbol [ dx %dx.9 178 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 179 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %dy.10 = local;
+        symbol [ dy %dy.10 179 12 14 ];
+        %tmp.52 = lgetv %bLat.5;
+        symbol [ bLat %tmp.52 179 18 22 ];
+        %tmp.53 = lgetv %pLat.3;
+        symbol [ pLat %tmp.53 179 25 29 ];
+        %tmp.54 = sub %tmp.52 %tmp.53;
+        %tmp.55 = lgetv %R.7;
+        symbol [ R %tmp.55 179 33 34 ];
+        %tmp.56 = mul %tmp.54 %tmp.55;
+        lputv %dy.10 %tmp.56;
+        symbol [ dy %dy.10 179 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 180 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %lineLen.11 = local;
+        symbol [ lineLen %lineLen.11 180 12 19 ];
+        symbol [ Math %tmp.57 180 22 26 ];
+        %tmp.57 = getm $.Toybox.Math;
+        symbol [ sqrt %tmp.58 180 27 31 ];
+        %tmp.58 = getv function %tmp.57 :sqrt;
+        %tmp.59 = lgetv %dx.9;
+        symbol [ dx %tmp.59 180 32 34 ];
+        %tmp.60 = lgetv %dx.9;
+        symbol [ dx %tmp.60 180 37 39 ];
+        %tmp.61 = mul %tmp.59 %tmp.60;
+        %tmp.62 = lgetv %dy.10;
+        symbol [ dy %tmp.62 180 42 44 ];
+        %tmp.63 = lgetv %dy.10;
+        symbol [ dy %tmp.63 180 47 49 ];
+        %tmp.64 = mul %tmp.62 %tmp.63;
+        %tmp.65 = add %tmp.61 %tmp.64;
+        %tmp.66 = invoke %tmp.57 %tmp.58(%tmp.65);
+        lputv %lineLen.11 %tmp.66;
+        symbol [ lineLen %lineLen.11 180 12 19 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 182 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_182_8_184_8_if_stmt:
+        %tmp.67 = lgetv %lineLen.11;
+        symbol [ lineLen %tmp.67 182 12 19 ];
+        %tmp.68 = 0.0;
+        %tmp.69 = eq %tmp.67 %tmp.68;
+        bf %tmp.69 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_182_8_184_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_182_8_184_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_182_28_184_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 183 12 ]
+        %tmp.70 = "SQUARE";
+        ret %tmp.70;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_182_28_184_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_182_8_184_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_182_8_184_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 186 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %nx.12 = local;
+        symbol [ nx %nx.12 186 12 14 ];
+        %tmp.71 = lgetv %dx.9;
+        symbol [ dx %tmp.71 186 17 19 ];
+        %tmp.72 = lgetv %lineLen.11;
+        symbol [ lineLen %tmp.72 186 22 29 ];
+        %tmp.73 = div %tmp.71 %tmp.72;
+        lputv %nx.12 %tmp.73;
+        symbol [ nx %nx.12 186 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 187 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %ny.13 = local;
+        symbol [ ny %ny.13 187 12 14 ];
+        %tmp.74 = lgetv %dy.10;
+        symbol [ dy %tmp.74 187 17 19 ];
+        %tmp.75 = lgetv %lineLen.11;
+        symbol [ lineLen %tmp.75 187 22 29 ];
+        %tmp.76 = div %tmp.74 %tmp.75;
+        lputv %ny.13 %tmp.76;
+        symbol [ ny %ny.13 187 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 191 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %windRad.14 = local;
+        symbol [ windRad %windRad.14 191 12 19 ];
+        symbol [ windDirectionDegrees %tmp.78 191 22 42 ];
+        %tmp.78 = getv ? :windDirectionDegrees;
+        symbol [ Math %tmp.79 191 45 49 ];
+        %tmp.79 = getm $.Toybox.Math;
+        symbol [ PI %tmp.80 191 50 52 ];
+        %tmp.80 = getv %tmp.79 :PI;
+        %tmp.81 = mul %tmp.78 %tmp.80;
+        %tmp.82 = 180.0;
+        %tmp.83 = div %tmp.81 %tmp.82;
+        lputv %windRad.14 %tmp.83;
+        symbol [ windRad %windRad.14 191 12 19 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 192 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %wx.15 = local;
+        symbol [ wx %wx.15 192 12 14 ];
+        symbol [ Math %tmp.84 192 17 21 ];
+        %tmp.84 = getm $.Toybox.Math;
+        symbol [ sin %tmp.85 192 22 25 ];
+        %tmp.85 = getv function %tmp.84 :sin;
+        %tmp.86 = lgetv %windRad.14;
+        symbol [ windRad %tmp.86 192 26 33 ];
+        %tmp.87 = invoke %tmp.84 %tmp.85(%tmp.86);
+        lputv %wx.15 %tmp.87;
+        symbol [ wx %wx.15 192 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 193 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %wy.16 = local;
+        symbol [ wy %wy.16 193 12 14 ];
+        symbol [ Math %tmp.88 193 17 21 ];
+        %tmp.88 = getm $.Toybox.Math;
+        symbol [ cos %tmp.89 193 22 25 ];
+        %tmp.89 = getv function %tmp.88 :cos;
+        %tmp.90 = lgetv %windRad.14;
+        symbol [ windRad %tmp.90 193 26 33 ];
+        %tmp.91 = invoke %tmp.88 %tmp.89(%tmp.90);
+        lputv %wy.16 %tmp.91;
+        symbol [ wy %wy.16 193 12 14 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 195 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %dot.17 = local;
+        symbol [ dot %dot.17 195 12 15 ];
+        %tmp.92 = lgetv %nx.12;
+        symbol [ nx %tmp.92 195 18 20 ];
+        %tmp.93 = lgetv %wx.15;
+        symbol [ wx %tmp.93 195 23 25 ];
+        %tmp.94 = mul %tmp.92 %tmp.93;
+        %tmp.95 = lgetv %ny.13;
+        symbol [ ny %tmp.95 195 28 30 ];
+        %tmp.96 = lgetv %wy.16;
+        symbol [ wy %tmp.96 195 33 35 ];
+        %tmp.97 = mul %tmp.95 %tmp.96;
+        %tmp.98 = add %tmp.94 %tmp.97;
+        lputv %dot.17 %tmp.98;
+        symbol [ dot %dot.17 195 12 15 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 197 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_197_8_197_36_if_stmt:
+        %tmp.99 = lgetv %dot.17;
+        symbol [ dot %tmp.99 197 12 15 ];
+        %tmp.100 = 1.0;
+        %tmp.101 = gt %tmp.99 %tmp.100;
+        bf %tmp.101 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_197_8_197_36_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_197_8_197_36_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_197_23_197_36_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 197 25 ]
+        %tmp.102 = 1.0;
+        lputv %dot.17 %tmp.102;
+        symbol [ dot %dot.17 197 25 28 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_197_23_197_36_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_197_8_197_36_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_197_8_197_36_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 198 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_198_8_198_38_if_stmt:
+        %tmp.103 = lgetv %dot.17;
+        symbol [ dot %tmp.103 198 12 15 ];
+        %tmp.104 = -1.0;
+        %tmp.105 = lt %tmp.103 %tmp.104;
+        bf %tmp.105 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_198_8_198_38_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_198_8_198_38_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_198_24_198_38_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 198 26 ]
+        %tmp.106 = -1.0;
+        lputv %dot.17 %tmp.106;
+        symbol [ dot %dot.17 198 26 29 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_198_24_198_38_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_198_8_198_38_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_198_8_198_38_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 200 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %biasRad.18 = local;
+        symbol [ biasRad %biasRad.18 200 12 19 ];
+        symbol [ Math %tmp.107 200 22 26 ];
+        %tmp.107 = getm $.Toybox.Math;
+        symbol [ asin %tmp.108 200 27 31 ];
+        %tmp.108 = getv function %tmp.107 :asin;
+        %tmp.109 = lgetv %dot.17;
+        symbol [ dot %tmp.109 200 32 35 ];
+        %tmp.110 = invoke %tmp.107 %tmp.108(%tmp.109);
+        lputv %biasRad.18 %tmp.110;
+        symbol [ biasRad %biasRad.18 200 12 19 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 201 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop" ]
+        %biasDeg.19 = local;
+        symbol [ biasDeg %biasDeg.19 201 12 19 ];
+        %tmp.111 = lgetv %biasRad.18;
+        symbol [ biasRad %tmp.111 201 23 30 ];
+        %tmp.112 = 180.0;
+        %tmp.113 = mul %tmp.111 %tmp.112;
+        symbol [ Math %tmp.114 201 41 45 ];
+        %tmp.114 = getm $.Toybox.Math;
+        symbol [ PI %tmp.115 201 46 48 ];
+        %tmp.115 = getv %tmp.114 :PI;
+        %tmp.116 = div %tmp.113 %tmp.115;
+        symbol [ toNumber %tmp.117 201 50 58 ];
+        %tmp.117 = getv function %tmp.116 :toNumber;
+        %tmp.118 = invoke %tmp.116 %tmp.117();
+        lputv %biasDeg.19 %tmp.118;
+        symbol [ biasDeg %biasDeg.19 201 12 19 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 203 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_8_209_8_if_stmt:
+        %tmp.119 = lgetv %biasDeg.19;
+        symbol [ biasDeg %tmp.119 203 12 19 ];
+        %tmp.120 = 2;
+        %tmp.121 = gt %tmp.119 %tmp.120;
+        bf %tmp.121 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_8_209_8_if_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_8_209_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_25_205_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 204 12 ]
+        %tmp.122 = "BOAT ";
+        %tmp.123 = lgetv %biasDeg.19;
+        symbol [ biasDeg %tmp.123 204 29 36 ];
+        %tmp.124 = add %tmp.122 %tmp.123;
+        %tmp.125 = "°";
+        %tmp.126 = add %tmp.124 %tmp.125;
+        ret %tmp.126;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_25_205_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_8_209_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_8_209_8_if_false:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 205 15 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_15_209_8_if_stmt:
+        %tmp.127 = lgetv %biasDeg.19;
+        symbol [ biasDeg %tmp.127 205 19 26 ];
+        %tmp.128 = -2;
+        %tmp.129 = lt %tmp.127 %tmp.128;
+        bf %tmp.129 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_15_209_8_if_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_15_209_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_33_207_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 206 12 ]
+        %tmp.130 = "PIN ";
+        %tmp.131 = lgetv %biasDeg.19;
+        symbol [ biasDeg %tmp.131 206 30 37 ];
+        %tmp.132 = sub 0 %tmp.131;
+        %tmp.133 = add %tmp.130 %tmp.132;
+        %tmp.134 = "°";
+        %tmp.135 = add %tmp.133 %tmp.134;
+        ret %tmp.135;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_33_207_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_15_209_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_15_209_8_if_else_false:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_207_15_209_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 208 12 ]
+        %tmp.136 = "SQUARE";
+        ret %tmp.136;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_207_15_209_8_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_205_15_209_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_203_8_209_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_163_47_210_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 212; @symbol_functiondef = [getTimeToBurnSeconds,212,20,40]; @symbol_return<0> = [Number,212,46,52]; ]
+    public
+    function getTimeToBurnSeconds() as Number or Null {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 213 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_8_215_8_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_12_213_80_begin:
+        symbol [ countdownTimerRunning %tmp.2 213 13 34 ];
+        %tmp.2 = getv ? :countdownTimerRunning;
+        %tmp.3 = not %tmp.2;
+        bf %tmp.3 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_8_215_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_38_213_80_true:
+        symbol [ timeToGunSeconds %tmp.5 213 38 54 ];
+        %tmp.5 = getv ? :timeToGunSeconds;
+        symbol [ defaultTimerMinutes %tmp.7 213 58 77 ];
+        %tmp.7 = getv ? :defaultTimerMinutes;
+        %tmp.8 = 60;
+        %tmp.9 = mul %tmp.7 %tmp.8;
+        %tmp.10 = eq %tmp.5 %tmp.9;
+        push %tmp.10;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_38_213_80_end:
+        %tmp.11 = phi [%tmp.3 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_12_213_80_begin] [%tmp.10 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_38_213_80_true] [%tmp.11 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_38_213_80_end];
+        bf %tmp.11 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_8_215_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_8_215_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_84_215_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 214 12 ]
+        %tmp.12 = null;
+        ret %tmp.12;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_84_215_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_8_215_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_213_8_215_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 217 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_stop" ]
+        %distMeters.1 = local;
+        symbol [ distMeters %distMeters.1 217 12 22 ];
+        %tmp.13 = self;
+        symbol [ getDistanceToLineMeters %tmp.14 217 25 48 ];
+        %tmp.14 = getv function %tmp.13 :getDistanceToLineMeters;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %distMeters.1 %tmp.15;
+        symbol [ distMeters %distMeters.1 217 12 22 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 218 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_8_220_8_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_12_218_55_begin:
+        %tmp.16 = lgetv %distMeters.1;
+        symbol [ distMeters %tmp.16 218 12 22 ];
+        %tmp.17 = null;
+        %tmp.18 = eq %tmp.16 %tmp.17;
+        bt %tmp.18 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_8_220_8_if_true;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_34_218_55_false:
+        symbol [ currentSpeedKnots %tmp.20 218 34 51 ];
+        %tmp.20 = getv ? :currentSpeedKnots;
+        %tmp.21 = null;
+        %tmp.22 = eq %tmp.20 %tmp.21;
+        push %tmp.22;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_34_218_55_end:
+        %tmp.23 = phi [%tmp.18 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_12_218_55_begin] [%tmp.22 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_34_218_55_false] [%tmp.23 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_34_218_55_end];
+        bf %tmp.23 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_8_220_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_8_220_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_61_220_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 219 12 ]
+        %tmp.24 = null;
+        ret %tmp.24;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_61_220_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_8_220_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_218_8_220_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 223 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_stop" ]
+        %speedMs.2 = local;
+        symbol [ speedMs %speedMs.2 223 12 19 ];
+        symbol [ currentSpeedKnots %tmp.26 223 22 39 ];
+        %tmp.26 = getv ? :currentSpeedKnots;
+        %tmp.27 = 1.94384;
+        %tmp.28 = div %tmp.26 %tmp.27;
+        lputv %speedMs.2 %tmp.28;
+        symbol [ speedMs %speedMs.2 223 12 19 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 225 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_225_8_227_8_if_stmt:
+        %tmp.29 = lgetv %speedMs.2;
+        symbol [ speedMs %tmp.29 225 12 19 ];
+        %tmp.30 = 0.5;
+        %tmp.31 = lt %tmp.29 %tmp.30;
+        bf %tmp.31 @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_225_8_227_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_225_8_227_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_225_27_227_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 226 12 ]
+        %tmp.32 = null;
+        ret %tmp.32;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_225_27_227_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_225_8_227_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_225_8_227_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 229 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_stop" ]
+        %timeToLineSeconds.3 = local;
+        symbol [ timeToLineSeconds %timeToLineSeconds.3 229 12 29 ];
+        %tmp.33 = lgetv %distMeters.1;
+        symbol [ distMeters %tmp.33 229 32 42 ];
+        %tmp.34 = lgetv %speedMs.2;
+        symbol [ speedMs %tmp.34 229 45 52 ];
+        %tmp.35 = div %tmp.33 %tmp.34;
+        lputv %timeToLineSeconds.3 %tmp.35;
+        symbol [ timeToLineSeconds %timeToLineSeconds.3 229 12 29 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc" 233 8 ]
+        symbol [ timeToGunSeconds %tmp.37 233 16 32 ];
+        %tmp.37 = getv ? :timeToGunSeconds;
+        %tmp.38 = lgetv %timeToLineSeconds.3;
+        symbol [ timeToLineSeconds %tmp.38 233 35 52 ];
+        %tmp.39 = sub %tmp.37 %tmp.38;
+        symbol [ toNumber %tmp.40 233 54 62 ];
+        %tmp.40 = getv function %tmp.39 :toNumber;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        ret %tmp.41;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_RaceState_mc_212_54_234_4_stop:
+    }
+}
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\RaceState.mc"; @line = 1; ]
+<init> {
+}
