@@ -35,6 +35,7 @@ class RaceState {
 1. **Distance to Line:** Calculated as the shortest (perpendicular) distance from a point (the watch) to a line segment (the start line defined by two GPS coordinates).
 2. **Favored End:** Determined by comparing the bearing of the starting line to the wind direction. Whichever end is further upwind is favored.
 3. **Wind via Tacking:** Calculated by taking the median heading on Port, the median heading on Starboard, and finding the bisecting angle.
+4. **Tack Angle:** The absolute difference between the true wind direction and the boat's heading while sailing upwind.
 
 ## User Interface (Button Mapping)
 The UI is a "Carousel" of 5 pages that the user navigates with the Up/Down buttons. The Start/Stop and Back buttons are contextual to the active page.

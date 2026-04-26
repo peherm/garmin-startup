@@ -124,6 +124,17 @@ class RaceState {
         }
     }
 
+    public function getTackAngle() as Number? {
+        if (windDirectionDegrees == null || starboardTackHeading == null) {
+            return null;
+        }
+        var diff = (windDirectionDegrees - starboardTackHeading).abs();
+        if (diff > 180) {
+            diff = 360 - diff;
+        }
+        return diff.toNumber();
+    }
+
     public function getDistanceToLineMeters() as Float? {
         if (pinEndLocation == null || boatEndLocation == null || currentPosition == null) {
             return null;

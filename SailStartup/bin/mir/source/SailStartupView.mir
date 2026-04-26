@@ -1117,7 +1117,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_88_
     }
     [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 122; @symbol_functiondef = [drawRacePage,122,13,25]; @symbol_param<0> = [dc,122,26,28]; @symbol_param<0>_type<0> = [Dc,122,32,34]; @symbol_param<1> = [width,122,36,41]; @symbol_param<1>_type<0> = [Number,122,45,51]; @symbol_param<2> = [height,122,53,59]; @symbol_param<2>_type<0> = [Number,122,63,69]; ]
     function drawRacePage(dc as Dc, width as Number, height as Number) as Void {
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 123 8 ]
         %tmp.1 = lgetv %dc;
         symbol [ dc %tmp.1 123 8 10 ];
@@ -1156,7 +1156,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122
         %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.7 %tmp.8(%tmp.11, %tmp.14, %tmp.16, %tmp.17, %tmp.19);
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 126 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop" ]
         %timeToGun.1 = local;
         symbol [ timeToGun %timeToGun.1 126 12 21 ];
         symbol [ _raceState %tmp.21 126 24 34 ];
@@ -1166,7 +1166,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122
         lputv %timeToGun.1 %tmp.22;
         symbol [ timeToGun %timeToGun.1 126 12 21 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 127 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop" ]
         %minutes.2 = local;
         symbol [ minutes %minutes.2 127 12 19 ];
         %tmp.23 = lgetv %timeToGun.1;
@@ -1176,7 +1176,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122
         lputv %minutes.2 %tmp.25;
         symbol [ minutes %minutes.2 127 12 19 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 128 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop" ]
         %seconds.3 = local;
         symbol [ seconds %seconds.3 128 12 19 ];
         %tmp.26 = lgetv %timeToGun.1;
@@ -1186,7 +1186,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122
         lputv %seconds.3 %tmp.28;
         symbol [ seconds %seconds.3 128 12 19 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 129 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop" ]
         %timerString.4 = local;
         symbol [ timerString %timerString.4 129 12 23 ];
         symbol [ Lang %tmp.29 129 26 30 ];
@@ -1249,7 +1249,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122
         %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.49 %tmp.50(%tmp.53, %tmp.56, %tmp.58, %tmp.59, %tmp.61);
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 134 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop" ]
         %dist.5 = local;
         symbol [ dist %dist.5 134 12 16 ];
         symbol [ _raceState %tmp.63 134 19 29 ];
@@ -1260,7 +1260,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122
         lputv %dist.5 %tmp.65;
         symbol [ dist %dist.5 134 12 16 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 135 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop" ]
         %distString.6 = local;
         symbol [ distString %distString.6 135 12 22 ];
 C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_135_25_135_67_begin:
@@ -1299,7 +1299,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_135
         %tmp.82 = div %tmp.80 %tmp.81;
         %tmp.83 = lgetv %height;
         symbol [ height %tmp.83 136 31 37 ];
-        %tmp.84 = 0.65;
+        %tmp.84 = 0.60;
         %tmp.85 = mul %tmp.83 %tmp.84;
         symbol [ Graphics %tmp.86 136 46 54 ];
         %tmp.86 = getm $.Toybox.Graphics;
@@ -1313,7 +1313,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_135
         %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.78 %tmp.79(%tmp.82, %tmp.85, %tmp.87, %tmp.88, %tmp.90);
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 138 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop" ]
         %timeToBurn.7 = local;
         symbol [ timeToBurn %timeToBurn.7 138 12 22 ];
         symbol [ _raceState %tmp.92 138 25 35 ];
@@ -1324,16 +1324,16 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_135
         lputv %timeToBurn.7 %tmp.94;
         symbol [ timeToBurn %timeToBurn.7 138 12 22 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 139 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_155_8_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_156_8_if_stmt:
         %tmp.95 = lgetv %timeToBurn.7;
         symbol [ timeToBurn %tmp.95 139 12 22 ];
         %tmp.96 = null;
         %tmp.97 = ne %tmp.95 %tmp.96;
-        bf %tmp.97 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_155_8_if_else_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_155_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_149_8_start:
+        bf %tmp.97 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_156_8_if_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_156_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_150_8_start:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 140 12 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_149_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_149_8_stop" ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_150_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_150_8_stop" ]
         %burnString.8 = local;
         symbol [ burnString %burnString.8 140 16 26 ];
         %tmp.98 = "";
@@ -1369,7 +1369,7 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_141
         symbol [ timeToBurn %tmp.110 143 40 50 ];
         %tmp.111 = as %tmp.110 { (!Null) };
         %tmp.112 = add %tmp.109 %tmp.111;
-        %tmp.113 = "s (Early)";
+        %tmp.113 = "s";
         %tmp.114 = add %tmp.112 %tmp.113;
         lputv %burnString.8 %tmp.114;
         symbol [ burnString %burnString.8 143 16 26 ];
@@ -1404,1112 +1404,1272 @@ C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_144
         symbol [ burnString %burnString.8 146 16 26 ];
 C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_144_19_147_12_stop:
 C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_141_12_147_12_if_end:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 148 12 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 149 12 ]
         %tmp.128 = lgetv %dc;
-        symbol [ dc %tmp.128 148 12 14 ];
-        symbol [ drawText %tmp.129 148 15 23 ];
+        symbol [ dc %tmp.128 149 12 14 ];
+        symbol [ drawText %tmp.129 149 15 23 ];
         %tmp.129 = getv function %tmp.128 :drawText;
         %tmp.130 = lgetv %width;
-        symbol [ width %tmp.130 148 24 29 ];
+        symbol [ width %tmp.130 149 24 29 ];
         %tmp.131 = 2;
         %tmp.132 = div %tmp.130 %tmp.131;
         %tmp.133 = lgetv %height;
-        symbol [ height %tmp.133 148 35 41 ];
-        %tmp.134 = 0.82;
+        symbol [ height %tmp.133 149 35 41 ];
+        %tmp.134 = 0.78;
         %tmp.135 = mul %tmp.133 %tmp.134;
-        symbol [ Graphics %tmp.136 148 50 58 ];
+        symbol [ Graphics %tmp.136 149 50 58 ];
         %tmp.136 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.137 148 59 69 ];
-        %tmp.137 = getv %tmp.136 :FONT_XTINY;
+        symbol [ FONT_MEDIUM %tmp.137 149 59 70 ];
+        %tmp.137 = getv %tmp.136 :FONT_MEDIUM;
         %tmp.138 = lgetv %burnString.8;
-        symbol [ burnString %tmp.138 148 71 81 ];
-        symbol [ Graphics %tmp.139 148 83 91 ];
+        symbol [ burnString %tmp.138 149 72 82 ];
+        symbol [ Graphics %tmp.139 149 84 92 ];
         %tmp.139 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.140 148 92 111 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.140 149 93 112 ];
         %tmp.140 = getv %tmp.139 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.128 %tmp.129(%tmp.132, %tmp.135, %tmp.137, %tmp.138, %tmp.140);
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_149_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_155_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_155_8_if_else_false:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_149_15_155_8_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 150 12 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_149_15_155_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_149_15_155_8_stop" ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_32_150_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_156_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_156_8_if_else_false:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_150_15_156_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 151 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_150_15_156_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_150_15_156_8_stop" ]
         %favored.9 = local;
-        symbol [ favored %favored.9 150 16 23 ];
-        symbol [ _raceState %tmp.142 150 26 36 ];
+        symbol [ favored %favored.9 151 16 23 ];
+        symbol [ _raceState %tmp.142 151 26 36 ];
         %tmp.142 = getv ? :_raceState;
-        symbol [ getFavoredEnd %tmp.143 150 37 50 ];
+        symbol [ getFavoredEnd %tmp.143 151 37 50 ];
         %tmp.143 = getv function %tmp.142 :getFavoredEnd;
         %tmp.144 = invoke %tmp.142 %tmp.143();
         lputv %favored.9 %tmp.144;
-        symbol [ favored %favored.9 150 16 23 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 151 12 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_151_12_154_12_if_stmt:
+        symbol [ favored %favored.9 151 16 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 152 12 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_152_12_155_12_if_stmt:
         %tmp.145 = lgetv %favored.9;
-        symbol [ favored %tmp.145 151 16 23 ];
+        symbol [ favored %tmp.145 152 16 23 ];
         %tmp.146 = null;
         %tmp.147 = ne %tmp.145 %tmp.146;
-        bf %tmp.147 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_151_12_154_12_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_151_12_154_12_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_151_33_154_12_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 152 16 ]
+        bf %tmp.147 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_152_12_155_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_152_12_155_12_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_152_33_155_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 153 16 ]
         %tmp.148 = lgetv %dc;
-        symbol [ dc %tmp.148 152 16 18 ];
-        symbol [ setColor %tmp.149 152 19 27 ];
+        symbol [ dc %tmp.148 153 16 18 ];
+        symbol [ setColor %tmp.149 153 19 27 ];
         %tmp.149 = getv function %tmp.148 :setColor;
-        symbol [ Graphics %tmp.150 152 28 36 ];
+        symbol [ Graphics %tmp.150 153 28 36 ];
         %tmp.150 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.151 152 37 49 ];
+        symbol [ COLOR_YELLOW %tmp.151 153 37 49 ];
         %tmp.151 = getv %tmp.150 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.152 152 51 59 ];
+        symbol [ Graphics %tmp.152 153 51 59 ];
         %tmp.152 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.153 152 60 77 ];
+        symbol [ COLOR_TRANSPARENT %tmp.153 153 60 77 ];
         %tmp.153 = getv %tmp.152 :COLOR_TRANSPARENT;
         invoke %tmp.148 %tmp.149(%tmp.151, %tmp.153);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 153 16 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 154 16 ]
         %tmp.154 = lgetv %dc;
-        symbol [ dc %tmp.154 153 16 18 ];
-        symbol [ drawText %tmp.155 153 19 27 ];
+        symbol [ dc %tmp.154 154 16 18 ];
+        symbol [ drawText %tmp.155 154 19 27 ];
         %tmp.155 = getv function %tmp.154 :drawText;
         %tmp.156 = lgetv %width;
-        symbol [ width %tmp.156 153 28 33 ];
+        symbol [ width %tmp.156 154 28 33 ];
         %tmp.157 = 2;
         %tmp.158 = div %tmp.156 %tmp.157;
         %tmp.159 = lgetv %height;
-        symbol [ height %tmp.159 153 39 45 ];
-        %tmp.160 = 0.82;
+        symbol [ height %tmp.159 154 39 45 ];
+        %tmp.160 = 0.80;
         %tmp.161 = mul %tmp.159 %tmp.160;
-        symbol [ Graphics %tmp.162 153 54 62 ];
+        symbol [ Graphics %tmp.162 154 54 62 ];
         %tmp.162 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.163 153 63 73 ];
+        symbol [ FONT_XTINY %tmp.163 154 63 73 ];
         %tmp.163 = getv %tmp.162 :FONT_XTINY;
         %tmp.164 = "Favored: ";
         %tmp.165 = lgetv %favored.9;
-        symbol [ favored %tmp.165 153 89 96 ];
+        symbol [ favored %tmp.165 154 89 96 ];
         %tmp.166 = as %tmp.165 { (!Null) };
         %tmp.167 = add %tmp.164 %tmp.166;
-        symbol [ Graphics %tmp.168 153 98 106 ];
+        symbol [ Graphics %tmp.168 154 98 106 ];
         %tmp.168 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.169 153 107 126 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.169 154 107 126 ];
         %tmp.169 = getv %tmp.168 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.154 %tmp.155(%tmp.158, %tmp.161, %tmp.163, %tmp.167, %tmp.169);
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_151_33_154_12_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_151_12_154_12_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_151_12_154_12_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_149_15_155_8_stop:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_155_8_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_156_4_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_152_33_155_12_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_152_12_155_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_152_12_155_12_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_150_15_156_8_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_139_8_156_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_122_79_157_4_stop:
     }
-    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 158; @symbol_functiondef = [drawWindPage,158,13,25]; @symbol_param<0> = [dc,158,26,28]; @symbol_param<0>_type<0> = [Dc,158,32,34]; @symbol_param<1> = [width,158,36,41]; @symbol_param<1>_type<0> = [Number,158,45,51]; @symbol_param<2> = [height,158,53,59]; @symbol_param<2>_type<0> = [Number,158,63,69]; ]
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 159; @symbol_functiondef = [drawWindPage,159,13,25]; @symbol_param<0> = [dc,159,26,28]; @symbol_param<0>_type<0> = [Dc,159,32,34]; @symbol_param<1> = [width,159,36,41]; @symbol_param<1>_type<0> = [Number,159,45,51]; @symbol_param<2> = [height,159,53,59]; @symbol_param<2>_type<0> = [Number,159,63,69]; ]
     function drawWindPage(dc as Dc, width as Number, height as Number) as Void {
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 159 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 160 8 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 159 8 10 ];
-        symbol [ setColor %tmp.2 159 11 19 ];
+        symbol [ dc %tmp.1 160 8 10 ];
+        symbol [ setColor %tmp.2 160 11 19 ];
         %tmp.2 = getv function %tmp.1 :setColor;
-        symbol [ Graphics %tmp.3 159 20 28 ];
+        symbol [ Graphics %tmp.3 160 20 28 ];
         %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_LT_GRAY %tmp.4 159 29 42 ];
+        symbol [ COLOR_LT_GRAY %tmp.4 160 29 42 ];
         %tmp.4 = getv %tmp.3 :COLOR_LT_GRAY;
-        symbol [ Graphics %tmp.5 159 44 52 ];
+        symbol [ Graphics %tmp.5 160 44 52 ];
         %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.6 159 53 70 ];
+        symbol [ COLOR_TRANSPARENT %tmp.6 160 53 70 ];
         %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 160 8 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 161 8 ]
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 160 8 10 ];
-        symbol [ drawText %tmp.8 160 11 19 ];
+        symbol [ dc %tmp.7 161 8 10 ];
+        symbol [ drawText %tmp.8 161 11 19 ];
         %tmp.8 = getv function %tmp.7 :drawText;
         %tmp.9 = lgetv %width;
-        symbol [ width %tmp.9 160 20 25 ];
+        symbol [ width %tmp.9 161 20 25 ];
         %tmp.10 = 2;
         %tmp.11 = div %tmp.9 %tmp.10;
         %tmp.12 = lgetv %height;
-        symbol [ height %tmp.12 160 31 37 ];
+        symbol [ height %tmp.12 161 31 37 ];
         %tmp.13 = 0.15;
         %tmp.14 = mul %tmp.12 %tmp.13;
-        symbol [ Graphics %tmp.15 160 46 54 ];
+        symbol [ Graphics %tmp.15 161 46 54 ];
         %tmp.15 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.16 160 55 66 ];
+        symbol [ FONT_MEDIUM %tmp.16 161 55 66 ];
         %tmp.16 = getv %tmp.15 :FONT_MEDIUM;
         %tmp.17 = "MANUAL WIND";
-        symbol [ Graphics %tmp.18 160 83 91 ];
+        symbol [ Graphics %tmp.18 161 83 91 ];
         %tmp.18 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.19 160 92 111 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.19 161 92 111 ];
         %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.7 %tmp.8(%tmp.11, %tmp.14, %tmp.16, %tmp.17, %tmp.19);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 162 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_stop" ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 163 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_stop" ]
         %wind.1 = local;
-        symbol [ wind %wind.1 162 12 16 ];
-        symbol [ _raceState %tmp.21 162 19 29 ];
+        symbol [ wind %wind.1 163 12 16 ];
+        symbol [ _raceState %tmp.21 163 19 29 ];
         %tmp.21 = getv ? :_raceState;
-        symbol [ windDirectionDegrees %tmp.22 162 30 50 ];
+        symbol [ windDirectionDegrees %tmp.22 163 30 50 ];
         %tmp.22 = getv %tmp.21 :windDirectionDegrees;
         lputv %wind.1 %tmp.22;
-        symbol [ wind %wind.1 162 12 16 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 163 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_stop" ]
+        symbol [ wind %wind.1 163 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 164 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_stop" ]
         %windString.2 = local;
-        symbol [ windString %windString.2 163 12 22 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_begin:
+        symbol [ windString %windString.2 164 12 22 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_begin:
         %tmp.23 = lgetv %wind.1;
-        symbol [ wind %tmp.23 163 25 29 ];
+        symbol [ wind %tmp.23 164 25 29 ];
         %tmp.24 = null;
         %tmp.25 = ne %tmp.23 %tmp.24;
-        bf %tmp.25 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_else_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_true:
+        bf %tmp.25 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_true:
         %tmp.26 = lgetv %wind.1;
-        symbol [ wind %tmp.26 163 40 44 ];
+        symbol [ wind %tmp.26 164 40 44 ];
         %tmp.27 = as %tmp.26 { (!Null) };
-        symbol [ format %tmp.28 163 45 51 ];
+        symbol [ format %tmp.28 164 45 51 ];
         %tmp.28 = getv function %tmp.27 :format;
         %tmp.29 = "%d";
         %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
         %tmp.31 = "°";
         %tmp.32 = add %tmp.30 %tmp.31;
         push %tmp.32;
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_else_false:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_else_false:
         %tmp.33 = "--";
         push %tmp.33;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_end:
-        %tmp.34 = phi [%tmp.25 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_begin] [%tmp.32 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_true] [%tmp.33 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_else_false] [%tmp.34 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_163_25_163_66_end];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_end:
+        %tmp.34 = phi [%tmp.25 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_begin] [%tmp.32 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_true] [%tmp.33 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_else_false] [%tmp.34 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_164_25_164_66_end];
         lputv %windString.2 %tmp.34;
-        symbol [ windString %windString.2 163 12 22 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 165 8 ]
+        symbol [ windString %windString.2 164 12 22 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 166 8 ]
         %tmp.35 = lgetv %dc;
-        symbol [ dc %tmp.35 165 8 10 ];
-        symbol [ setColor %tmp.36 165 11 19 ];
+        symbol [ dc %tmp.35 166 8 10 ];
+        symbol [ setColor %tmp.36 166 11 19 ];
         %tmp.36 = getv function %tmp.35 :setColor;
-        symbol [ Graphics %tmp.37 165 20 28 ];
+        symbol [ Graphics %tmp.37 166 20 28 ];
         %tmp.37 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.38 165 29 40 ];
+        symbol [ COLOR_WHITE %tmp.38 166 29 40 ];
         %tmp.38 = getv %tmp.37 :COLOR_WHITE;
-        symbol [ Graphics %tmp.39 165 42 50 ];
+        symbol [ Graphics %tmp.39 166 42 50 ];
         %tmp.39 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.40 165 51 68 ];
+        symbol [ COLOR_TRANSPARENT %tmp.40 166 51 68 ];
         %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
         invoke %tmp.35 %tmp.36(%tmp.38, %tmp.40);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 166 8 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 167 8 ]
         %tmp.41 = lgetv %dc;
-        symbol [ dc %tmp.41 166 8 10 ];
-        symbol [ drawText %tmp.42 166 11 19 ];
+        symbol [ dc %tmp.41 167 8 10 ];
+        symbol [ drawText %tmp.42 167 11 19 ];
         %tmp.42 = getv function %tmp.41 :drawText;
         %tmp.43 = lgetv %width;
-        symbol [ width %tmp.43 166 20 25 ];
+        symbol [ width %tmp.43 167 20 25 ];
         %tmp.44 = 2;
         %tmp.45 = div %tmp.43 %tmp.44;
         %tmp.46 = lgetv %height;
-        symbol [ height %tmp.46 166 31 37 ];
+        symbol [ height %tmp.46 167 31 37 ];
         %tmp.47 = 2;
         %tmp.48 = div %tmp.46 %tmp.47;
-        symbol [ Graphics %tmp.49 166 45 53 ];
+        symbol [ Graphics %tmp.49 167 45 53 ];
         %tmp.49 = getm $.Toybox.Graphics;
-        symbol [ getFontHeight %tmp.50 166 54 67 ];
+        symbol [ getFontHeight %tmp.50 167 54 67 ];
         %tmp.50 = getv function %tmp.49 :getFontHeight;
-        symbol [ Graphics %tmp.51 166 68 76 ];
+        symbol [ Graphics %tmp.51 167 68 76 ];
         %tmp.51 = getm $.Toybox.Graphics;
-        symbol [ FONT_NUMBER_HOT %tmp.52 166 77 92 ];
+        symbol [ FONT_NUMBER_HOT %tmp.52 167 77 92 ];
         %tmp.52 = getv %tmp.51 :FONT_NUMBER_HOT;
         %tmp.53 = invoke %tmp.49 %tmp.50(%tmp.52);
         %tmp.54 = 2;
         %tmp.55 = div %tmp.53 %tmp.54;
         %tmp.56 = sub %tmp.48 %tmp.55;
-        symbol [ Graphics %tmp.57 166 100 108 ];
+        symbol [ Graphics %tmp.57 167 100 108 ];
         %tmp.57 = getm $.Toybox.Graphics;
-        symbol [ FONT_NUMBER_HOT %tmp.58 166 109 124 ];
+        symbol [ FONT_NUMBER_HOT %tmp.58 167 109 124 ];
         %tmp.58 = getv %tmp.57 :FONT_NUMBER_HOT;
         %tmp.59 = lgetv %windString.2;
-        symbol [ windString %tmp.59 166 126 136 ];
-        symbol [ Graphics %tmp.60 166 138 146 ];
+        symbol [ windString %tmp.59 167 126 136 ];
+        symbol [ Graphics %tmp.60 167 138 146 ];
         %tmp.60 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.61 166 147 166 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.61 167 147 166 ];
         %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.41 %tmp.42(%tmp.45, %tmp.56, %tmp.58, %tmp.59, %tmp.61);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 169 8 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 170 8 ]
         %tmp.62 = lgetv %dc;
-        symbol [ dc %tmp.62 169 8 10 ];
-        symbol [ setColor %tmp.63 169 11 19 ];
+        symbol [ dc %tmp.62 170 8 10 ];
+        symbol [ setColor %tmp.63 170 11 19 ];
         %tmp.63 = getv function %tmp.62 :setColor;
-        symbol [ Graphics %tmp.64 169 20 28 ];
+        symbol [ Graphics %tmp.64 170 20 28 ];
         %tmp.64 = getm $.Toybox.Graphics;
-        symbol [ COLOR_LT_GRAY %tmp.65 169 29 42 ];
+        symbol [ COLOR_LT_GRAY %tmp.65 170 29 42 ];
         %tmp.65 = getv %tmp.64 :COLOR_LT_GRAY;
-        symbol [ Graphics %tmp.66 169 44 52 ];
+        symbol [ Graphics %tmp.66 170 44 52 ];
         %tmp.66 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.67 169 53 70 ];
+        symbol [ COLOR_TRANSPARENT %tmp.67 170 53 70 ];
         %tmp.67 = getv %tmp.66 :COLOR_TRANSPARENT;
         invoke %tmp.62 %tmp.63(%tmp.65, %tmp.67);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 170 8 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 171 8 ]
         %tmp.68 = lgetv %dc;
-        symbol [ dc %tmp.68 170 8 10 ];
-        symbol [ drawText %tmp.69 170 11 19 ];
+        symbol [ dc %tmp.68 171 8 10 ];
+        symbol [ drawText %tmp.69 171 11 19 ];
         %tmp.69 = getv function %tmp.68 :drawText;
         %tmp.70 = lgetv %width;
-        symbol [ width %tmp.70 170 21 26 ];
+        symbol [ width %tmp.70 171 21 26 ];
         %tmp.71 = 0.85;
         %tmp.72 = mul %tmp.70 %tmp.71;
-        symbol [ toNumber %tmp.73 170 35 43 ];
+        symbol [ toNumber %tmp.73 171 35 43 ];
         %tmp.73 = getv function %tmp.72 :toNumber;
         %tmp.74 = invoke %tmp.72 %tmp.73();
         %tmp.75 = lgetv %height;
-        symbol [ height %tmp.75 170 47 53 ];
+        symbol [ height %tmp.75 171 47 53 ];
         %tmp.76 = 0.35;
         %tmp.77 = mul %tmp.75 %tmp.76;
-        symbol [ Graphics %tmp.78 170 64 72 ];
+        symbol [ Graphics %tmp.78 171 64 72 ];
         %tmp.78 = getm $.Toybox.Graphics;
-        symbol [ getFontHeight %tmp.79 170 73 86 ];
+        symbol [ getFontHeight %tmp.79 171 73 86 ];
         %tmp.79 = getv function %tmp.78 :getFontHeight;
-        symbol [ Graphics %tmp.80 170 87 95 ];
+        symbol [ Graphics %tmp.80 171 87 95 ];
         %tmp.80 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.81 170 96 107 ];
+        symbol [ FONT_MEDIUM %tmp.81 171 96 107 ];
         %tmp.81 = getv %tmp.80 :FONT_MEDIUM;
         %tmp.82 = invoke %tmp.78 %tmp.79(%tmp.81);
         %tmp.83 = 2;
         %tmp.84 = div %tmp.82 %tmp.83;
         %tmp.85 = sub %tmp.77 %tmp.84;
-        symbol [ Graphics %tmp.86 170 115 123 ];
+        symbol [ Graphics %tmp.86 171 115 123 ];
         %tmp.86 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.87 170 124 135 ];
+        symbol [ FONT_MEDIUM %tmp.87 171 124 135 ];
         %tmp.87 = getv %tmp.86 :FONT_MEDIUM;
         %tmp.88 = "+";
-        symbol [ Graphics %tmp.89 170 142 150 ];
+        symbol [ Graphics %tmp.89 171 142 150 ];
         %tmp.89 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.90 170 151 169 ];
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.90 171 151 169 ];
         %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_RIGHT;
         invoke %tmp.68 %tmp.69(%tmp.74, %tmp.85, %tmp.87, %tmp.88, %tmp.90);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 171 8 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 172 8 ]
         %tmp.91 = lgetv %dc;
-        symbol [ dc %tmp.91 171 8 10 ];
-        symbol [ drawText %tmp.92 171 11 19 ];
+        symbol [ dc %tmp.91 172 8 10 ];
+        symbol [ drawText %tmp.92 172 11 19 ];
         %tmp.92 = getv function %tmp.91 :drawText;
         %tmp.93 = lgetv %width;
-        symbol [ width %tmp.93 171 21 26 ];
+        symbol [ width %tmp.93 172 21 26 ];
         %tmp.94 = 0.85;
         %tmp.95 = mul %tmp.93 %tmp.94;
-        symbol [ toNumber %tmp.96 171 35 43 ];
+        symbol [ toNumber %tmp.96 172 35 43 ];
         %tmp.96 = getv function %tmp.95 :toNumber;
         %tmp.97 = invoke %tmp.95 %tmp.96();
         %tmp.98 = lgetv %height;
-        symbol [ height %tmp.98 171 47 53 ];
+        symbol [ height %tmp.98 172 47 53 ];
         %tmp.99 = 0.65;
         %tmp.100 = mul %tmp.98 %tmp.99;
-        symbol [ Graphics %tmp.101 171 64 72 ];
+        symbol [ Graphics %tmp.101 172 64 72 ];
         %tmp.101 = getm $.Toybox.Graphics;
-        symbol [ getFontHeight %tmp.102 171 73 86 ];
+        symbol [ getFontHeight %tmp.102 172 73 86 ];
         %tmp.102 = getv function %tmp.101 :getFontHeight;
-        symbol [ Graphics %tmp.103 171 87 95 ];
+        symbol [ Graphics %tmp.103 172 87 95 ];
         %tmp.103 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.104 171 96 107 ];
+        symbol [ FONT_MEDIUM %tmp.104 172 96 107 ];
         %tmp.104 = getv %tmp.103 :FONT_MEDIUM;
         %tmp.105 = invoke %tmp.101 %tmp.102(%tmp.104);
         %tmp.106 = 2;
         %tmp.107 = div %tmp.105 %tmp.106;
         %tmp.108 = sub %tmp.100 %tmp.107;
-        symbol [ Graphics %tmp.109 171 115 123 ];
+        symbol [ Graphics %tmp.109 172 115 123 ];
         %tmp.109 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.110 171 124 135 ];
+        symbol [ FONT_MEDIUM %tmp.110 172 124 135 ];
         %tmp.110 = getv %tmp.109 :FONT_MEDIUM;
         %tmp.111 = "-";
-        symbol [ Graphics %tmp.112 171 142 150 ];
+        symbol [ Graphics %tmp.112 172 142 150 ];
         %tmp.112 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.113 171 151 169 ];
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.113 172 151 169 ];
         %tmp.113 = getv %tmp.112 :TEXT_JUSTIFY_RIGHT;
         invoke %tmp.91 %tmp.92(%tmp.97, %tmp.108, %tmp.110, %tmp.111, %tmp.113);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 174 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_stop" ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 175 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_stop" ]
         %stepString.3 = local;
-        symbol [ stepString %stepString.3 174 12 22 ];
+        symbol [ stepString %stepString.3 175 12 22 ];
         %tmp.114 = "Step: ";
-        symbol [ _raceState %tmp.116 174 36 46 ];
+        symbol [ _raceState %tmp.116 175 36 46 ];
         %tmp.116 = getv ? :_raceState;
-        symbol [ windIncrement %tmp.117 174 47 60 ];
+        symbol [ windIncrement %tmp.117 175 47 60 ];
         %tmp.117 = getv %tmp.116 :windIncrement;
         %tmp.118 = add %tmp.114 %tmp.117;
         %tmp.119 = "° (Hold UP)";
         %tmp.120 = add %tmp.118 %tmp.119;
         lputv %stepString.3 %tmp.120;
-        symbol [ stepString %stepString.3 174 12 22 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 175 8 ]
+        symbol [ stepString %stepString.3 175 12 22 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 176 8 ]
         %tmp.121 = lgetv %dc;
-        symbol [ dc %tmp.121 175 8 10 ];
-        symbol [ drawText %tmp.122 175 11 19 ];
+        symbol [ dc %tmp.121 176 8 10 ];
+        symbol [ drawText %tmp.122 176 11 19 ];
         %tmp.122 = getv function %tmp.121 :drawText;
         %tmp.123 = lgetv %width;
-        symbol [ width %tmp.123 175 20 25 ];
+        symbol [ width %tmp.123 176 20 25 ];
         %tmp.124 = 2;
         %tmp.125 = div %tmp.123 %tmp.124;
         %tmp.126 = lgetv %height;
-        symbol [ height %tmp.126 175 31 37 ];
+        symbol [ height %tmp.126 176 31 37 ];
         %tmp.127 = 0.75;
         %tmp.128 = mul %tmp.126 %tmp.127;
-        symbol [ Graphics %tmp.129 175 46 54 ];
+        symbol [ Graphics %tmp.129 176 46 54 ];
         %tmp.129 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.130 175 55 65 ];
+        symbol [ FONT_XTINY %tmp.130 176 55 65 ];
         %tmp.130 = getv %tmp.129 :FONT_XTINY;
         %tmp.131 = lgetv %stepString.3;
-        symbol [ stepString %tmp.131 175 67 77 ];
-        symbol [ Graphics %tmp.132 175 79 87 ];
+        symbol [ stepString %tmp.131 176 67 77 ];
+        symbol [ Graphics %tmp.132 176 79 87 ];
         %tmp.132 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.133 175 88 107 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.133 176 88 107 ];
         %tmp.133 = getv %tmp.132 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.121 %tmp.122(%tmp.125, %tmp.128, %tmp.130, %tmp.131, %tmp.133);
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_158_79_176_4_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_159_79_177_4_stop:
     }
-    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 178; @symbol_functiondef = [drawTacksPage,178,13,26]; @symbol_param<0> = [dc,178,27,29]; @symbol_param<0>_type<0> = [Dc,178,33,35]; @symbol_param<1> = [width,178,37,42]; @symbol_param<1>_type<0> = [Number,178,46,52]; @symbol_param<2> = [height,178,54,60]; @symbol_param<2>_type<0> = [Number,178,64,70]; ]
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 179; @symbol_functiondef = [drawTacksPage,179,13,26]; @symbol_param<0> = [dc,179,27,29]; @symbol_param<0>_type<0> = [Dc,179,33,35]; @symbol_param<1> = [width,179,37,42]; @symbol_param<1>_type<0> = [Number,179,46,52]; @symbol_param<2> = [height,179,54,60]; @symbol_param<2>_type<0> = [Number,179,64,70]; ]
     function drawTacksPage(dc as Dc, width as Number, height as Number) as Void {
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 179 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 180 8 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 179 8 10 ];
-        symbol [ setColor %tmp.2 179 11 19 ];
+        symbol [ dc %tmp.1 180 8 10 ];
+        symbol [ setColor %tmp.2 180 11 19 ];
         %tmp.2 = getv function %tmp.1 :setColor;
-        symbol [ Graphics %tmp.3 179 20 28 ];
+        symbol [ Graphics %tmp.3 180 20 28 ];
         %tmp.3 = getm $.Toybox.Graphics;
-        symbol [ COLOR_LT_GRAY %tmp.4 179 29 42 ];
+        symbol [ COLOR_LT_GRAY %tmp.4 180 29 42 ];
         %tmp.4 = getv %tmp.3 :COLOR_LT_GRAY;
-        symbol [ Graphics %tmp.5 179 44 52 ];
+        symbol [ Graphics %tmp.5 180 44 52 ];
         %tmp.5 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.6 179 53 70 ];
+        symbol [ COLOR_TRANSPARENT %tmp.6 180 53 70 ];
         %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 180 8 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 181 8 ]
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 180 8 10 ];
-        symbol [ drawText %tmp.8 180 11 19 ];
+        symbol [ dc %tmp.7 181 8 10 ];
+        symbol [ drawText %tmp.8 181 11 19 ];
         %tmp.8 = getv function %tmp.7 :drawText;
         %tmp.9 = lgetv %width;
-        symbol [ width %tmp.9 180 20 25 ];
+        symbol [ width %tmp.9 181 20 25 ];
         %tmp.10 = 2;
         %tmp.11 = div %tmp.9 %tmp.10;
         %tmp.12 = lgetv %height;
-        symbol [ height %tmp.12 180 31 37 ];
+        symbol [ height %tmp.12 181 31 37 ];
         %tmp.13 = 0.15;
         %tmp.14 = mul %tmp.12 %tmp.13;
-        symbol [ Graphics %tmp.15 180 46 54 ];
+        symbol [ Graphics %tmp.15 181 46 54 ];
         %tmp.15 = getm $.Toybox.Graphics;
-        symbol [ FONT_MEDIUM %tmp.16 180 55 66 ];
+        symbol [ FONT_MEDIUM %tmp.16 181 55 66 ];
         %tmp.16 = getv %tmp.15 :FONT_MEDIUM;
         %tmp.17 = "AUTO WIND";
-        symbol [ Graphics %tmp.18 180 81 89 ];
+        symbol [ Graphics %tmp.18 181 81 89 ];
         %tmp.18 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.19 180 90 109 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.19 181 90 109 ];
         %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.7 %tmp.8(%tmp.11, %tmp.14, %tmp.16, %tmp.17, %tmp.19);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 182 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %heading.1 = local;
-        symbol [ heading %heading.1 182 12 19 ];
-        symbol [ _raceState %tmp.21 182 22 32 ];
-        %tmp.21 = getv ? :_raceState;
-        symbol [ currentHeading %tmp.22 182 33 47 ];
-        %tmp.22 = getv %tmp.21 :currentHeading;
-        lputv %heading.1 %tmp.22;
-        symbol [ heading %heading.1 182 12 19 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 183 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %headingString.2 = local;
-        symbol [ headingString %headingString.2 183 12 25 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_begin:
-        %tmp.23 = lgetv %heading.1;
-        symbol [ heading %tmp.23 183 28 35 ];
-        %tmp.24 = null;
-        %tmp.25 = ne %tmp.23 %tmp.24;
-        bf %tmp.25 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_else_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_true:
-        %tmp.26 = lgetv %heading.1;
-        symbol [ heading %tmp.26 183 46 53 ];
-        %tmp.27 = as %tmp.26 { (!Null) };
-        symbol [ format %tmp.28 183 54 60 ];
-        %tmp.28 = getv function %tmp.27 :format;
-        %tmp.29 = "%d";
-        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
-        %tmp.31 = "°";
-        %tmp.32 = add %tmp.30 %tmp.31;
-        push %tmp.32;
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_else_false:
-        %tmp.33 = "--";
-        push %tmp.33;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_end:
-        %tmp.34 = phi [%tmp.25 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_begin] [%tmp.32 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_true] [%tmp.33 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_else_false] [%tmp.34 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_183_28_183_75_end];
-        lputv %headingString.2 %tmp.34;
-        symbol [ headingString %headingString.2 183 12 25 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 185 8 ]
-        %tmp.35 = lgetv %dc;
-        symbol [ dc %tmp.35 185 8 10 ];
-        symbol [ setColor %tmp.36 185 11 19 ];
-        %tmp.36 = getv function %tmp.35 :setColor;
-        symbol [ Graphics %tmp.37 185 20 28 ];
-        %tmp.37 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.38 185 29 40 ];
-        %tmp.38 = getv %tmp.37 :COLOR_WHITE;
-        symbol [ Graphics %tmp.39 185 42 50 ];
-        %tmp.39 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.40 185 51 68 ];
-        %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
-        invoke %tmp.35 %tmp.36(%tmp.38, %tmp.40);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 186 8 ]
-        %tmp.41 = lgetv %dc;
-        symbol [ dc %tmp.41 186 8 10 ];
-        symbol [ drawText %tmp.42 186 11 19 ];
-        %tmp.42 = getv function %tmp.41 :drawText;
-        %tmp.43 = lgetv %width;
-        symbol [ width %tmp.43 186 20 25 ];
-        %tmp.44 = 2;
-        %tmp.45 = div %tmp.43 %tmp.44;
-        %tmp.46 = lgetv %height;
-        symbol [ height %tmp.46 186 31 37 ];
-        %tmp.47 = 2;
-        %tmp.48 = div %tmp.46 %tmp.47;
-        symbol [ Graphics %tmp.49 186 45 53 ];
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %tackAngle.1 = local;
+        symbol [ tackAngle %tackAngle.1 183 12 21 ];
+        symbol [ _raceState %tmp.21 183 24 34 ];
+        %tmp.21 = getv ? :_raceState;
+        symbol [ getTackAngle %tmp.22 183 35 47 ];
+        %tmp.22 = getv function %tmp.21 :getTackAngle;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        lputv %tackAngle.1 %tmp.23;
+        symbol [ tackAngle %tackAngle.1 183 12 21 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 184 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_8_200_8_if_stmt:
+        %tmp.24 = lgetv %tackAngle.1;
+        symbol [ tackAngle %tmp.24 184 12 21 ];
+        %tmp.25 = null;
+        %tmp.26 = ne %tmp.24 %tmp.25;
+        bf %tmp.26 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_8_200_8_if_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_8_200_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_31_194_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 186 12 ]
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 186 12 14 ];
+        symbol [ setColor %tmp.28 186 15 23 ];
+        %tmp.28 = getv function %tmp.27 :setColor;
+        symbol [ Graphics %tmp.29 186 24 32 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.30 186 33 44 ];
+        %tmp.30 = getv %tmp.29 :COLOR_WHITE;
+        symbol [ Graphics %tmp.31 186 46 54 ];
+        %tmp.31 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.32 186 55 72 ];
+        %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
+        invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 187 12 ]
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 187 12 14 ];
+        symbol [ drawText %tmp.34 187 15 23 ];
+        %tmp.34 = getv function %tmp.33 :drawText;
+        %tmp.35 = lgetv %width;
+        symbol [ width %tmp.35 187 24 29 ];
+        %tmp.36 = 2;
+        %tmp.37 = div %tmp.35 %tmp.36;
+        %tmp.38 = lgetv %height;
+        symbol [ height %tmp.38 187 35 41 ];
+        %tmp.39 = 2;
+        %tmp.40 = div %tmp.38 %tmp.39;
+        symbol [ Graphics %tmp.41 187 49 57 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ getFontHeight %tmp.42 187 58 71 ];
+        %tmp.42 = getv function %tmp.41 :getFontHeight;
+        symbol [ Graphics %tmp.43 187 72 80 ];
+        %tmp.43 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.44 187 81 91 ];
+        %tmp.44 = getv %tmp.43 :FONT_LARGE;
+        %tmp.45 = invoke %tmp.41 %tmp.42(%tmp.44);
+        %tmp.46 = 2;
+        %tmp.47 = div %tmp.45 %tmp.46;
+        %tmp.48 = sub %tmp.40 %tmp.47;
+        symbol [ Graphics %tmp.49 187 99 107 ];
         %tmp.49 = getm $.Toybox.Graphics;
-        symbol [ getFontHeight %tmp.50 186 54 67 ];
-        %tmp.50 = getv function %tmp.49 :getFontHeight;
-        symbol [ Graphics %tmp.51 186 68 76 ];
-        %tmp.51 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.52 186 77 87 ];
-        %tmp.52 = getv %tmp.51 :FONT_LARGE;
-        %tmp.53 = invoke %tmp.49 %tmp.50(%tmp.52);
-        %tmp.54 = 2;
-        %tmp.55 = div %tmp.53 %tmp.54;
-        %tmp.56 = sub %tmp.48 %tmp.55;
-        symbol [ Graphics %tmp.57 186 95 103 ];
+        symbol [ FONT_LARGE %tmp.50 187 108 118 ];
+        %tmp.50 = getv %tmp.49 :FONT_LARGE;
+        %tmp.51 = "Tack: ";
+        %tmp.52 = lgetv %tackAngle.1;
+        symbol [ tackAngle %tmp.52 187 131 140 ];
+        %tmp.53 = as %tmp.52 { (!Null) };
+        %tmp.54 = add %tmp.51 %tmp.53;
+        %tmp.55 = "°";
+        %tmp.56 = add %tmp.54 %tmp.55;
+        symbol [ Graphics %tmp.57 187 148 156 ];
         %tmp.57 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.58 186 104 114 ];
-        %tmp.58 = getv %tmp.57 :FONT_LARGE;
-        %tmp.59 = "Hdg: ";
-        %tmp.60 = lgetv %headingString.2;
-        symbol [ headingString %tmp.60 186 126 139 ];
-        %tmp.61 = add %tmp.59 %tmp.60;
-        symbol [ Graphics %tmp.62 186 141 149 ];
-        %tmp.62 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.63 186 150 169 ];
-        %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.41 %tmp.42(%tmp.45, %tmp.56, %tmp.58, %tmp.61, %tmp.63);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 189 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %stbY.3 = local;
-        symbol [ stbY %stbY.3 189 12 16 ];
-        %tmp.64 = lgetv %height;
-        symbol [ height %tmp.64 189 19 25 ];
-        %tmp.65 = 0.35;
-        %tmp.66 = mul %tmp.64 %tmp.65;
-        lputv %stbY.3 %tmp.66;
-        symbol [ stbY %stbY.3 189 12 16 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 190 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %stbdColor.4 = local;
-        symbol [ stbdColor %stbdColor.4 190 12 21 ];
-        symbol [ Graphics %tmp.67 190 24 32 ];
-        %tmp.67 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.68 190 33 46 ];
-        %tmp.68 = getv %tmp.67 :COLOR_DK_GRAY;
-        lputv %stbdColor.4 %tmp.68;
-        symbol [ stbdColor %stbdColor.4 190 12 21 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 191 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_8_198_8_if_stmt:
-        symbol [ _raceState %tmp.70 191 12 22 ];
-        %tmp.70 = getv ? :_raceState;
-        symbol [ isRecordingStarboard %tmp.71 191 23 43 ];
-        %tmp.71 = getv %tmp.70 :isRecordingStarboard;
-        bf %tmp.71 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_8_198_8_if_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_8_198_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_45_196_8_start:
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.58 187 157 176 ];
+        %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.33 %tmp.34(%tmp.37, %tmp.48, %tmp.50, %tmp.56, %tmp.58);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 190 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_31_194_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_31_194_8_stop" ]
+        %heading.2 = local;
+        symbol [ heading %heading.2 190 16 23 ];
+        symbol [ _raceState %tmp.60 190 26 36 ];
+        %tmp.60 = getv ? :_raceState;
+        symbol [ currentHeading %tmp.61 190 37 51 ];
+        %tmp.61 = getv %tmp.60 :currentHeading;
+        lputv %heading.2 %tmp.61;
+        symbol [ heading %heading.2 190 16 23 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 191 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_31_194_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_31_194_8_stop" ]
+        %headingString.3 = local;
+        symbol [ headingString %headingString.3 191 16 29 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_begin:
+        %tmp.62 = lgetv %heading.2;
+        symbol [ heading %tmp.62 191 32 39 ];
+        %tmp.63 = null;
+        %tmp.64 = ne %tmp.62 %tmp.63;
+        bf %tmp.64 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_true:
+        %tmp.65 = lgetv %heading.2;
+        symbol [ heading %tmp.65 191 50 57 ];
+        %tmp.66 = as %tmp.65 { (!Null) };
+        symbol [ format %tmp.67 191 58 64 ];
+        %tmp.67 = getv function %tmp.66 :format;
+        %tmp.68 = "%d";
+        %tmp.69 = invoke %tmp.66 %tmp.67(%tmp.68);
+        %tmp.70 = "°";
+        %tmp.71 = add %tmp.69 %tmp.70;
+        push %tmp.71;
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_else_false:
+        %tmp.72 = "--";
+        push %tmp.72;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_end:
+        %tmp.73 = phi [%tmp.64 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_begin] [%tmp.71 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_true] [%tmp.72 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_else_false] [%tmp.73 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_32_191_79_end];
+        lputv %headingString.3 %tmp.73;
+        symbol [ headingString %headingString.3 191 16 29 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 192 12 ]
+        %tmp.74 = lgetv %dc;
+        symbol [ dc %tmp.74 192 12 14 ];
+        symbol [ setColor %tmp.75 192 15 23 ];
+        %tmp.75 = getv function %tmp.74 :setColor;
+        symbol [ Graphics %tmp.76 192 24 32 ];
+        %tmp.76 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.77 192 33 46 ];
+        %tmp.77 = getv %tmp.76 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.78 192 48 56 ];
+        %tmp.78 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.79 192 57 74 ];
+        %tmp.79 = getv %tmp.78 :COLOR_TRANSPARENT;
+        invoke %tmp.74 %tmp.75(%tmp.77, %tmp.79);
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 193 12 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_193_12_195_12_if_stmt:
-        symbol [ System %tmp.73 193 17 23 ];
-        %tmp.73 = getv ? :System;
-        symbol [ getTimer %tmp.74 193 24 32 ];
-        %tmp.74 = getv function %tmp.73 :getTimer;
-        %tmp.75 = invoke %tmp.73 %tmp.74();
-        %tmp.76 = 500;
-        %tmp.77 = div %tmp.75 %tmp.76;
-        %tmp.78 = 2;
-        %tmp.79 = mod %tmp.77 %tmp.78;
-        %tmp.80 = 0;
-        %tmp.81 = eq %tmp.79 %tmp.80;
-        bf %tmp.81 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_193_12_195_12_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_193_12_195_12_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_193_52_195_12_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 194 16 ]
-        symbol [ Graphics %tmp.82 194 28 36 ];
-        %tmp.82 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.83 194 37 48 ];
-        %tmp.83 = getv %tmp.82 :COLOR_GREEN;
-        lputv %stbdColor.4 %tmp.83;
-        symbol [ stbdColor %stbdColor.4 194 16 25 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_193_52_195_12_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_193_12_195_12_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_193_12_195_12_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_45_196_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_8_198_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_8_198_8_if_false:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 196 15 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_196_15_198_8_if_stmt:
-        symbol [ _raceState %tmp.85 196 19 29 ];
-        %tmp.85 = getv ? :_raceState;
-        symbol [ starboardTackHeading %tmp.86 196 30 50 ];
-        %tmp.86 = getv %tmp.85 :starboardTackHeading;
-        %tmp.87 = null;
-        %tmp.88 = ne %tmp.86 %tmp.87;
-        bf %tmp.88 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_196_15_198_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_196_15_198_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_196_60_198_8_start:
+        %tmp.80 = lgetv %dc;
+        symbol [ dc %tmp.80 193 12 14 ];
+        symbol [ drawText %tmp.81 193 15 23 ];
+        %tmp.81 = getv function %tmp.80 :drawText;
+        %tmp.82 = lgetv %width;
+        symbol [ width %tmp.82 193 24 29 ];
+        %tmp.83 = 2;
+        %tmp.84 = div %tmp.82 %tmp.83;
+        %tmp.85 = lgetv %height;
+        symbol [ height %tmp.85 193 35 41 ];
+        %tmp.86 = 0.70;
+        %tmp.87 = mul %tmp.85 %tmp.86;
+        symbol [ Graphics %tmp.88 193 50 58 ];
+        %tmp.88 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.89 193 59 69 ];
+        %tmp.89 = getv %tmp.88 :FONT_XTINY;
+        %tmp.90 = "Hdg: ";
+        %tmp.91 = lgetv %headingString.3;
+        symbol [ headingString %tmp.91 193 81 94 ];
+        %tmp.92 = add %tmp.90 %tmp.91;
+        symbol [ Graphics %tmp.93 193 96 104 ];
+        %tmp.93 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.94 193 105 124 ];
+        %tmp.94 = getv %tmp.93 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.80 %tmp.81(%tmp.84, %tmp.87, %tmp.89, %tmp.92, %tmp.94);
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_31_194_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_8_200_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_8_200_8_if_else_false:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_194_15_200_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 196 12 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_194_15_200_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_194_15_200_8_stop" ]
+        %heading.4 = local;
+        symbol [ heading %heading.4 196 16 23 ];
+        symbol [ _raceState %tmp.96 196 26 36 ];
+        %tmp.96 = getv ? :_raceState;
+        symbol [ currentHeading %tmp.97 196 37 51 ];
+        %tmp.97 = getv %tmp.96 :currentHeading;
+        lputv %heading.4 %tmp.97;
+        symbol [ heading %heading.4 196 16 23 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 197 12 ]
-        symbol [ Graphics %tmp.89 197 24 32 ];
-        %tmp.89 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.90 197 33 44 ];
-        %tmp.90 = getv %tmp.89 :COLOR_GREEN;
-        lputv %stbdColor.4 %tmp.90;
-        symbol [ stbdColor %stbdColor.4 197 12 21 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_196_60_198_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_196_15_198_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_196_15_198_8_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_191_8_198_8_if_end:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 199 8 ]
-        %tmp.91 = lgetv %dc;
-        symbol [ dc %tmp.91 199 8 10 ];
-        symbol [ setColor %tmp.92 199 11 19 ];
-        %tmp.92 = getv function %tmp.91 :setColor;
-        %tmp.93 = lgetv %stbdColor.4;
-        symbol [ stbdColor %tmp.93 199 20 29 ];
-        symbol [ Graphics %tmp.94 199 31 39 ];
-        %tmp.94 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.95 199 40 57 ];
-        %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
-        invoke %tmp.91 %tmp.92(%tmp.93, %tmp.95);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 200 8 ]
-        %tmp.96 = lgetv %dc;
-        symbol [ dc %tmp.96 200 8 10 ];
-        symbol [ fillCircle %tmp.97 200 11 21 ];
-        %tmp.97 = getv function %tmp.96 :fillCircle;
-        %tmp.98 = lgetv %width;
-        symbol [ width %tmp.98 200 23 28 ];
-        %tmp.99 = 0.85;
-        %tmp.100 = mul %tmp.98 %tmp.99;
-        symbol [ toNumber %tmp.101 200 37 45 ];
-        %tmp.101 = getv function %tmp.100 :toNumber;
-        %tmp.102 = invoke %tmp.100 %tmp.101();
-        %tmp.103 = lgetv %stbY.3;
-        symbol [ stbY %tmp.103 200 49 53 ];
-        symbol [ toNumber %tmp.104 200 54 62 ];
-        %tmp.104 = getv function %tmp.103 :toNumber;
-        %tmp.105 = invoke %tmp.103 %tmp.104();
-        %tmp.106 = 8;
-        invoke %tmp.96 %tmp.97(%tmp.102, %tmp.105, %tmp.106);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 201 8 ]
-        %tmp.107 = lgetv %dc;
-        symbol [ dc %tmp.107 201 8 10 ];
-        symbol [ setColor %tmp.108 201 11 19 ];
-        %tmp.108 = getv function %tmp.107 :setColor;
-        symbol [ Graphics %tmp.109 201 20 28 ];
-        %tmp.109 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.110 201 29 40 ];
-        %tmp.110 = getv %tmp.109 :COLOR_WHITE;
-        symbol [ Graphics %tmp.111 201 42 50 ];
-        %tmp.111 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.112 201 51 68 ];
-        %tmp.112 = getv %tmp.111 :COLOR_TRANSPARENT;
-        invoke %tmp.107 %tmp.108(%tmp.110, %tmp.112);
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_194_15_200_8_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_194_15_200_8_stop" ]
+        %headingString.5 = local;
+        symbol [ headingString %headingString.5 197 16 29 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_begin:
+        %tmp.98 = lgetv %heading.4;
+        symbol [ heading %tmp.98 197 32 39 ];
+        %tmp.99 = null;
+        %tmp.100 = ne %tmp.98 %tmp.99;
+        bf %tmp.100 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_true:
+        %tmp.101 = lgetv %heading.4;
+        symbol [ heading %tmp.101 197 50 57 ];
+        %tmp.102 = as %tmp.101 { (!Null) };
+        symbol [ format %tmp.103 197 58 64 ];
+        %tmp.103 = getv function %tmp.102 :format;
+        %tmp.104 = "%d";
+        %tmp.105 = invoke %tmp.102 %tmp.103(%tmp.104);
+        %tmp.106 = "°";
+        %tmp.107 = add %tmp.105 %tmp.106;
+        push %tmp.107;
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_else_false:
+        %tmp.108 = "--";
+        push %tmp.108;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_end:
+        %tmp.109 = phi [%tmp.100 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_begin] [%tmp.107 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_true] [%tmp.108 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_else_false] [%tmp.109 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_197_32_197_79_end];
+        lputv %headingString.5 %tmp.109;
+        symbol [ headingString %headingString.5 197 16 29 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 198 12 ]
+        %tmp.110 = lgetv %dc;
+        symbol [ dc %tmp.110 198 12 14 ];
+        symbol [ setColor %tmp.111 198 15 23 ];
+        %tmp.111 = getv function %tmp.110 :setColor;
+        symbol [ Graphics %tmp.112 198 24 32 ];
+        %tmp.112 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.113 198 33 44 ];
+        %tmp.113 = getv %tmp.112 :COLOR_WHITE;
+        symbol [ Graphics %tmp.114 198 46 54 ];
+        %tmp.114 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.115 198 55 72 ];
+        %tmp.115 = getv %tmp.114 :COLOR_TRANSPARENT;
+        invoke %tmp.110 %tmp.111(%tmp.113, %tmp.115);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 199 12 ]
+        %tmp.116 = lgetv %dc;
+        symbol [ dc %tmp.116 199 12 14 ];
+        symbol [ drawText %tmp.117 199 15 23 ];
+        %tmp.117 = getv function %tmp.116 :drawText;
+        %tmp.118 = lgetv %width;
+        symbol [ width %tmp.118 199 24 29 ];
+        %tmp.119 = 2;
+        %tmp.120 = div %tmp.118 %tmp.119;
+        %tmp.121 = lgetv %height;
+        symbol [ height %tmp.121 199 35 41 ];
+        %tmp.122 = 2;
+        %tmp.123 = div %tmp.121 %tmp.122;
+        symbol [ Graphics %tmp.124 199 49 57 ];
+        %tmp.124 = getm $.Toybox.Graphics;
+        symbol [ getFontHeight %tmp.125 199 58 71 ];
+        %tmp.125 = getv function %tmp.124 :getFontHeight;
+        symbol [ Graphics %tmp.126 199 72 80 ];
+        %tmp.126 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.127 199 81 91 ];
+        %tmp.127 = getv %tmp.126 :FONT_LARGE;
+        %tmp.128 = invoke %tmp.124 %tmp.125(%tmp.127);
+        %tmp.129 = 2;
+        %tmp.130 = div %tmp.128 %tmp.129;
+        %tmp.131 = sub %tmp.123 %tmp.130;
+        symbol [ Graphics %tmp.132 199 99 107 ];
+        %tmp.132 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.133 199 108 118 ];
+        %tmp.133 = getv %tmp.132 :FONT_LARGE;
+        %tmp.134 = "Hdg: ";
+        %tmp.135 = lgetv %headingString.5;
+        symbol [ headingString %tmp.135 199 130 143 ];
+        %tmp.136 = add %tmp.134 %tmp.135;
+        symbol [ Graphics %tmp.137 199 145 153 ];
+        %tmp.137 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.138 199 154 173 ];
+        %tmp.138 = getv %tmp.137 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.116 %tmp.117(%tmp.120, %tmp.131, %tmp.133, %tmp.136, %tmp.138);
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_194_15_200_8_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_184_8_200_8_if_end:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 203 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %stbdText.5 = local;
-        symbol [ stbdText %stbdText.5 203 12 20 ];
-        %tmp.113 = "STBD";
-        lputv %stbdText.5 %tmp.113;
-        symbol [ stbdText %stbdText.5 203 12 20 ];
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %stbY.6 = local;
+        symbol [ stbY %stbY.6 203 12 16 ];
+        %tmp.139 = lgetv %height;
+        symbol [ height %tmp.139 203 19 25 ];
+        %tmp.140 = 0.35;
+        %tmp.141 = mul %tmp.139 %tmp.140;
+        lputv %stbY.6 %tmp.141;
+        symbol [ stbY %stbY.6 203 12 16 ];
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 204 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_8_208_8_if_stmt:
-        symbol [ _raceState %tmp.115 204 12 22 ];
-        %tmp.115 = getv ? :_raceState;
-        symbol [ isRecordingStarboard %tmp.116 204 23 43 ];
-        %tmp.116 = getv %tmp.115 :isRecordingStarboard;
-        bf %tmp.116 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_8_208_8_if_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_8_208_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_45_206_8_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 205 12 ]
-        %tmp.117 = "REC";
-        lputv %stbdText.5 %tmp.117;
-        symbol [ stbdText %stbdText.5 205 12 20 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_45_206_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_8_208_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_8_208_8_if_false:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 206 15 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_206_15_208_8_if_stmt:
-        symbol [ _raceState %tmp.119 206 19 29 ];
-        %tmp.119 = getv ? :_raceState;
-        symbol [ starboardTackHeading %tmp.120 206 30 50 ];
-        %tmp.120 = getv %tmp.119 :starboardTackHeading;
-        %tmp.121 = null;
-        %tmp.122 = ne %tmp.120 %tmp.121;
-        bf %tmp.122 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_206_15_208_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_206_15_208_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_206_60_208_8_start:
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %stbdColor.7 = local;
+        symbol [ stbdColor %stbdColor.7 204 12 21 ];
+        symbol [ Graphics %tmp.142 204 24 32 ];
+        %tmp.142 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.143 204 33 46 ];
+        %tmp.143 = getv %tmp.142 :COLOR_DK_GRAY;
+        lputv %stbdColor.7 %tmp.143;
+        symbol [ stbdColor %stbdColor.7 204 12 21 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 205 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_8_212_8_if_stmt:
+        symbol [ _raceState %tmp.145 205 12 22 ];
+        %tmp.145 = getv ? :_raceState;
+        symbol [ isRecordingStarboard %tmp.146 205 23 43 ];
+        %tmp.146 = getv %tmp.145 :isRecordingStarboard;
+        bf %tmp.146 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_8_212_8_if_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_8_212_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_45_210_8_start:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 207 12 ]
-        %tmp.123 = "STBD (";
-        symbol [ _raceState %tmp.125 207 34 44 ];
-        %tmp.125 = getv ? :_raceState;
-        symbol [ starboardTackHeading %tmp.126 207 45 65 ];
-        %tmp.126 = getv %tmp.125 :starboardTackHeading;
-        symbol [ format %tmp.127 207 66 72 ];
-        %tmp.127 = getv function %tmp.126 :format;
-        %tmp.128 = "%d";
-        %tmp.129 = invoke %tmp.126 %tmp.127(%tmp.128);
-        %tmp.130 = add %tmp.123 %tmp.129;
-        %tmp.131 = "°)";
-        %tmp.132 = add %tmp.130 %tmp.131;
-        lputv %stbdText.5 %tmp.132;
-        symbol [ stbdText %stbdText.5 207 12 20 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_206_60_208_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_206_15_208_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_206_15_208_8_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_204_8_208_8_if_end:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 209 8 ]
-        %tmp.133 = lgetv %dc;
-        symbol [ dc %tmp.133 209 8 10 ];
-        symbol [ drawText %tmp.134 209 11 19 ];
-        %tmp.134 = getv function %tmp.133 :drawText;
-        %tmp.135 = lgetv %width;
-        symbol [ width %tmp.135 209 21 26 ];
-        %tmp.136 = 0.85;
-        %tmp.137 = mul %tmp.135 %tmp.136;
-        symbol [ toNumber %tmp.138 209 35 43 ];
-        %tmp.138 = getv function %tmp.137 :toNumber;
-        %tmp.139 = invoke %tmp.137 %tmp.138();
-        %tmp.140 = 15;
-        %tmp.141 = sub %tmp.139 %tmp.140;
-        %tmp.142 = lgetv %stbY.3;
-        symbol [ stbY %tmp.142 209 52 56 ];
-        symbol [ toNumber %tmp.143 209 57 65 ];
-        %tmp.143 = getv function %tmp.142 :toNumber;
-        %tmp.144 = invoke %tmp.142 %tmp.143();
-        symbol [ Graphics %tmp.145 209 71 79 ];
-        %tmp.145 = getm $.Toybox.Graphics;
-        symbol [ getFontHeight %tmp.146 209 80 93 ];
-        %tmp.146 = getv function %tmp.145 :getFontHeight;
-        symbol [ Graphics %tmp.147 209 94 102 ];
-        %tmp.147 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.148 209 103 113 ];
-        %tmp.148 = getv %tmp.147 :FONT_XTINY;
-        %tmp.149 = invoke %tmp.145 %tmp.146(%tmp.148);
-        %tmp.150 = 2;
-        %tmp.151 = div %tmp.149 %tmp.150;
-        %tmp.152 = sub %tmp.144 %tmp.151;
-        symbol [ Graphics %tmp.153 209 121 129 ];
-        %tmp.153 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.154 209 130 140 ];
-        %tmp.154 = getv %tmp.153 :FONT_XTINY;
-        %tmp.155 = lgetv %stbdText.5;
-        symbol [ stbdText %tmp.155 209 142 150 ];
-        symbol [ Graphics %tmp.156 209 152 160 ];
-        %tmp.156 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.157 209 161 179 ];
-        %tmp.157 = getv %tmp.156 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.133 %tmp.134(%tmp.141, %tmp.152, %tmp.154, %tmp.155, %tmp.157);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 212 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %portY.6 = local;
-        symbol [ portY %portY.6 212 12 17 ];
-        %tmp.158 = lgetv %height;
-        symbol [ height %tmp.158 212 20 26 ];
-        %tmp.159 = 0.65;
-        %tmp.160 = mul %tmp.158 %tmp.159;
-        lputv %portY.6 %tmp.160;
-        symbol [ portY %portY.6 212 12 17 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_207_12_209_12_if_stmt:
+        symbol [ System %tmp.148 207 17 23 ];
+        %tmp.148 = getv ? :System;
+        symbol [ getTimer %tmp.149 207 24 32 ];
+        %tmp.149 = getv function %tmp.148 :getTimer;
+        %tmp.150 = invoke %tmp.148 %tmp.149();
+        %tmp.151 = 500;
+        %tmp.152 = div %tmp.150 %tmp.151;
+        %tmp.153 = 2;
+        %tmp.154 = mod %tmp.152 %tmp.153;
+        %tmp.155 = 0;
+        %tmp.156 = eq %tmp.154 %tmp.155;
+        bf %tmp.156 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_207_12_209_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_207_12_209_12_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_207_52_209_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 208 16 ]
+        symbol [ Graphics %tmp.157 208 28 36 ];
+        %tmp.157 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.158 208 37 48 ];
+        %tmp.158 = getv %tmp.157 :COLOR_GREEN;
+        lputv %stbdColor.7 %tmp.158;
+        symbol [ stbdColor %stbdColor.7 208 16 25 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_207_52_209_12_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_207_12_209_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_207_12_209_12_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_45_210_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_8_212_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_8_212_8_if_false:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 210 15 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_210_15_212_8_if_stmt:
+        symbol [ _raceState %tmp.160 210 19 29 ];
+        %tmp.160 = getv ? :_raceState;
+        symbol [ starboardTackHeading %tmp.161 210 30 50 ];
+        %tmp.161 = getv %tmp.160 :starboardTackHeading;
+        %tmp.162 = null;
+        %tmp.163 = ne %tmp.161 %tmp.162;
+        bf %tmp.163 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_210_15_212_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_210_15_212_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_210_60_212_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 211 12 ]
+        symbol [ Graphics %tmp.164 211 24 32 ];
+        %tmp.164 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.165 211 33 44 ];
+        %tmp.165 = getv %tmp.164 :COLOR_GREEN;
+        lputv %stbdColor.7 %tmp.165;
+        symbol [ stbdColor %stbdColor.7 211 12 21 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_210_60_212_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_210_15_212_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_210_15_212_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_205_8_212_8_if_end:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 213 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %portColor.7 = local;
-        symbol [ portColor %portColor.7 213 12 21 ];
-        symbol [ Graphics %tmp.161 213 24 32 ];
-        %tmp.161 = getm $.Toybox.Graphics;
-        symbol [ COLOR_DK_GRAY %tmp.162 213 33 46 ];
-        %tmp.162 = getv %tmp.161 :COLOR_DK_GRAY;
-        lputv %portColor.7 %tmp.162;
-        symbol [ portColor %portColor.7 213 12 21 ];
+        %tmp.166 = lgetv %dc;
+        symbol [ dc %tmp.166 213 8 10 ];
+        symbol [ setColor %tmp.167 213 11 19 ];
+        %tmp.167 = getv function %tmp.166 :setColor;
+        %tmp.168 = lgetv %stbdColor.7;
+        symbol [ stbdColor %tmp.168 213 20 29 ];
+        symbol [ Graphics %tmp.169 213 31 39 ];
+        %tmp.169 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.170 213 40 57 ];
+        %tmp.170 = getv %tmp.169 :COLOR_TRANSPARENT;
+        invoke %tmp.166 %tmp.167(%tmp.168, %tmp.170);
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 214 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_8_220_8_if_stmt:
-        symbol [ _raceState %tmp.164 214 12 22 ];
-        %tmp.164 = getv ? :_raceState;
-        symbol [ isRecordingPort %tmp.165 214 23 38 ];
-        %tmp.165 = getv %tmp.164 :isRecordingPort;
-        bf %tmp.165 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_8_220_8_if_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_8_220_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_40_218_8_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 215 12 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_215_12_217_12_if_stmt:
-        symbol [ System %tmp.167 215 17 23 ];
-        %tmp.167 = getv ? :System;
-        symbol [ getTimer %tmp.168 215 24 32 ];
-        %tmp.168 = getv function %tmp.167 :getTimer;
-        %tmp.169 = invoke %tmp.167 %tmp.168();
-        %tmp.170 = 500;
-        %tmp.171 = div %tmp.169 %tmp.170;
-        %tmp.172 = 2;
-        %tmp.173 = mod %tmp.171 %tmp.172;
-        %tmp.174 = 0;
-        %tmp.175 = eq %tmp.173 %tmp.174;
-        bf %tmp.175 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_215_12_217_12_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_215_12_217_12_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_215_52_217_12_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 216 16 ]
-        symbol [ Graphics %tmp.176 216 28 36 ];
-        %tmp.176 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.177 216 37 46 ];
-        %tmp.177 = getv %tmp.176 :COLOR_RED;
-        lputv %portColor.7 %tmp.177;
-        symbol [ portColor %portColor.7 216 16 25 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_215_52_217_12_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_215_12_217_12_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_215_12_217_12_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_40_218_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_8_220_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_8_220_8_if_false:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 218 15 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_15_220_8_if_stmt:
-        symbol [ _raceState %tmp.179 218 19 29 ];
-        %tmp.179 = getv ? :_raceState;
-        symbol [ portTackHeading %tmp.180 218 30 45 ];
-        %tmp.180 = getv %tmp.179 :portTackHeading;
-        %tmp.181 = null;
-        %tmp.182 = ne %tmp.180 %tmp.181;
-        bf %tmp.182 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_15_220_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_15_220_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_55_220_8_start:
+        %tmp.171 = lgetv %dc;
+        symbol [ dc %tmp.171 214 8 10 ];
+        symbol [ fillCircle %tmp.172 214 11 21 ];
+        %tmp.172 = getv function %tmp.171 :fillCircle;
+        %tmp.173 = lgetv %width;
+        symbol [ width %tmp.173 214 23 28 ];
+        %tmp.174 = 0.85;
+        %tmp.175 = mul %tmp.173 %tmp.174;
+        symbol [ toNumber %tmp.176 214 37 45 ];
+        %tmp.176 = getv function %tmp.175 :toNumber;
+        %tmp.177 = invoke %tmp.175 %tmp.176();
+        %tmp.178 = lgetv %stbY.6;
+        symbol [ stbY %tmp.178 214 49 53 ];
+        symbol [ toNumber %tmp.179 214 54 62 ];
+        %tmp.179 = getv function %tmp.178 :toNumber;
+        %tmp.180 = invoke %tmp.178 %tmp.179();
+        %tmp.181 = 8;
+        invoke %tmp.171 %tmp.172(%tmp.177, %tmp.180, %tmp.181);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 215 8 ]
+        %tmp.182 = lgetv %dc;
+        symbol [ dc %tmp.182 215 8 10 ];
+        symbol [ setColor %tmp.183 215 11 19 ];
+        %tmp.183 = getv function %tmp.182 :setColor;
+        symbol [ Graphics %tmp.184 215 20 28 ];
+        %tmp.184 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.185 215 29 40 ];
+        %tmp.185 = getv %tmp.184 :COLOR_WHITE;
+        symbol [ Graphics %tmp.186 215 42 50 ];
+        %tmp.186 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.187 215 51 68 ];
+        %tmp.187 = getv %tmp.186 :COLOR_TRANSPARENT;
+        invoke %tmp.182 %tmp.183(%tmp.185, %tmp.187);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 217 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %stbdText.8 = local;
+        symbol [ stbdText %stbdText.8 217 12 20 ];
+        %tmp.188 = "STBD";
+        lputv %stbdText.8 %tmp.188;
+        symbol [ stbdText %stbdText.8 217 12 20 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 218 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_8_222_8_if_stmt:
+        symbol [ _raceState %tmp.190 218 12 22 ];
+        %tmp.190 = getv ? :_raceState;
+        symbol [ isRecordingStarboard %tmp.191 218 23 43 ];
+        %tmp.191 = getv %tmp.190 :isRecordingStarboard;
+        bf %tmp.191 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_8_222_8_if_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_8_222_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_45_220_8_start:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 219 12 ]
-        symbol [ Graphics %tmp.183 219 24 32 ];
-        %tmp.183 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.184 219 33 42 ];
-        %tmp.184 = getv %tmp.183 :COLOR_RED;
-        lputv %portColor.7 %tmp.184;
-        symbol [ portColor %portColor.7 219 12 21 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_55_220_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_15_220_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_15_220_8_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_214_8_220_8_if_end:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 221 8 ]
-        %tmp.185 = lgetv %dc;
-        symbol [ dc %tmp.185 221 8 10 ];
-        symbol [ setColor %tmp.186 221 11 19 ];
-        %tmp.186 = getv function %tmp.185 :setColor;
-        %tmp.187 = lgetv %portColor.7;
-        symbol [ portColor %tmp.187 221 20 29 ];
-        symbol [ Graphics %tmp.188 221 31 39 ];
-        %tmp.188 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.189 221 40 57 ];
-        %tmp.189 = getv %tmp.188 :COLOR_TRANSPARENT;
-        invoke %tmp.185 %tmp.186(%tmp.187, %tmp.189);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 222 8 ]
-        %tmp.190 = lgetv %dc;
-        symbol [ dc %tmp.190 222 8 10 ];
-        symbol [ fillCircle %tmp.191 222 11 21 ];
-        %tmp.191 = getv function %tmp.190 :fillCircle;
-        %tmp.192 = lgetv %width;
-        symbol [ width %tmp.192 222 23 28 ];
-        %tmp.193 = 0.85;
-        %tmp.194 = mul %tmp.192 %tmp.193;
-        symbol [ toNumber %tmp.195 222 37 45 ];
-        %tmp.195 = getv function %tmp.194 :toNumber;
-        %tmp.196 = invoke %tmp.194 %tmp.195();
-        %tmp.197 = lgetv %portY.6;
-        symbol [ portY %tmp.197 222 49 54 ];
-        symbol [ toNumber %tmp.198 222 55 63 ];
-        %tmp.198 = getv function %tmp.197 :toNumber;
-        %tmp.199 = invoke %tmp.197 %tmp.198();
-        %tmp.200 = 8;
-        invoke %tmp.190 %tmp.191(%tmp.196, %tmp.199, %tmp.200);
+        %tmp.192 = "REC";
+        lputv %stbdText.8 %tmp.192;
+        symbol [ stbdText %stbdText.8 219 12 20 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_45_220_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_8_222_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_8_222_8_if_false:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 220 15 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_220_15_222_8_if_stmt:
+        symbol [ _raceState %tmp.194 220 19 29 ];
+        %tmp.194 = getv ? :_raceState;
+        symbol [ starboardTackHeading %tmp.195 220 30 50 ];
+        %tmp.195 = getv %tmp.194 :starboardTackHeading;
+        %tmp.196 = null;
+        %tmp.197 = ne %tmp.195 %tmp.196;
+        bf %tmp.197 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_220_15_222_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_220_15_222_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_220_60_222_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 221 12 ]
+        %tmp.198 = "STBD (";
+        symbol [ _raceState %tmp.200 221 34 44 ];
+        %tmp.200 = getv ? :_raceState;
+        symbol [ starboardTackHeading %tmp.201 221 45 65 ];
+        %tmp.201 = getv %tmp.200 :starboardTackHeading;
+        symbol [ format %tmp.202 221 66 72 ];
+        %tmp.202 = getv function %tmp.201 :format;
+        %tmp.203 = "%d";
+        %tmp.204 = invoke %tmp.201 %tmp.202(%tmp.203);
+        %tmp.205 = add %tmp.198 %tmp.204;
+        %tmp.206 = "°)";
+        %tmp.207 = add %tmp.205 %tmp.206;
+        lputv %stbdText.8 %tmp.207;
+        symbol [ stbdText %stbdText.8 221 12 20 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_220_60_222_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_220_15_222_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_220_15_222_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_218_8_222_8_if_end:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 223 8 ]
-        %tmp.201 = lgetv %dc;
-        symbol [ dc %tmp.201 223 8 10 ];
-        symbol [ setColor %tmp.202 223 11 19 ];
-        %tmp.202 = getv function %tmp.201 :setColor;
-        symbol [ Graphics %tmp.203 223 20 28 ];
-        %tmp.203 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.204 223 29 40 ];
-        %tmp.204 = getv %tmp.203 :COLOR_WHITE;
-        symbol [ Graphics %tmp.205 223 42 50 ];
-        %tmp.205 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.206 223 51 68 ];
-        %tmp.206 = getv %tmp.205 :COLOR_TRANSPARENT;
-        invoke %tmp.201 %tmp.202(%tmp.204, %tmp.206);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 225 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %portText.8 = local;
-        symbol [ portText %portText.8 225 12 20 ];
-        %tmp.207 = "PORT";
-        lputv %portText.8 %tmp.207;
-        symbol [ portText %portText.8 225 12 20 ];
+        %tmp.208 = lgetv %dc;
+        symbol [ dc %tmp.208 223 8 10 ];
+        symbol [ drawText %tmp.209 223 11 19 ];
+        %tmp.209 = getv function %tmp.208 :drawText;
+        %tmp.210 = lgetv %width;
+        symbol [ width %tmp.210 223 21 26 ];
+        %tmp.211 = 0.85;
+        %tmp.212 = mul %tmp.210 %tmp.211;
+        symbol [ toNumber %tmp.213 223 35 43 ];
+        %tmp.213 = getv function %tmp.212 :toNumber;
+        %tmp.214 = invoke %tmp.212 %tmp.213();
+        %tmp.215 = 15;
+        %tmp.216 = sub %tmp.214 %tmp.215;
+        %tmp.217 = lgetv %stbY.6;
+        symbol [ stbY %tmp.217 223 52 56 ];
+        symbol [ toNumber %tmp.218 223 57 65 ];
+        %tmp.218 = getv function %tmp.217 :toNumber;
+        %tmp.219 = invoke %tmp.217 %tmp.218();
+        symbol [ Graphics %tmp.220 223 71 79 ];
+        %tmp.220 = getm $.Toybox.Graphics;
+        symbol [ getFontHeight %tmp.221 223 80 93 ];
+        %tmp.221 = getv function %tmp.220 :getFontHeight;
+        symbol [ Graphics %tmp.222 223 94 102 ];
+        %tmp.222 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.223 223 103 113 ];
+        %tmp.223 = getv %tmp.222 :FONT_XTINY;
+        %tmp.224 = invoke %tmp.220 %tmp.221(%tmp.223);
+        %tmp.225 = 2;
+        %tmp.226 = div %tmp.224 %tmp.225;
+        %tmp.227 = sub %tmp.219 %tmp.226;
+        symbol [ Graphics %tmp.228 223 121 129 ];
+        %tmp.228 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.229 223 130 140 ];
+        %tmp.229 = getv %tmp.228 :FONT_XTINY;
+        %tmp.230 = lgetv %stbdText.8;
+        symbol [ stbdText %tmp.230 223 142 150 ];
+        symbol [ Graphics %tmp.231 223 152 160 ];
+        %tmp.231 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.232 223 161 179 ];
+        %tmp.232 = getv %tmp.231 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.208 %tmp.209(%tmp.216, %tmp.227, %tmp.229, %tmp.230, %tmp.232);
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 226 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_8_230_8_if_stmt:
-        symbol [ _raceState %tmp.209 226 12 22 ];
-        %tmp.209 = getv ? :_raceState;
-        symbol [ isRecordingPort %tmp.210 226 23 38 ];
-        %tmp.210 = getv %tmp.209 :isRecordingPort;
-        bf %tmp.210 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_8_230_8_if_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_8_230_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_40_228_8_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 227 12 ]
-        %tmp.211 = "REC";
-        lputv %portText.8 %tmp.211;
-        symbol [ portText %portText.8 227 12 20 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_40_228_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_8_230_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_8_230_8_if_false:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 228 15 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_15_230_8_if_stmt:
-        symbol [ _raceState %tmp.213 228 19 29 ];
-        %tmp.213 = getv ? :_raceState;
-        symbol [ portTackHeading %tmp.214 228 30 45 ];
-        %tmp.214 = getv %tmp.213 :portTackHeading;
-        %tmp.215 = null;
-        %tmp.216 = ne %tmp.214 %tmp.215;
-        bf %tmp.216 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_15_230_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_15_230_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_55_230_8_start:
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %portY.9 = local;
+        symbol [ portY %portY.9 226 12 17 ];
+        %tmp.233 = lgetv %height;
+        symbol [ height %tmp.233 226 20 26 ];
+        %tmp.234 = 0.65;
+        %tmp.235 = mul %tmp.233 %tmp.234;
+        lputv %portY.9 %tmp.235;
+        symbol [ portY %portY.9 226 12 17 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 227 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %portColor.10 = local;
+        symbol [ portColor %portColor.10 227 12 21 ];
+        symbol [ Graphics %tmp.236 227 24 32 ];
+        %tmp.236 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.237 227 33 46 ];
+        %tmp.237 = getv %tmp.236 :COLOR_DK_GRAY;
+        lputv %portColor.10 %tmp.237;
+        symbol [ portColor %portColor.10 227 12 21 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 228 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_8_234_8_if_stmt:
+        symbol [ _raceState %tmp.239 228 12 22 ];
+        %tmp.239 = getv ? :_raceState;
+        symbol [ isRecordingPort %tmp.240 228 23 38 ];
+        %tmp.240 = getv %tmp.239 :isRecordingPort;
+        bf %tmp.240 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_8_234_8_if_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_8_234_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_40_232_8_start:
 [ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 229 12 ]
-        %tmp.217 = "PORT (";
-        symbol [ _raceState %tmp.219 229 34 44 ];
-        %tmp.219 = getv ? :_raceState;
-        symbol [ portTackHeading %tmp.220 229 45 60 ];
-        %tmp.220 = getv %tmp.219 :portTackHeading;
-        symbol [ format %tmp.221 229 61 67 ];
-        %tmp.221 = getv function %tmp.220 :format;
-        %tmp.222 = "%d";
-        %tmp.223 = invoke %tmp.220 %tmp.221(%tmp.222);
-        %tmp.224 = add %tmp.217 %tmp.223;
-        %tmp.225 = "°)";
-        %tmp.226 = add %tmp.224 %tmp.225;
-        lputv %portText.8 %tmp.226;
-        symbol [ portText %portText.8 229 12 20 ];
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_55_230_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_15_230_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_15_230_8_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_226_8_230_8_if_end:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 231 8 ]
-        %tmp.227 = lgetv %dc;
-        symbol [ dc %tmp.227 231 8 10 ];
-        symbol [ drawText %tmp.228 231 11 19 ];
-        %tmp.228 = getv function %tmp.227 :drawText;
-        %tmp.229 = lgetv %width;
-        symbol [ width %tmp.229 231 21 26 ];
-        %tmp.230 = 0.85;
-        %tmp.231 = mul %tmp.229 %tmp.230;
-        symbol [ toNumber %tmp.232 231 35 43 ];
-        %tmp.232 = getv function %tmp.231 :toNumber;
-        %tmp.233 = invoke %tmp.231 %tmp.232();
-        %tmp.234 = 15;
-        %tmp.235 = sub %tmp.233 %tmp.234;
-        %tmp.236 = lgetv %portY.6;
-        symbol [ portY %tmp.236 231 52 57 ];
-        symbol [ toNumber %tmp.237 231 58 66 ];
-        %tmp.237 = getv function %tmp.236 :toNumber;
-        %tmp.238 = invoke %tmp.236 %tmp.237();
-        symbol [ Graphics %tmp.239 231 72 80 ];
-        %tmp.239 = getm $.Toybox.Graphics;
-        symbol [ getFontHeight %tmp.240 231 81 94 ];
-        %tmp.240 = getv function %tmp.239 :getFontHeight;
-        symbol [ Graphics %tmp.241 231 95 103 ];
-        %tmp.241 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.242 231 104 114 ];
-        %tmp.242 = getv %tmp.241 :FONT_XTINY;
-        %tmp.243 = invoke %tmp.239 %tmp.240(%tmp.242);
-        %tmp.244 = 2;
-        %tmp.245 = div %tmp.243 %tmp.244;
-        %tmp.246 = sub %tmp.238 %tmp.245;
-        symbol [ Graphics %tmp.247 231 122 130 ];
-        %tmp.247 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.248 231 131 141 ];
-        %tmp.248 = getv %tmp.247 :FONT_XTINY;
-        %tmp.249 = lgetv %portText.8;
-        symbol [ portText %tmp.249 231 143 151 ];
-        symbol [ Graphics %tmp.250 231 153 161 ];
-        %tmp.250 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.251 231 162 180 ];
-        %tmp.251 = getv %tmp.250 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.227 %tmp.228(%tmp.235, %tmp.246, %tmp.248, %tmp.249, %tmp.251);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 233 8 ]
-        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop" ]
-        %wind.9 = local;
-        symbol [ wind %wind.9 233 12 16 ];
-        symbol [ _raceState %tmp.253 233 19 29 ];
-        %tmp.253 = getv ? :_raceState;
-        symbol [ windDirectionDegrees %tmp.254 233 30 50 ];
-        %tmp.254 = getv %tmp.253 :windDirectionDegrees;
-        lputv %wind.9 %tmp.254;
-        symbol [ wind %wind.9 233 12 16 ];
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 234 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_8_237_8_if_stmt:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_12_234_101_begin:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_12_234_58_begin:
-        %tmp.255 = lgetv %wind.9;
-        symbol [ wind %tmp.255 234 12 16 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_229_12_231_12_if_stmt:
+        symbol [ System %tmp.242 229 17 23 ];
+        %tmp.242 = getv ? :System;
+        symbol [ getTimer %tmp.243 229 24 32 ];
+        %tmp.243 = getv function %tmp.242 :getTimer;
+        %tmp.244 = invoke %tmp.242 %tmp.243();
+        %tmp.245 = 500;
+        %tmp.246 = div %tmp.244 %tmp.245;
+        %tmp.247 = 2;
+        %tmp.248 = mod %tmp.246 %tmp.247;
+        %tmp.249 = 0;
+        %tmp.250 = eq %tmp.248 %tmp.249;
+        bf %tmp.250 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_229_12_231_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_229_12_231_12_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_229_52_231_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 230 16 ]
+        symbol [ Graphics %tmp.251 230 28 36 ];
+        %tmp.251 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.252 230 37 46 ];
+        %tmp.252 = getv %tmp.251 :COLOR_RED;
+        lputv %portColor.10 %tmp.252;
+        symbol [ portColor %portColor.10 230 16 25 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_229_52_231_12_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_229_12_231_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_229_12_231_12_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_40_232_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_8_234_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_8_234_8_if_false:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 232 15 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_232_15_234_8_if_stmt:
+        symbol [ _raceState %tmp.254 232 19 29 ];
+        %tmp.254 = getv ? :_raceState;
+        symbol [ portTackHeading %tmp.255 232 30 45 ];
+        %tmp.255 = getv %tmp.254 :portTackHeading;
         %tmp.256 = null;
         %tmp.257 = ne %tmp.255 %tmp.256;
-        bf %tmp.257 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_8_237_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_28_234_58_true:
-        symbol [ _raceState %tmp.259 234 28 38 ];
-        %tmp.259 = getv ? :_raceState;
-        symbol [ portTackHeading %tmp.260 234 39 54 ];
-        %tmp.260 = getv %tmp.259 :portTackHeading;
-        %tmp.261 = null;
-        %tmp.262 = ne %tmp.260 %tmp.261;
-        push %tmp.262;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_28_234_58_end:
-        %tmp.263 = phi [%tmp.257 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_12_234_58_begin] [%tmp.262 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_28_234_58_true] [%tmp.263 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_28_234_58_end];
-        bf %tmp.263 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_8_237_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_66_234_101_true:
-        symbol [ _raceState %tmp.265 234 66 76 ];
-        %tmp.265 = getv ? :_raceState;
-        symbol [ starboardTackHeading %tmp.266 234 77 97 ];
-        %tmp.266 = getv %tmp.265 :starboardTackHeading;
-        %tmp.267 = null;
-        %tmp.268 = ne %tmp.266 %tmp.267;
-        push %tmp.268;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_66_234_101_end:
-        %tmp.269 = phi [%tmp.263 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_12_234_101_begin] [%tmp.268 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_66_234_101_true] [%tmp.269 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_66_234_101_end];
-        bf %tmp.269 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_8_237_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_8_237_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_107_237_8_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 235 12 ]
-        %tmp.270 = lgetv %dc;
-        symbol [ dc %tmp.270 235 12 14 ];
-        symbol [ setColor %tmp.271 235 15 23 ];
-        %tmp.271 = getv function %tmp.270 :setColor;
-        symbol [ Graphics %tmp.272 235 24 32 ];
-        %tmp.272 = getm $.Toybox.Graphics;
-        symbol [ COLOR_YELLOW %tmp.273 235 33 45 ];
-        %tmp.273 = getv %tmp.272 :COLOR_YELLOW;
-        symbol [ Graphics %tmp.274 235 47 55 ];
-        %tmp.274 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.275 235 56 73 ];
-        %tmp.275 = getv %tmp.274 :COLOR_TRANSPARENT;
-        invoke %tmp.270 %tmp.271(%tmp.273, %tmp.275);
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 236 12 ]
+        bf %tmp.257 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_232_15_234_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_232_15_234_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_232_55_234_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 233 12 ]
+        symbol [ Graphics %tmp.258 233 24 32 ];
+        %tmp.258 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.259 233 33 42 ];
+        %tmp.259 = getv %tmp.258 :COLOR_RED;
+        lputv %portColor.10 %tmp.259;
+        symbol [ portColor %portColor.10 233 12 21 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_232_55_234_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_232_15_234_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_232_15_234_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_228_8_234_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 235 8 ]
+        %tmp.260 = lgetv %dc;
+        symbol [ dc %tmp.260 235 8 10 ];
+        symbol [ setColor %tmp.261 235 11 19 ];
+        %tmp.261 = getv function %tmp.260 :setColor;
+        %tmp.262 = lgetv %portColor.10;
+        symbol [ portColor %tmp.262 235 20 29 ];
+        symbol [ Graphics %tmp.263 235 31 39 ];
+        %tmp.263 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.264 235 40 57 ];
+        %tmp.264 = getv %tmp.263 :COLOR_TRANSPARENT;
+        invoke %tmp.260 %tmp.261(%tmp.262, %tmp.264);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 236 8 ]
+        %tmp.265 = lgetv %dc;
+        symbol [ dc %tmp.265 236 8 10 ];
+        symbol [ fillCircle %tmp.266 236 11 21 ];
+        %tmp.266 = getv function %tmp.265 :fillCircle;
+        %tmp.267 = lgetv %width;
+        symbol [ width %tmp.267 236 23 28 ];
+        %tmp.268 = 0.85;
+        %tmp.269 = mul %tmp.267 %tmp.268;
+        symbol [ toNumber %tmp.270 236 37 45 ];
+        %tmp.270 = getv function %tmp.269 :toNumber;
+        %tmp.271 = invoke %tmp.269 %tmp.270();
+        %tmp.272 = lgetv %portY.9;
+        symbol [ portY %tmp.272 236 49 54 ];
+        symbol [ toNumber %tmp.273 236 55 63 ];
+        %tmp.273 = getv function %tmp.272 :toNumber;
+        %tmp.274 = invoke %tmp.272 %tmp.273();
+        %tmp.275 = 8;
+        invoke %tmp.265 %tmp.266(%tmp.271, %tmp.274, %tmp.275);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 237 8 ]
         %tmp.276 = lgetv %dc;
-        symbol [ dc %tmp.276 236 12 14 ];
-        symbol [ drawText %tmp.277 236 15 23 ];
-        %tmp.277 = getv function %tmp.276 :drawText;
-        %tmp.278 = lgetv %width;
-        symbol [ width %tmp.278 236 24 29 ];
-        %tmp.279 = 2;
-        %tmp.280 = div %tmp.278 %tmp.279;
-        %tmp.281 = lgetv %height;
-        symbol [ height %tmp.281 236 35 41 ];
-        %tmp.282 = 0.75;
-        %tmp.283 = mul %tmp.281 %tmp.282;
-        symbol [ Graphics %tmp.284 236 50 58 ];
-        %tmp.284 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.285 236 59 69 ];
-        %tmp.285 = getv %tmp.284 :FONT_XTINY;
-        %tmp.286 = "Calc Wind: ";
-        %tmp.287 = lgetv %wind.9;
-        symbol [ wind %tmp.287 236 87 91 ];
-        %tmp.288 = as %tmp.287 { (!Null) };
-        symbol [ format %tmp.289 236 92 98 ];
-        %tmp.289 = getv function %tmp.288 :format;
-        %tmp.290 = "%d";
-        %tmp.291 = invoke %tmp.288 %tmp.289(%tmp.290);
-        %tmp.292 = add %tmp.286 %tmp.291;
-        %tmp.293 = "°";
-        %tmp.294 = add %tmp.292 %tmp.293;
-        symbol [ Graphics %tmp.295 236 112 120 ];
-        %tmp.295 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.296 236 121 140 ];
-        %tmp.296 = getv %tmp.295 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.276 %tmp.277(%tmp.280, %tmp.283, %tmp.285, %tmp.294, %tmp.296);
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_107_237_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_8_237_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_234_8_237_8_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_178_80_238_4_stop:
+        symbol [ dc %tmp.276 237 8 10 ];
+        symbol [ setColor %tmp.277 237 11 19 ];
+        %tmp.277 = getv function %tmp.276 :setColor;
+        symbol [ Graphics %tmp.278 237 20 28 ];
+        %tmp.278 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.279 237 29 40 ];
+        %tmp.279 = getv %tmp.278 :COLOR_WHITE;
+        symbol [ Graphics %tmp.280 237 42 50 ];
+        %tmp.280 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.281 237 51 68 ];
+        %tmp.281 = getv %tmp.280 :COLOR_TRANSPARENT;
+        invoke %tmp.276 %tmp.277(%tmp.279, %tmp.281);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 239 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %portText.11 = local;
+        symbol [ portText %portText.11 239 12 20 ];
+        %tmp.282 = "PORT";
+        lputv %portText.11 %tmp.282;
+        symbol [ portText %portText.11 239 12 20 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 240 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_8_244_8_if_stmt:
+        symbol [ _raceState %tmp.284 240 12 22 ];
+        %tmp.284 = getv ? :_raceState;
+        symbol [ isRecordingPort %tmp.285 240 23 38 ];
+        %tmp.285 = getv %tmp.284 :isRecordingPort;
+        bf %tmp.285 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_8_244_8_if_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_8_244_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_40_242_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 241 12 ]
+        %tmp.286 = "REC";
+        lputv %portText.11 %tmp.286;
+        symbol [ portText %portText.11 241 12 20 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_40_242_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_8_244_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_8_244_8_if_false:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 242 15 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_242_15_244_8_if_stmt:
+        symbol [ _raceState %tmp.288 242 19 29 ];
+        %tmp.288 = getv ? :_raceState;
+        symbol [ portTackHeading %tmp.289 242 30 45 ];
+        %tmp.289 = getv %tmp.288 :portTackHeading;
+        %tmp.290 = null;
+        %tmp.291 = ne %tmp.289 %tmp.290;
+        bf %tmp.291 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_242_15_244_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_242_15_244_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_242_55_244_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 243 12 ]
+        %tmp.292 = "PORT (";
+        symbol [ _raceState %tmp.294 243 34 44 ];
+        %tmp.294 = getv ? :_raceState;
+        symbol [ portTackHeading %tmp.295 243 45 60 ];
+        %tmp.295 = getv %tmp.294 :portTackHeading;
+        symbol [ format %tmp.296 243 61 67 ];
+        %tmp.296 = getv function %tmp.295 :format;
+        %tmp.297 = "%d";
+        %tmp.298 = invoke %tmp.295 %tmp.296(%tmp.297);
+        %tmp.299 = add %tmp.292 %tmp.298;
+        %tmp.300 = "°)";
+        %tmp.301 = add %tmp.299 %tmp.300;
+        lputv %portText.11 %tmp.301;
+        symbol [ portText %portText.11 243 12 20 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_242_55_244_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_242_15_244_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_242_15_244_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_240_8_244_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 245 8 ]
+        %tmp.302 = lgetv %dc;
+        symbol [ dc %tmp.302 245 8 10 ];
+        symbol [ drawText %tmp.303 245 11 19 ];
+        %tmp.303 = getv function %tmp.302 :drawText;
+        %tmp.304 = lgetv %width;
+        symbol [ width %tmp.304 245 21 26 ];
+        %tmp.305 = 0.85;
+        %tmp.306 = mul %tmp.304 %tmp.305;
+        symbol [ toNumber %tmp.307 245 35 43 ];
+        %tmp.307 = getv function %tmp.306 :toNumber;
+        %tmp.308 = invoke %tmp.306 %tmp.307();
+        %tmp.309 = 15;
+        %tmp.310 = sub %tmp.308 %tmp.309;
+        %tmp.311 = lgetv %portY.9;
+        symbol [ portY %tmp.311 245 52 57 ];
+        symbol [ toNumber %tmp.312 245 58 66 ];
+        %tmp.312 = getv function %tmp.311 :toNumber;
+        %tmp.313 = invoke %tmp.311 %tmp.312();
+        symbol [ Graphics %tmp.314 245 72 80 ];
+        %tmp.314 = getm $.Toybox.Graphics;
+        symbol [ getFontHeight %tmp.315 245 81 94 ];
+        %tmp.315 = getv function %tmp.314 :getFontHeight;
+        symbol [ Graphics %tmp.316 245 95 103 ];
+        %tmp.316 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.317 245 104 114 ];
+        %tmp.317 = getv %tmp.316 :FONT_XTINY;
+        %tmp.318 = invoke %tmp.314 %tmp.315(%tmp.317);
+        %tmp.319 = 2;
+        %tmp.320 = div %tmp.318 %tmp.319;
+        %tmp.321 = sub %tmp.313 %tmp.320;
+        symbol [ Graphics %tmp.322 245 122 130 ];
+        %tmp.322 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.323 245 131 141 ];
+        %tmp.323 = getv %tmp.322 :FONT_XTINY;
+        %tmp.324 = lgetv %portText.11;
+        symbol [ portText %tmp.324 245 143 151 ];
+        symbol [ Graphics %tmp.325 245 153 161 ];
+        %tmp.325 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.326 245 162 180 ];
+        %tmp.326 = getv %tmp.325 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.302 %tmp.303(%tmp.310, %tmp.321, %tmp.323, %tmp.324, %tmp.326);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 247 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop" ]
+        %wind.12 = local;
+        symbol [ wind %wind.12 247 12 16 ];
+        symbol [ _raceState %tmp.328 247 19 29 ];
+        %tmp.328 = getv ? :_raceState;
+        symbol [ windDirectionDegrees %tmp.329 247 30 50 ];
+        %tmp.329 = getv %tmp.328 :windDirectionDegrees;
+        lputv %wind.12 %tmp.329;
+        symbol [ wind %wind.12 247 12 16 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 248 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_8_251_8_if_stmt:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_12_248_101_begin:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_12_248_58_begin:
+        %tmp.330 = lgetv %wind.12;
+        symbol [ wind %tmp.330 248 12 16 ];
+        %tmp.331 = null;
+        %tmp.332 = ne %tmp.330 %tmp.331;
+        bf %tmp.332 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_8_251_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_28_248_58_true:
+        symbol [ _raceState %tmp.334 248 28 38 ];
+        %tmp.334 = getv ? :_raceState;
+        symbol [ portTackHeading %tmp.335 248 39 54 ];
+        %tmp.335 = getv %tmp.334 :portTackHeading;
+        %tmp.336 = null;
+        %tmp.337 = ne %tmp.335 %tmp.336;
+        push %tmp.337;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_28_248_58_end:
+        %tmp.338 = phi [%tmp.332 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_12_248_58_begin] [%tmp.337 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_28_248_58_true] [%tmp.338 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_28_248_58_end];
+        bf %tmp.338 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_8_251_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_66_248_101_true:
+        symbol [ _raceState %tmp.340 248 66 76 ];
+        %tmp.340 = getv ? :_raceState;
+        symbol [ starboardTackHeading %tmp.341 248 77 97 ];
+        %tmp.341 = getv %tmp.340 :starboardTackHeading;
+        %tmp.342 = null;
+        %tmp.343 = ne %tmp.341 %tmp.342;
+        push %tmp.343;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_66_248_101_end:
+        %tmp.344 = phi [%tmp.338 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_12_248_101_begin] [%tmp.343 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_66_248_101_true] [%tmp.344 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_66_248_101_end];
+        bf %tmp.344 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_8_251_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_8_251_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_107_251_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 249 12 ]
+        %tmp.345 = lgetv %dc;
+        symbol [ dc %tmp.345 249 12 14 ];
+        symbol [ setColor %tmp.346 249 15 23 ];
+        %tmp.346 = getv function %tmp.345 :setColor;
+        symbol [ Graphics %tmp.347 249 24 32 ];
+        %tmp.347 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.348 249 33 45 ];
+        %tmp.348 = getv %tmp.347 :COLOR_YELLOW;
+        symbol [ Graphics %tmp.349 249 47 55 ];
+        %tmp.349 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.350 249 56 73 ];
+        %tmp.350 = getv %tmp.349 :COLOR_TRANSPARENT;
+        invoke %tmp.345 %tmp.346(%tmp.348, %tmp.350);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 250 12 ]
+        %tmp.351 = lgetv %dc;
+        symbol [ dc %tmp.351 250 12 14 ];
+        symbol [ drawText %tmp.352 250 15 23 ];
+        %tmp.352 = getv function %tmp.351 :drawText;
+        %tmp.353 = lgetv %width;
+        symbol [ width %tmp.353 250 24 29 ];
+        %tmp.354 = 2;
+        %tmp.355 = div %tmp.353 %tmp.354;
+        %tmp.356 = lgetv %height;
+        symbol [ height %tmp.356 250 35 41 ];
+        %tmp.357 = 0.78;
+        %tmp.358 = mul %tmp.356 %tmp.357;
+        symbol [ Graphics %tmp.359 250 50 58 ];
+        %tmp.359 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.360 250 59 69 ];
+        %tmp.360 = getv %tmp.359 :FONT_XTINY;
+        %tmp.361 = "Calc Wind: ";
+        %tmp.362 = lgetv %wind.12;
+        symbol [ wind %tmp.362 250 87 91 ];
+        %tmp.363 = as %tmp.362 { (!Null) };
+        symbol [ format %tmp.364 250 92 98 ];
+        %tmp.364 = getv function %tmp.363 :format;
+        %tmp.365 = "%d";
+        %tmp.366 = invoke %tmp.363 %tmp.364(%tmp.365);
+        %tmp.367 = add %tmp.361 %tmp.366;
+        %tmp.368 = "°";
+        %tmp.369 = add %tmp.367 %tmp.368;
+        symbol [ Graphics %tmp.370 250 112 120 ];
+        %tmp.370 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.371 250 121 140 ];
+        %tmp.371 = getv %tmp.370 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.351 %tmp.352(%tmp.355, %tmp.358, %tmp.360, %tmp.369, %tmp.371);
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_107_251_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_8_251_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_248_8_251_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_179_80_252_4_stop:
     }
-    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 243; @symbol_functiondef = [onHide,243,13,19]; ]
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 257; @symbol_functiondef = [onHide,257,13,19]; ]
     function onHide() as Void {
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_243_30_248_4_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 244 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_244_8_247_8_if_stmt:
-        symbol [ _updateTimer %tmp.2 244 12 24 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_257_30_262_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 258 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_258_8_261_8_if_stmt:
+        symbol [ _updateTimer %tmp.2 258 12 24 ];
         %tmp.2 = getv ? :_updateTimer;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_244_8_247_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_244_8_247_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_244_34_247_8_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 245 12 ]
-        symbol [ _updateTimer %tmp.6 245 12 24 ];
+        bf %tmp.4 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_258_8_261_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_258_8_261_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_258_34_261_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 259 12 ]
+        symbol [ _updateTimer %tmp.6 259 12 24 ];
         %tmp.6 = getv ? :_updateTimer;
         %tmp.7 = as %tmp.6 { (!Null) };
-        symbol [ stop %tmp.8 245 25 29 ];
+        symbol [ stop %tmp.8 259 25 29 ];
         %tmp.8 = getv function %tmp.7 :stop;
         invoke %tmp.7 %tmp.8();
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 246 12 ]
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 260 12 ]
         %tmp.9 = null;
-        symbol [ _updateTimer ? 246 12 24 ];
+        symbol [ _updateTimer ? 260 12 24 ];
         putv self :_updateTimer %tmp.9;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_244_34_247_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_244_8_247_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_244_8_247_8_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_243_30_248_4_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_258_34_261_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_258_8_261_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_258_8_261_8_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_257_30_262_4_stop:
     }
-    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 251; @symbol_functiondef = [onTimer,251,20,27]; ]
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 265; @symbol_functiondef = [onTimer,265,20,27]; ]
     public
     function onTimer() as Void {
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_251_38_261_4_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 252 8 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_252_8_259_8_if_stmt:
-        symbol [ _raceState %tmp.2 252 12 22 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_265_38_275_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 266 8 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_266_8_273_8_if_stmt:
+        symbol [ _raceState %tmp.2 266 12 22 ];
         %tmp.2 = getv ? :_raceState;
-        symbol [ countdownTimerRunning %tmp.3 252 23 44 ];
+        symbol [ countdownTimerRunning %tmp.3 266 23 44 ];
         %tmp.3 = getv %tmp.2 :countdownTimerRunning;
-        bf %tmp.3 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_252_8_259_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_252_8_259_8_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_252_46_259_8_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 253 12 ]
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_12_258_12_if_stmt:
-        symbol [ _raceState %tmp.5 253 16 26 ];
+        bf %tmp.3 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_266_8_273_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_266_8_273_8_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_266_46_273_8_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 267 12 ]
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_12_272_12_if_stmt:
+        symbol [ _raceState %tmp.5 267 16 26 ];
         %tmp.5 = getv ? :_raceState;
-        symbol [ timeToGunSeconds %tmp.6 253 27 43 ];
+        symbol [ timeToGunSeconds %tmp.6 267 27 43 ];
         %tmp.6 = getv %tmp.5 :timeToGunSeconds;
         %tmp.7 = 0;
         %tmp.8 = gt %tmp.6 %tmp.7;
-        bf %tmp.8 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_12_258_12_if_else_false;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_12_258_12_if_true:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_49_255_12_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 254 16 ]
-        symbol [ _raceState %tmp.9 254 16 26 ];
+        bf %tmp.8 @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_12_272_12_if_else_false;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_12_272_12_if_true:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_49_269_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 268 16 ]
+        symbol [ _raceState %tmp.9 268 16 26 ];
         %tmp.9 = getv self :_raceState;
-        symbol [ _raceState %tmp.10 254 16 26 ];
+        symbol [ _raceState %tmp.10 268 16 26 ];
         %tmp.10 = getv self :_raceState;
-        symbol [ timeToGunSeconds %tmp.11 254 27 43 ];
+        symbol [ timeToGunSeconds %tmp.11 268 27 43 ];
         %tmp.11 = getv %tmp.10 :timeToGunSeconds;
         %tmp.12 = 1;
         %tmp.13 = sub %tmp.11 %tmp.12;
-        symbol [ timeToGunSeconds ? 254 27 43 ];
+        symbol [ timeToGunSeconds ? 268 27 43 ];
         putv %tmp.9 :timeToGunSeconds dup %tmp.13;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_49_255_12_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_12_258_12_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_12_258_12_if_else_false:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_255_19_258_12_start:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 257 16 ]
-        symbol [ _raceState %tmp.14 257 16 26 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_49_269_12_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_12_272_12_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_12_272_12_if_else_false:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_269_19_272_12_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 271 16 ]
+        symbol [ _raceState %tmp.14 271 16 26 ];
         %tmp.14 = getv self :_raceState;
         %tmp.15 = false;
-        symbol [ countdownTimerRunning ? 257 27 48 ];
+        symbol [ countdownTimerRunning ? 271 27 48 ];
         putv %tmp.14 :countdownTimerRunning %tmp.15;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_255_19_258_12_stop:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_253_12_258_12_if_end:
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_252_46_259_8_stop:
-        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_252_8_259_8_if_end;
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_252_8_259_8_if_end:
-[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 260 8 ]
-        symbol [ WatchUi %tmp.16 260 8 15 ];
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_269_19_272_12_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_267_12_272_12_if_end:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_266_46_273_8_stop:
+        goto @C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_266_8_273_8_if_end;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_266_8_273_8_if_end:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc" 274 8 ]
+        symbol [ WatchUi %tmp.16 274 8 15 ];
         %tmp.16 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.17 260 16 29 ];
+        symbol [ requestUpdate %tmp.17 274 16 29 ];
         %tmp.17 = getv function %tmp.16 :requestUpdate;
         invoke %tmp.16 %tmp.17();
-C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_251_38_261_4_stop:
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SailStartupView_mc_265_38_275_4_stop:
     }
 }
 [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SailStartupView.mc"; @line = 1; ]

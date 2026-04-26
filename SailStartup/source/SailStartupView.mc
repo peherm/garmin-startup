@@ -133,24 +133,25 @@ class SailStartupView extends WatchUi.View {
 
         var dist = _raceState.getDistanceToLineMeters();
         var distString = dist != null ? dist.format("%d") + " m" : "--";
-        dc.drawText(width / 2, height * 0.65, Graphics.FONT_LARGE, distString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, height * 0.60, Graphics.FONT_LARGE, distString, Graphics.TEXT_JUSTIFY_CENTER);
 
         var timeToBurn = _raceState.getTimeToBurnSeconds();
         if (timeToBurn != null) {
             var burnString = "";
             if (timeToBurn > 0) {
                 dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                burnString = "BURN: " + timeToBurn + "s (Early)";
+                burnString = "BURN: " + timeToBurn + "s";
             } else {
                 dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
                 burnString = "LATE: " + (-timeToBurn) + "s";
             }
-            dc.drawText(width / 2, height * 0.82, Graphics.FONT_XTINY, burnString, Graphics.TEXT_JUSTIFY_CENTER);
+            // Increased font size to FONT_MEDIUM for better visibility
+            dc.drawText(width / 2, height * 0.78, Graphics.FONT_MEDIUM, burnString, Graphics.TEXT_JUSTIFY_CENTER);
         } else {
             var favored = _raceState.getFavoredEnd();
             if (favored != null) {
                 dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(width / 2, height * 0.82, Graphics.FONT_XTINY, "Favored: " + favored, Graphics.TEXT_JUSTIFY_CENTER);
+                dc.drawText(width / 2, height * 0.80, Graphics.FONT_XTINY, "Favored: " + favored, Graphics.TEXT_JUSTIFY_CENTER);
             }
         }
     }
@@ -179,11 +180,24 @@ class SailStartupView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(width / 2, height * 0.15, Graphics.FONT_MEDIUM, "AUTO WIND", Graphics.TEXT_JUSTIFY_CENTER);
 
-        var heading = _raceState.currentHeading;
-        var headingString = heading != null ? heading.format("%d") + "°" : "--";
-        
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, height / 2 - (Graphics.getFontHeight(Graphics.FONT_LARGE) / 2), Graphics.FONT_LARGE, "Hdg: " + headingString, Graphics.TEXT_JUSTIFY_CENTER);
+        var tackAngle = _raceState.getTackAngle();
+        if (tackAngle != null) {
+            // Main display: Tack Angle
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(width / 2, height / 2 - (Graphics.getFontHeight(Graphics.FONT_LARGE) / 2), Graphics.FONT_LARGE, "Tack: " + tackAngle + "°", Graphics.TEXT_JUSTIFY_CENTER);
+            
+            // Secondary: Current Heading
+            var heading = _raceState.currentHeading;
+            var headingString = heading != null ? heading.format("%d") + "°" : "--";
+            dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(width / 2, height * 0.70, Graphics.FONT_XTINY, "Hdg: " + headingString, Graphics.TEXT_JUSTIFY_CENTER);
+        } else {
+            // Fallback: Current Heading if no tacks recorded yet
+            var heading = _raceState.currentHeading;
+            var headingString = heading != null ? heading.format("%d") + "°" : "--";
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(width / 2, height / 2 - (Graphics.getFontHeight(Graphics.FONT_LARGE) / 2), Graphics.FONT_LARGE, "Hdg: " + headingString, Graphics.TEXT_JUSTIFY_CENTER);
+        }
 
         // Draw Starboard Tack (Top Right)
         var stbY = height * 0.35;
@@ -233,7 +247,7 @@ class SailStartupView extends WatchUi.View {
         var wind = _raceState.windDirectionDegrees;
         if (wind != null && _raceState.portTackHeading != null && _raceState.starboardTackHeading != null) {
             dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(width / 2, height * 0.75, Graphics.FONT_XTINY, "Calc Wind: " + wind.format("%d") + "°", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(width / 2, height * 0.78, Graphics.FONT_XTINY, "Calc Wind: " + wind.format("%d") + "°", Graphics.TEXT_JUSTIFY_CENTER);
         }
     }
 
