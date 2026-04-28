@@ -28,3 +28,19 @@ To test the app on the actual Forerunner 255:
 5. The compiler will generate a `.prg` file in your `bin/` folder (e.g., `bin/SailStartup.prg`).
 6. Copy the `.prg` file and paste it into the `GARMIN/APPS/` folder on your watch's mounted USB drive.
 7. Disconnect the watch. The app will now be available in your activity list!
+
+## Versioning
+When releasing a new version of the app, ensure the version number is updated in **two** places to keep them in sync:
+
+1.  **`SailStartup/manifest.xml`**: Update the `version` attribute in the `<iq:application>` tag. This is used by the Garmin ecosystem.
+2.  **`SailStartup/source/SailStartupApp.mc`**: Update the `VERSION` constant. This is used to display the version number on the splash screen.
+
+Example:
+```xml
+<!-- manifest.xml -->
+<iq:application ... version="0.2.0">
+```
+```monkeyc
+// SailStartupApp.mc
+public static const VERSION = "0.2.0";
+```

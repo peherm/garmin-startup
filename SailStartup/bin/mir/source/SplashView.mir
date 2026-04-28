@@ -1,0 +1,208 @@
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Timer,3,14,19]; ]
+import Toybox.Timer;
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 5; @symbol_classdef = [SplashView,5,6,16]; @symbol_extends<0> = [WatchUi,5,25,32]; @symbol_extends<1> = [View,5,33,37]; ]
+class SplashView extends WatchUi.View {
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 6; @position = 16; @symbol_vardef = [_raceState,6,16,26]; @symbol_type<0> = [RaceState,6,30,39]; ]
+    private
+    var _raceState as RaceState;
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; @symbol_param<0> = [raceState,8,24,33]; @symbol_param<0>_type<0> = [RaceState,8,37,46]; ]
+    function initialize(raceState as RaceState) as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_8_48_11_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 9 8 ]
+        symbol [ View %tmp.2 9 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 9 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 10 8 ]
+        %tmp.4 = lgetv %raceState;
+        symbol [ raceState %tmp.4 10 21 30 ];
+        symbol [ _raceState ? 10 8 18 ];
+        putv self :_raceState %tmp.4;
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_8_48_11_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 13; @symbol_functiondef = [onLayout,13,13,21]; @symbol_param<0> = [dc,13,22,24]; @symbol_param<0>_type<0> = [Dc,13,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 16; @symbol_functiondef = [onShow,16,13,19]; ]
+    function onShow() as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_16_30_19_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 17 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_16_30_19_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_16_30_19_4_stop" ]
+        %timer.1 = local;
+        symbol [ timer %timer.1 17 12 17 ];
+        symbol [ Timer %tmp.3 17 24 29 ];
+        %tmp.3 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.4 17 30 35 ];
+        %tmp.4 = getv function ? %tmp.3 :Timer;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %timer.1 %tmp.1;
+        symbol [ timer %timer.1 17 12 17 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 18 8 ]
+        %tmp.5 = lgetv %timer.1;
+        symbol [ timer %tmp.5 18 8 13 ];
+        symbol [ start %tmp.6 18 14 19 ];
+        %tmp.6 = getv function %tmp.5 :start;
+        %tmp.7 = self;
+        symbol [ method %tmp.8 18 20 26 ];
+        %tmp.8 = getv function %tmp.7 :method;
+        %tmp.10 = const :switchToMainView;
+        symbol [ switchToMainView %tmp.10 18 28 44 const ];
+        %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.10);
+        %tmp.12 = 2000;
+        %tmp.13 = false;
+        invoke %tmp.5 %tmp.6(%tmp.11, %tmp.12, %tmp.13);
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_16_30_19_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 21; @symbol_functiondef = [onUpdate,21,13,21]; @symbol_param<0> = [dc,21,22,24]; @symbol_param<0>_type<0> = [Dc,21,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_21_40_34_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 22 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 22 8 10 ];
+        symbol [ setColor %tmp.2 22 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 22 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.4 22 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        symbol [ Graphics %tmp.5 22 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 22 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 23 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 23 8 10 ];
+        symbol [ clear %tmp.8 23 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 25 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_21_40_34_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_21_40_34_4_stop" ]
+        %width.1 = local;
+        symbol [ width %width.1 25 12 17 ];
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 25 20 22 ];
+        symbol [ getWidth %tmp.10 25 23 31 ];
+        %tmp.10 = getv function %tmp.9 :getWidth;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        lputv %width.1 %tmp.11;
+        symbol [ width %width.1 25 12 17 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 26 8 ]
+        [ "C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_21_40_34_4_start" "C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_21_40_34_4_stop" ]
+        %height.2 = local;
+        symbol [ height %height.2 26 12 18 ];
+        %tmp.12 = lgetv %dc;
+        symbol [ dc %tmp.12 26 21 23 ];
+        symbol [ getHeight %tmp.13 26 24 33 ];
+        %tmp.13 = getv function %tmp.12 :getHeight;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        lputv %height.2 %tmp.14;
+        symbol [ height %height.2 26 12 18 ];
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 29 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 29 8 10 ];
+        symbol [ drawText %tmp.16 29 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %width.1;
+        symbol [ width %tmp.17 29 20 25 ];
+        %tmp.18 = 2;
+        %tmp.19 = div %tmp.17 %tmp.18;
+        %tmp.20 = lgetv %height.2;
+        symbol [ height %tmp.20 29 31 37 ];
+        %tmp.21 = 0.4;
+        %tmp.22 = mul %tmp.20 %tmp.21;
+        symbol [ Graphics %tmp.23 29 45 53 ];
+        %tmp.23 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.24 29 54 64 ];
+        %tmp.24 = getv %tmp.23 :FONT_LARGE;
+        %tmp.25 = "Sail StartUp";
+        symbol [ Graphics %tmp.26 29 82 90 ];
+        %tmp.26 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.27 29 91 110 ];
+        %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.15 %tmp.16(%tmp.19, %tmp.22, %tmp.24, %tmp.25, %tmp.27);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 32 8 ]
+        %tmp.28 = lgetv %dc;
+        symbol [ dc %tmp.28 32 8 10 ];
+        symbol [ setColor %tmp.29 32 11 19 ];
+        %tmp.29 = getv function %tmp.28 :setColor;
+        symbol [ Graphics %tmp.30 32 20 28 ];
+        %tmp.30 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.31 32 29 42 ];
+        %tmp.31 = getv %tmp.30 :COLOR_LT_GRAY;
+        symbol [ Graphics %tmp.32 32 44 52 ];
+        %tmp.32 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.33 32 53 70 ];
+        %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+        invoke %tmp.28 %tmp.29(%tmp.31, %tmp.33);
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 33 8 ]
+        %tmp.34 = lgetv %dc;
+        symbol [ dc %tmp.34 33 8 10 ];
+        symbol [ drawText %tmp.35 33 11 19 ];
+        %tmp.35 = getv function %tmp.34 :drawText;
+        %tmp.36 = lgetv %width.1;
+        symbol [ width %tmp.36 33 20 25 ];
+        %tmp.37 = 2;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        %tmp.39 = lgetv %height.2;
+        symbol [ height %tmp.39 33 31 37 ];
+        %tmp.40 = 0.6;
+        %tmp.41 = mul %tmp.39 %tmp.40;
+        symbol [ Graphics %tmp.42 33 45 53 ];
+        %tmp.42 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.43 33 54 64 ];
+        %tmp.43 = getv %tmp.42 :FONT_XTINY;
+        %tmp.44 = "v";
+        symbol [ SailStartupApp %tmp.46 33 72 86 ];
+        %tmp.46 = getv ? :SailStartupApp;
+        symbol [ VERSION %tmp.47 33 87 94 ];
+        %tmp.47 = getv %tmp.46 :VERSION;
+        %tmp.48 = add %tmp.44 %tmp.47;
+        symbol [ Graphics %tmp.49 33 96 104 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.50 33 105 124 ];
+        %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.34 %tmp.35(%tmp.38, %tmp.41, %tmp.43, %tmp.48, %tmp.50);
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_21_40_34_4_stop:
+    }
+    [ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 36; @symbol_functiondef = [switchToMainView,36,13,29]; ]
+    function switchToMainView() as Void {
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_36_40_38_4_start:
+[ "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc" 37 8 ]
+        symbol [ WatchUi %tmp.1 37 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ switchToView %tmp.2 37 16 28 ];
+        %tmp.2 = getv function %tmp.1 :switchToView;
+        symbol [ SailStartupView %tmp.6 37 33 48 ];
+        %tmp.6 = getv ? :SailStartupView;
+        symbol [ _raceState %tmp.8 37 49 59 ];
+        %tmp.8 = getv ? :_raceState;
+        %tmp.3 = newc %tmp.6 (%tmp.8);
+        symbol [ SailStartupDelegate %tmp.12 37 66 85 ];
+        %tmp.12 = getv ? :SailStartupDelegate;
+        symbol [ _raceState %tmp.14 37 86 96 ];
+        %tmp.14 = getv ? :_raceState;
+        %tmp.9 = newc %tmp.12 (%tmp.14);
+        symbol [ WatchUi %tmp.15 37 99 106 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.16 37 107 122 ];
+        %tmp.16 = getv %tmp.15 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.16);
+C__Users_pette_Projects_garmin_startup_SailStartup_source_SplashView_mc_36_40_38_4_stop:
+    }
+}
+[ @file = "C:\Users\pette\Projects\garmin-startup\SailStartup\source\SplashView.mc"; @line = 1; ]
+<init> {
+}

@@ -15,18 +15,22 @@ class SailStartupDelegate extends WatchUi.BehaviorDelegate {
             // Line Page: Ping Boat
             if (_raceState.currentPosition != null) {
                 _raceState.boatEndLocation = _raceState.currentPosition;
+                WatchUi.requestUpdate();
             }
         } else if (_raceState.currentPage == 3) {
             // Wind Page: Increase Wind
             var wind = _raceState.windDirectionDegrees;
             if (wind == null) { wind = 0; }
             _raceState.windDirectionDegrees = (wind + _raceState.windIncrement) % 360;
+            WatchUi.requestUpdate();
         } else if (_raceState.currentPage == 4) {
             // Tacks Page: Toggle Starboard Tack Recording
             _raceState.toggleStarboardRecording();
+            WatchUi.requestUpdate();
         } else {
             // Timer or Race Page: Start/Stop timer
             _raceState.countdownTimerRunning = !_raceState.countdownTimerRunning;
+            WatchUi.requestUpdate();
         }
         return true; // Return true to indicate we handled the input
     }
@@ -37,6 +41,7 @@ class SailStartupDelegate extends WatchUi.BehaviorDelegate {
             // Line Page: Ping Pin
             if (_raceState.currentPosition != null) {
                 _raceState.pinEndLocation = _raceState.currentPosition;
+                WatchUi.requestUpdate();
             }
             return true;
         } else if (_raceState.currentPage == 3) {
@@ -44,10 +49,12 @@ class SailStartupDelegate extends WatchUi.BehaviorDelegate {
             var wind = _raceState.windDirectionDegrees;
             if (wind == null) { wind = 0; }
             _raceState.windDirectionDegrees = (wind - _raceState.windIncrement + 360) % 360;
+            WatchUi.requestUpdate();
             return true;
         } else if (_raceState.currentPage == 4) {
             // Tacks Page: Toggle Port Tack Recording
             _raceState.togglePortRecording();
+            WatchUi.requestUpdate();
             return true;
         } else {
             // Timer or Race Page: Sync timer

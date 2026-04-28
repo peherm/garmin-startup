@@ -125,10 +125,13 @@ class RaceState {
     }
 
     public function getTackAngle() as Number? {
-        if (windDirectionDegrees == null || starboardTackHeading == null) {
+        if (portTackHeading == null || starboardTackHeading == null) {
             return null;
         }
-        var diff = (windDirectionDegrees - starboardTackHeading).abs();
+        var diff = portTackHeading - starboardTackHeading;
+        if (diff < 0) {
+            diff = -diff;
+        }
         if (diff > 180) {
             diff = 360 - diff;
         }

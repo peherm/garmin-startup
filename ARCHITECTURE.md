@@ -1,10 +1,11 @@
-# Architecture & System Design
+# Architecture & System Design (Sail StartUp)
 
 ## Core Connect IQ Structure
 The app will be built around the standard Connect IQ MVC-like pattern.
 
-* `SailStartupApp`: The entry point. Manages app lifecycle, loads saved properties (like preferred timer duration), and injects the state into views.
-* `SailStartupView`: The main display. Will likely be heavily custom-drawn using `dc` (Device Context) rather than standard layouts to maximize space for large text (Timer, Distance).
+* `SailStartupApp`: The entry point. Manages app lifecycle, loads saved properties, and injects the state into views. Holds the global `VERSION` constant.
+* `SplashView`: The initial view shown for 2 seconds. Displays the app name and version.
+* `SailStartupView`: The main display. Navigates between 5 distinct pages using a carousel pattern.
 * `SailStartupDelegate`: Handles physical button presses. The Forerunner 255 relies purely on 5 hardware buttons (Up, Down, Start, Back, Light).
 
 ## Data Models & State Management

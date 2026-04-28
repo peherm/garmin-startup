@@ -1,4 +1,4 @@
-# SailStartup (Garmin Connect IQ)
+# Sail StartUp (Garmin Connect IQ)
 
 A tactical sailing app for the Garmin Forerunner 255 to help sailors master regatta starts. 
 Getting a good start—crossing the line at maximum speed exactly when the gun goes off—is the hardest and most critical part of a race. This app aims to provide the critical data needed to achieve the perfect start.

@@ -5,6 +5,7 @@ import Toybox.Position;
 import Toybox.Math;
 
 class SailStartupApp extends Application.AppBase {
+    public static const VERSION = "0.1.0";
     private var _raceState as RaceState;
 
     function initialize() {
@@ -44,7 +45,7 @@ class SailStartupApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new SailStartupView(_raceState), new SailStartupDelegate(_raceState) ];
+        return [ new SplashView(_raceState) ];
     }
 
 }
