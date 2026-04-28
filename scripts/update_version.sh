@@ -11,8 +11,9 @@ fi
 VERSION=$1
 
 # 1. Update manifest.xml
-# Replaces version="x.x.x" with version="VERSION"
-sed -i "s/version=\"[0-9.]*\"/version=\"$VERSION\"/g" SailStartup/manifest.xml
+# Only replace the version attribute on the <iq:application ...> tag,
+# not the XML declaration's version="1.0".
+sed -i -E "s/(<iq:application[^>]*version=\")[0-9.]+(\")/\\1${VERSION}\\2/" SailStartup/manifest.xml
 
 # 2. Update SailStartupApp.mc
 # Replaces VERSION = "x.x.x" with VERSION = "VERSION"
