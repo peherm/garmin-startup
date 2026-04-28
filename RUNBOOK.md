@@ -46,7 +46,16 @@ public static const VERSION = "0.2.0";
 ```
 
 ## Continuous Integration (CI/CD)
-The project is set up to use **GitHub Actions** for automated builds and verification.
+The project uses **GitHub Actions** (`.github/workflows/build.yml`) for automated builds and verification on every push to `main`, every pull request, and on `v*` tags.
+
+The workflow uses [`blackshadev/garmin-connectiq-build-action`](https://github.com/blackshadev/garmin-connectiq-build-action), which bundles the Connect IQ SDK in a container — so we no longer have to install or log in to the SDK manager in CI. The action tag (e.g. `@9.1.0`) selects the SDK version.
+
+Steps performed by the workflow:
+1. Checkout the repo.
+2. If the build is for a `v*` tag, sync the version into `manifest.xml` and `SailStartupApp.mc` via `scripts/update_version.sh`.
+3. Decode the Base64 `DEVELOPER_KEY_BASE64` secret into a `developer_key` file in the workspace.
+4. Run the build action against `SailStartup/monkey.jungle` for device `fr255`.
+5. Upload the resulting `SailStartup.prg` as a build artifact.
 
 ### Managing the Developer Key
 To keep the application secure, the `developer_key.der` is **never** committed to the repository. For the CI pipeline to work, the key must be stored as a GitHub Secret:
