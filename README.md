@@ -1,5 +1,8 @@
 # Sail StartUp (Garmin Connect IQ)
 
+[![Build and Verify](https://github.com/peherm/garmin-startup/actions/workflows/build.yml/badge.svg)](https://github.com/peherm/garmin-startup/actions/workflows/build.yml)
+[![Latest Release](https://img.shields.io/github/v/release/peherm/garmin-startup?sort=semver)](https://github.com/peherm/garmin-startup/releases/latest)
+
 A tactical sailing app for the Garmin Forerunner 255 to help sailors master regatta starts. 
 Getting a good start—crossing the line at maximum speed exactly when the gun goes off—is the hardest and most critical part of a race. This app aims to provide the critical data needed to achieve the perfect start.
 

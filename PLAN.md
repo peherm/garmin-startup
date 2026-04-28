@@ -52,17 +52,17 @@ This document outlines the step-by-step phases to build the SailStartup applicat
 Identified during a project review after the CI pipeline started working end-to-end. Ordered by priority.
 
 ### High value, low risk
-* [ ] **Replace `.gitignore`** with a Connect IQ / Monkey C-tailored one (currently a Java/BlueJ template). Should ignore `bin/`, `out/`, `developer_key`, `*.der`, `*.iq`, `.DS_Store`, etc.
-* [ ] **Stop tracking generated build artifacts** in `SailStartup/bin/` (currently 12 files: `.prg`, `.mir`, `.mcgen`, `.mbc`). `git rm -r --cached SailStartup/bin/` after the gitignore update.
-* [ ] **Add `permissions:` block** to `.github/workflows/build.yml` for least-privilege `GITHUB_TOKEN` (default `contents: read`, elevate per-job where needed).
-* [ ] **Publish GitHub Releases on `v*` tags** — add a job that runs after build, only on tag refs, and attaches the `.prg` artifact to a GitHub Release using `softprops/action-gh-release`.
-* [ ] **Resolve version drift** between `manifest.xml` / `SailStartupApp.mc` (both currently `0.1.0`) and the latest tag. Either commit the version bump alongside the tag, or document/run `update_version.sh` locally before tagging so local sideloaded builds show the correct splash version.
+* [x] **Replace `.gitignore`** with a Connect IQ / Monkey C-tailored one (currently a Java/BlueJ template). Should ignore `bin/`, `out/`, `developer_key`, `*.der`, `*.iq`, `.DS_Store`, etc.
+* [x] **Stop tracking generated build artifacts** in `SailStartup/bin/` (currently 12 files: `.prg`, `.mir`, `.mcgen`, `.mbc`). `git rm -r --cached SailStartup/bin/` after the gitignore update.
+* [x] **Add `permissions:` block** to `.github/workflows/build.yml` for least-privilege `GITHUB_TOKEN` (default `contents: read`, elevate per-job where needed).
+* [x] **Publish GitHub Releases on `v*` tags** — add a job that runs after build, only on tag refs, and attaches the `.prg` artifact to a GitHub Release using `softprops/action-gh-release`.
+* [x] **Resolve version drift** between `manifest.xml` / `SailStartupApp.mc` (both currently `0.1.0`) and the latest tag. Either commit the version bump alongside the tag, or document/run `update_version.sh` locally before tagging so local sideloaded builds show the correct splash version.
 
 ### Medium value
-* [ ] **Build-status badge** in `README.md`.
+* [x] **Build-status badge** in `README.md`.
 * [ ] **`CHANGELOG.md`** (optional; can be auto-generated from Conventional Commits).
-* [ ] **Dependabot config** at `.github/dependabot.yml` for the `github-actions` ecosystem so action version bumps are flagged automatically.
-* [ ] **Cross-platform version-sync script** — current `update_version.sh` uses GNU `sed -i`, which doesn't run on Windows without WSL/Git-Bash. Either provide a PowerShell equivalent or a small Node/Python script.
+* [x] **Dependabot config** at `.github/dependabot.yml` for the `github-actions` ecosystem so action version bumps are flagged automatically.
+* [x] **Cross-platform version-sync script** — current `update_version.sh` uses GNU `sed -i`, which doesn't run on Windows without WSL/Git-Bash. Either provide a PowerShell equivalent or a small Node/Python script.
 
 ### Low priority / informational
 * [ ] Node 20 deprecation warning on `actions/checkout@v4` / `actions/upload-artifact@v4` — already on the latest major; GitHub will auto-upgrade. No action needed yet.

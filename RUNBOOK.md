@@ -30,12 +30,34 @@ To test the app on the actual Forerunner 255:
 7. Disconnect the watch. The app will now be available in your activity list!
 
 ## Versioning
-When releasing a new version of the app, ensure the version number is updated in **two** places to keep them in sync:
+The version number lives in **two** places that must stay in sync:
 
-1.  **`SailStartup/manifest.xml`**: Update the `version` attribute in the `<iq:application>` tag. This is used by the Garmin ecosystem.
-2.  **`SailStartup/source/SailStartupApp.mc`**: Update the `VERSION` constant. This is used to display the version number on the splash screen.
+1.  **`SailStartup/manifest.xml`** — the `version` attribute on the `<iq:application>` tag (used by the Garmin ecosystem).
+2.  **`SailStartup/source/SailStartupApp.mc`** — the `VERSION` constant (used to display the version on the splash screen).
 
-Example:
+### Release procedure (recommended)
+To cut a release, bump both files locally first, commit, then tag. This keeps local sideloaded builds, the manifest, and the GitHub Release in sync.
+
+```bash
+# 1. Bump version locally
+#    PowerShell (Windows):
+./scripts/update_version.ps1 0.2.0
+#    Bash (Linux / macOS / WSL / Git Bash):
+./scripts/update_version.sh 0.2.0
+
+# 2. Commit the bump
+git add SailStartup/manifest.xml SailStartup/source/SailStartupApp.mc
+git commit -m "chore: Bump version to 0.2.0"
+git push
+
+# 3. Tag and push the tag
+git tag -a v0.2.0 -m "Release v0.2.0"
+git push origin v0.2.0
+```
+
+The CI workflow will detect the `v*` tag, re-run `update_version.sh` (idempotent), build, and publish a GitHub Release with the `.prg` attached.
+
+### Manual edit example
 ```xml
 <!-- manifest.xml -->
 <iq:application ... version="0.2.0">
