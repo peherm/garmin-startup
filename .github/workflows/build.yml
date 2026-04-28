@@ -30,9 +30,8 @@ jobs:
       run: |
         # Accept the license agreement
         connect-iq-sdk-manager agreement accept
-        # Install and set the latest 7.x SDK
-        connect-iq-sdk-manager sdk download 7.x.x
-        connect-iq-sdk-manager sdk set 7.x.x
+        # Download and set the latest SDK
+        connect-iq-sdk-manager sdk set latest
         # Download device definitions
         connect-iq-sdk-manager device download --manifest=SailStartup/manifest.xml
         # Debug: Print the path to ensure it was set correctly
