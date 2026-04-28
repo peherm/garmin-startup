@@ -44,3 +44,22 @@ Example:
 // SailStartupApp.mc
 public static const VERSION = "0.2.0";
 ```
+
+## Continuous Integration (CI/CD)
+The project is set up to use **GitHub Actions** for automated builds and verification.
+
+### Managing the Developer Key
+To keep the application secure, the `developer_key.der` is **never** committed to the repository. For the CI pipeline to work, the key must be stored as a GitHub Secret:
+1.  **Generate the Secret:** Run this command in your local terminal to convert your key to a Base64 string:
+    ```powershell
+    [Convert]::ToBase64String([IO.File]::ReadAllBytes("C:\Users\pette\OneDrive\Dokumenter\GarminKeys\developer_key"))
+    ```
+2.  **Add to GitHub:** 
+    - Go to your repository on GitHub.
+    - Navigate to **Settings > Secrets and variables > Actions**.
+    - Click **New repository secret**.
+    - Name: **`DEVELOPER_KEY_BASE64`**.
+    - Value: Paste the string from step 1.
+
+### Dependency Management
+External libraries (Monkey Barrels) should be added as **Git Submodules** in the `lib/` directory. This allows GitHub's **Dependabot** to track and notify you of updates to those dependencies.

@@ -1,0 +1,61 @@
+name: Build and Verify
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'zulu'
+        java-version: '17'
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install Connect IQ SDK Manager
+      run: npm install -g @lindell/connect-iq-sdk-manager-cli
+
+    - name: Download SDK and Devices
+      run: |
+        # Download the latest 7.x SDK
+        connect-iq-sdk-manager sdk download 7.x.x
+        # Download device definitions specified in the manifest
+        connect-iq-sdk-manager device download --manifest=SailStartup/manifest.xml
+
+    - name: Update Version from Git Tag
+      if: startsWith(github.ref, 'refs/tags/v')
+      run: |
+        # Strip the 'v' from the tag (v0.2.0 -> 0.2.0)
+        VERSION=${GITHUB_REF#refs/tags/v}
+        chmod +x scripts/update_version.sh
+        ./scripts/update_version.sh $VERSION
+
+    - name: Decode Developer Key
+      # This step requires a repository secret named DEVELOPER_KEY_BASE64
+      # If the secret is missing, this step will be skipped so the build can still 'verify' syntax
+      if: "${{ secrets.DEVELOPER_KEY_BASE64 != '' }}"
+      run: echo "${{ secrets.DEVELOPER_KEY_BASE64 }}" | base64 -d > developer_key.der
+
+    - name: Create Placeholder Key (If Secret Missing)
+      # If you haven't set up the secret yet, we create a dummy file so the compiler doesn't fail immediately
+      if: "${{ secrets.DEVELOPER_KEY_BASE64 == '' }}"
+      run: touch developer_key.der
+
+    - name: Build for Forerunner 255
+      run: |
+        SDK_BIN=$(connect-iq-sdk-manager sdk current-path --bin)
+        mkdir -p bin
+        $SDK_BIN/monkeyc -d fr255 -f SailStartup/monkey.jungle -o bin/SailStartup_fr255.prg -y developer_key.der

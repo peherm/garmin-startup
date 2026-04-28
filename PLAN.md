@@ -37,3 +37,9 @@ This document outlines the step-by-step phases to build the SailStartup applicat
 * [x] Tactical UI improvements based on real-world testing (Tack Angle prominence, higher visibility fonts).
 * [x] Bug fix: Resolved crash when calculating Tack Angle (removed incompatible .abs() method).
 * [x] Improvement: Added immediate UI refresh on all physical button inputs for better responsiveness.
+
+## Phase 7: CI/CD & Professional DevOps
+* [x] Setup GitHub Actions workflow for automated "Headless" builds.
+* [x] Configure GitHub Secrets for secure storage of the `developer_key.der` (Base64 encoded).
+* [x] Implement a version-sync script to automatically update `manifest.xml` and `SailStartupApp.mc` from Git Tags.
+* [ ] (Optional) Integrate Git Submodules for any external Monkey Barrels to enable Dependabot tracking.
