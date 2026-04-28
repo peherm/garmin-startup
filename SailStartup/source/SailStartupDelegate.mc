@@ -29,7 +29,15 @@ class SailStartupDelegate extends WatchUi.BehaviorDelegate {
             WatchUi.requestUpdate();
         } else {
             // Timer or Race Page: Start/Stop timer
-            _raceState.countdownTimerRunning = !_raceState.countdownTimerRunning;
+            var wasRunning = _raceState.countdownTimerRunning;
+            _raceState.countdownTimerRunning = !wasRunning;
+            // Auto-start activity recording the first time the timer starts so
+            // the entire pre-start sequence and subsequent sailing are saved
+            // as a Garmin activity (FIT file). The session is auto-saved on
+            // app exit (see SailStartupApp.onStop).
+            if (!wasRunning) {
+                getApp().getRecorder().start();
+            }
             WatchUi.requestUpdate();
         }
         return true; // Return true to indicate we handled the input

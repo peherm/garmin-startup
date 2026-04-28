@@ -32,6 +32,14 @@ class RaceState {
 * `Toybox.System`: For device settings and time.
 * `Toybox.ActivityRecording`: To create a session, record GPS track and other data, and save it as a `.fit` file.
 
+## Activity Recording
+* `SailRecorder` (`source/SailRecorder.mc`) wraps the `ActivityRecording.Session` lifecycle so the rest of the app does not deal with it directly.
+* Sessions are created with `sport = Activity.SPORT_SAILING`, `subSport = SUB_SPORT_GENERIC`, and the name `"Sail Start"`.
+* **Lifecycle:**
+  * `start()` is called from `SailStartupDelegate.onSelect` the first time the user starts the countdown timer.
+  * `stopAndSave()` is called from `SailStartupApp.onStop` when the app exits, persisting the FIT file to the watch's activity list.
+  * `discard()` is available for future use (e.g., a long-press abort).
+
 ## Mathematical Concepts Required
 1. **Distance to Line:** Calculated as the shortest (perpendicular) distance from a point (the watch) to a line segment (the start line defined by two GPS coordinates).
 2. **Favored End:** Determined by comparing the bearing of the starting line to the wind direction. Whichever end is further upwind is favored.

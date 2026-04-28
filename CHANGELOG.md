@@ -8,14 +8,19 @@ Commits follow the [Conventional Commits](https://www.conventionalcommits.org/) 
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-04-28
+
 ### Added
-- `CHANGELOG.md` (this file).
-- `LICENSE` declaring "All Rights Reserved / Personal Use".
-- `.github/ISSUE_TEMPLATE/` (bug report + feature request) and `pull_request_template.md`.
-- `CONTRIBUTING.md` with the documentation-first / Conventional Commits workflow.
+- **Activity Recording.** When the countdown timer is started, the app now
+  opens a `Toybox.ActivityRecording` session (sport: `SAILING`) that captures
+  GPS track, speed, and heading. The session is auto-saved as a FIT activity
+  when the app is exited and shows up in the watch's activity history /
+  Garmin Connect for post-race analysis.
+- Blinking **REC** indicator on the Race page while a session is recording.
+- New `SailRecorder` helper class wrapping the `ActivityRecording` lifecycle.
 
 ### Changed
-- `MEMORY.md` refreshed to reflect the current state (post Phase 8 hygiene work).
+- Bumped version to `0.1.3` in `manifest.xml` and `SailStartupApp.VERSION`.
 
 ## [0.1.2] - 2026-04-28
 
@@ -58,6 +63,7 @@ Commits follow the [Conventional Commits](https://www.conventionalcommits.org/) 
 - Splash screen with version display.
 - Initial GitHub Actions CI pipeline building the `.prg` for Forerunner 255.
 
-[Unreleased]: https://github.com/peherm/garmin-startup/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/peherm/garmin-startup/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/peherm/garmin-startup/releases/tag/v0.1.3
 [0.1.2]: https://github.com/peherm/garmin-startup/releases/tag/v0.1.2
 [0.1.0]: https://github.com/peherm/garmin-startup/commits/main

@@ -5,12 +5,18 @@ import Toybox.Position;
 import Toybox.Math;
 
 class SailStartupApp extends Application.AppBase {
-    public static const VERSION = "0.1.2";
+    public static const VERSION = "0.1.3";
     private var _raceState as RaceState;
+    private var _recorder as SailRecorder;
 
     function initialize() {
         AppBase.initialize();
         _raceState = new RaceState();
+        _recorder = new SailRecorder();
+    }
+
+    public function getRecorder() as SailRecorder {
+        return _recorder;
     }
 
     // onStart() is called on application start up
@@ -20,6 +26,8 @@ class SailStartupApp extends Application.AppBase {
 
     // onStop() is called when your application is exiting
     function onStop(state as Dictionary?) as Void {
+        // Persist any in-flight recording so the sailor never loses their FIT.
+        _recorder.stopAndSave();
         Position.enableLocationEvents(Position.LOCATION_DISABLE, method(:onPosition));
     }
 

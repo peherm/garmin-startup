@@ -2,6 +2,8 @@ import Toybox.Graphics;
 import Toybox.WatchUi;
 import Toybox.Lang;
 import Toybox.Timer;
+import Toybox.System;
+import Toybox.Application;
 
 class SailStartupView extends WatchUi.View {
     private var _raceState as RaceState;
@@ -122,6 +124,17 @@ class SailStartupView extends WatchUi.View {
     function drawRacePage(dc as Dc, width as Number, height as Number) as Void {
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(width / 2, height * 0.15, Graphics.FONT_MEDIUM, "RACE", Graphics.TEXT_JUSTIFY_CENTER);
+
+        // Recording indicator (top-left red dot + REC) when an activity
+        // session is in progress. Blinks once per second.
+        if (getApp().getRecorder().isRecording()) {
+            var blinkOn = (System.getTimer() / 500) % 2 == 0;
+            if (blinkOn) {
+                dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+                dc.fillCircle((width * 0.18).toNumber(), (height * 0.18).toNumber(), 5);
+                dc.drawText((width * 0.22).toNumber(), height * 0.18 - (Graphics.getFontHeight(Graphics.FONT_XTINY) / 2), Graphics.FONT_XTINY, "REC", Graphics.TEXT_JUSTIFY_LEFT);
+            }
+        }
 
         var timeToGun = _raceState.timeToGunSeconds;
         var minutes = timeToGun / 60;

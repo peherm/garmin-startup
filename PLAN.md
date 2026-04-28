@@ -32,7 +32,7 @@ This document outlines the step-by-step phases to build the SailStartup applicat
 * [x] Implement UI feedback (e.g., red text for early, green for perfect/late).
 
 ## Phase 6: Polish & On-Water Testing
-* [ ] Implement activity recording (`Toybox.ActivityRecording`) so the race start is saved as a Garmin Activity.
+* [x] Implement activity recording (`Toybox.ActivityRecording`) so the race start is saved as a Garmin Activity (sport: SAILING). Auto-starts when the countdown timer is started; auto-saves on app exit. A blinking REC indicator is shown on the Race page.
 * [ ] Field testing (Simulator with simulated GPS paths, then real-world on-water testing).
 * [x] Tactical UI improvements based on real-world testing (Tack Angle prominence, higher visibility fonts).
 * [x] Bug fix: Resolved crash when calculating Tack Angle (removed incompatible .abs() method).
