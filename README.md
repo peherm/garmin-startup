@@ -25,7 +25,9 @@ Target Device: Garmin Forerunner 255 / 255 Music.
 * [PLAN.md](PLAN.md) - Project execution phases and roadmap.
 * [ARCHITECTURE.md](ARCHITECTURE.md) - System design and data models.
 * [RUNBOOK.md](RUNBOOK.md) - How to build, test, and deploy the application.
+* [CHANGELOG.md](CHANGELOG.md) - Release history.
+* [CONTRIBUTING.md](CONTRIBUTING.md) - Workflow conventions.
 
 ## License
 
-Private / Personal Use
+All rights reserved — personal use only. See [LICENSE](LICENSE).

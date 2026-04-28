@@ -60,12 +60,12 @@ Identified during a project review after the CI pipeline started working end-to-
 
 ### Medium value
 * [x] **Build-status badge** in `README.md`.
-* [ ] **`CHANGELOG.md`** (optional; can be auto-generated from Conventional Commits).
+* [x] **`CHANGELOG.md`** — added; populated with Phase 7/8 history and an `[Unreleased]` section.
 * [x] **Dependabot config** at `.github/dependabot.yml` for the `github-actions` ecosystem so action version bumps are flagged automatically.
 * [x] **Cross-platform version-sync script** — current `update_version.sh` uses GNU `sed -i`, which doesn't run on Windows without WSL/Git-Bash. Either provide a PowerShell equivalent or a small Node/Python script.
 
 ### Low priority / informational
-* [ ] Node 20 deprecation warning on `actions/checkout@v4` / `actions/upload-artifact@v4` — already on the latest major; GitHub will auto-upgrade. No action needed yet.
-* [ ] Add a `LICENSE` file if the project ever moves beyond personal use (README currently states *"Private / Personal Use"*).
-* [ ] Refresh `MEMORY.md` (currently addressed to "Gemini CLI" — historical, but stale).
-* [ ] Add issue/PR templates and `CONTRIBUTING.md` if the repo becomes public or multi-contributor.
+* [x] Node 20 deprecation warning on `actions/checkout@v4` / `actions/upload-artifact@v4` — already on the latest major; GitHub will auto-upgrade. No action needed.
+* [x] Added a `LICENSE` file ("All rights reserved — personal use only") matching the README license statement.
+* [x] Refreshed `MEMORY.md` to reflect the current state (post Phase 7/8) and removed the Gemini-CLI-specific framing.
+* [x] Added issue/PR templates (`.github/ISSUE_TEMPLATE/{bug_report,feature_request}.md`, `pull_request_template.md`) and `CONTRIBUTING.md`.
