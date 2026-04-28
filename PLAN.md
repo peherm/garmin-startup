@@ -42,4 +42,30 @@ This document outlines the step-by-step phases to build the SailStartup applicat
 * [x] Setup GitHub Actions workflow for automated "Headless" builds.
 * [x] Configure GitHub Secrets for secure storage of the `developer_key.der` (Base64 encoded).
 * [x] Implement a version-sync script to automatically update `manifest.xml` and `SailStartupApp.mc` from Git Tags.
+* [x] Fix CI pipeline to use correct `blackshadev/garmin-connectiq-build-action` inputs and tag (`9.1.0`).
+* [x] Decode `DEVELOPER_KEY_BASE64` secret into a key file at runtime, using a relative path so it resolves inside the action's Docker container.
+* [x] Upload the built `SailStartup.prg` as a workflow artifact.
+* [x] Scope version-sync `sed` to only the `<iq:application>` tag so it doesn't corrupt the XML declaration.
 * [ ] (Optional) Integrate Git Submodules for any external Monkey Barrels to enable Dependabot tracking.
+
+## Phase 8: Repository Hygiene & Best Practices
+Identified during a project review after the CI pipeline started working end-to-end. Ordered by priority.
+
+### High value, low risk
+* [ ] **Replace `.gitignore`** with a Connect IQ / Monkey C-tailored one (currently a Java/BlueJ template). Should ignore `bin/`, `out/`, `developer_key`, `*.der`, `*.iq`, `.DS_Store`, etc.
+* [ ] **Stop tracking generated build artifacts** in `SailStartup/bin/` (currently 12 files: `.prg`, `.mir`, `.mcgen`, `.mbc`). `git rm -r --cached SailStartup/bin/` after the gitignore update.
+* [ ] **Add `permissions:` block** to `.github/workflows/build.yml` for least-privilege `GITHUB_TOKEN` (default `contents: read`, elevate per-job where needed).
+* [ ] **Publish GitHub Releases on `v*` tags** — add a job that runs after build, only on tag refs, and attaches the `.prg` artifact to a GitHub Release using `softprops/action-gh-release`.
+* [ ] **Resolve version drift** between `manifest.xml` / `SailStartupApp.mc` (both currently `0.1.0`) and the latest tag. Either commit the version bump alongside the tag, or document/run `update_version.sh` locally before tagging so local sideloaded builds show the correct splash version.
+
+### Medium value
+* [ ] **Build-status badge** in `README.md`.
+* [ ] **`CHANGELOG.md`** (optional; can be auto-generated from Conventional Commits).
+* [ ] **Dependabot config** at `.github/dependabot.yml` for the `github-actions` ecosystem so action version bumps are flagged automatically.
+* [ ] **Cross-platform version-sync script** — current `update_version.sh` uses GNU `sed -i`, which doesn't run on Windows without WSL/Git-Bash. Either provide a PowerShell equivalent or a small Node/Python script.
+
+### Low priority / informational
+* [ ] Node 20 deprecation warning on `actions/checkout@v4` / `actions/upload-artifact@v4` — already on the latest major; GitHub will auto-upgrade. No action needed yet.
+* [ ] Add a `LICENSE` file if the project ever moves beyond personal use (README currently states *"Private / Personal Use"*).
+* [ ] Refresh `MEMORY.md` (currently addressed to "Gemini CLI" — historical, but stale).
+* [ ] Add issue/PR templates and `CONTRIBUTING.md` if the repo becomes public or multi-contributor.
