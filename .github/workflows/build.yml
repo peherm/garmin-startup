@@ -15,29 +15,6 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
 
-    - name: Setup Java
-      uses: actions/setup-java@v4
-      with:
-        distribution: 'zulu'
-        java-version: '17'
-
-    - name: Install Connect IQ SDK Manager
-      run: |
-        curl -s https://raw.githubusercontent.com/lindell/connect-iq-sdk-manager-cli/master/install.sh | sh
-        echo "$(pwd)/bin" >> $GITHUB_PATH
-
-    - name: Download SDK and Devices
-      run: |
-        # Accept the license agreement
-        connect-iq-sdk-manager agreement accept
-        # Download and set a specific SDK version
-        connect-iq-sdk-manager sdk download 9.1.0
-        connect-iq-sdk-manager sdk set 9.1.0
-        # Download device definitions
-        connect-iq-sdk-manager device download --manifest=SailStartup/manifest.xml
-        # Debug: Print the path to ensure it was set correctly
-        echo "SDK Path: $(connect-iq-sdk-manager sdk current-path)"
-
     - name: Update Version from Git Tag
       if: startsWith(github.ref, 'refs/tags/v')
       run: |
@@ -45,24 +22,14 @@ jobs:
         chmod +x scripts/update_version.sh
         ./scripts/update_version.sh $VERSION
 
-    - name: Decode Developer Key
-      env:
-        DEV_KEY: ${{ secrets.DEVELOPER_KEY_BASE64 }}
-      if: env.DEV_KEY != ''
-      run: echo "$DEV_KEY" | base64 -d > developer_key.der
-
-    - name: Create Placeholder Key (If Secret Missing)
-      env:
-        DEV_KEY: ${{ secrets.DEVELOPER_KEY_BASE64 }}
-      if: env.DEV_KEY == ''
-      run: touch developer_key.der
-
-    - name: Build for Forerunner 255
-      run: |
-        SDK_BIN=$(connect-iq-sdk-manager sdk current-path --bin)
-        # Fallback if current-path fails
-        if [ -z "$SDK_BIN" ]; then
-          SDK_BIN="$HOME/.garmin/ConnectIQ/Sdks/*/bin"
-        fi
-        mkdir -p bin
-        $SDK_BIN/monkeyc -d fr255 -f SailStartup/monkey.jungle -o bin/SailStartup_fr255.prg -y developer_key.der
+    - name: Build Sail StartUp
+      uses: blackshadev/garmin-connectiq-build-action@v3
+      with:
+        # The Base64 encoded developer key from your GitHub Secrets
+        developer_key_base64: ${{ secrets.DEVELOPER_KEY_BASE64 }}
+        # The project directory (relative to repo root)
+        project_dir: SailStartup
+        # Target device
+        devices: fr255
+        # SDK version to use
+        sdk_version: 7.1.0
