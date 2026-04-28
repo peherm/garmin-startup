@@ -26,14 +26,14 @@ jobs:
       env:
         DEVELOPER_KEY_BASE64: ${{ secrets.DEVELOPER_KEY_BASE64 }}
       run: |
-        echo "$DEVELOPER_KEY_BASE64" | base64 -d > "${{ github.workspace }}/developer_key"
-        test -s "${{ github.workspace }}/developer_key"
+        echo "$DEVELOPER_KEY_BASE64" | base64 -d > developer_key
+        test -s developer_key
 
     - name: Build Sail StartUp
       uses: blackshadev/garmin-connectiq-build-action@9.1.0
       with:
         projectJungle: SailStartup/monkey.jungle
-        developerKey: ${{ github.workspace }}/developer_key
+        developerKey: developer_key
         device: fr255
         typeCheck: '1'
         outputPath: out/SailStartup.prg
