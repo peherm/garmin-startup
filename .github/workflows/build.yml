@@ -27,7 +27,7 @@ jobs:
         node-version: '20'
 
     - name: Install Connect IQ SDK Manager
-      run: npm install -g @lindell/connect-iq-sdk-manager-cli
+      run: npm install -g connect-iq-sdk-manager-cli
 
     - name: Download SDK and Devices
       run: |
