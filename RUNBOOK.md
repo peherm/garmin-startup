@@ -56,6 +56,9 @@ Steps performed by the workflow:
 3. Decode the Base64 `DEVELOPER_KEY_BASE64` secret into a `developer_key` file in the workspace.
 4. Run the build action against `SailStartup/monkey.jungle` for device `fr255`.
 5. Upload the resulting `SailStartup.prg` as a build artifact.
+6. **On `v*` tags only:** a follow-up `release` job downloads the artifact and creates a GitHub Release with auto-generated notes, attaching `SailStartup.prg` for easy sideloading.
+
+The workflow uses least-privilege `GITHUB_TOKEN` permissions: the default is `contents: read`; only the `release` job elevates to `contents: write`.
 
 ### Managing the Developer Key
 To keep the application secure, the `developer_key.der` is **never** committed to the repository. For the CI pipeline to work, the key must be stored as a GitHub Secret:
