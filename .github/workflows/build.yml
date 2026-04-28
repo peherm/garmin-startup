@@ -47,11 +47,11 @@ jobs:
         ./scripts/update_version.sh $VERSION
 
     - name: Decode Developer Key
-      if: "${{ secrets.DEVELOPER_KEY_BASE64 != '' }}"
+      if: ${{ secrets.DEVELOPER_KEY_BASE64 != '' }}
       run: echo "${{ secrets.DEVELOPER_KEY_BASE64 }}" | base64 -d > developer_key.der
 
     - name: Create Placeholder Key (If Secret Missing)
-      if: "${{ secrets.DEVELOPER_KEY_BASE64 == '' }}"
+      if: ${{ secrets.DEVELOPER_KEY_BASE64 == '' }}
       run: touch developer_key.der
 
     - name: Build for Forerunner 255
