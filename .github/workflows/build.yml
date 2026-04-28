@@ -28,6 +28,8 @@ jobs:
 
     - name: Download SDK and Devices
       run: |
+        # Accept the license agreement
+        connect-iq-sdk-manager agreement accept
         # Install and set the latest 7.x SDK
         connect-iq-sdk-manager sdk download 7.x.x
         connect-iq-sdk-manager sdk set 7.x.x
