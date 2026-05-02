@@ -138,6 +138,12 @@ class RaceState {
         return diff.toNumber();
     }
 
+    // Signed perpendicular distance from current position to the infinite
+    // line through pin and boat ends. Convention (pin = left, boat = right
+    // when approaching the line):
+    //   positive  -> below the line (pre-start side, where you start from)
+    //   negative  -> above the line (over early / past the line)
+    // Distance extends past either end of the line (no segment clamping).
     public function getDistanceToLineMeters() as Float? {
         if (pinEndLocation == null || boatEndLocation == null || currentPosition == null) {
             return null;
@@ -153,25 +159,26 @@ class RaceState {
 
         var R = 6371000.0; // Earth radius in meters
 
-        var avgLatB = (bLat + pLat) / 2.0;
-        var xB = (bLon - pLon) * Math.cos(avgLatB) * R;
+        // Use a single reference latitude (pin) so both vectors share the
+        // same local equirectangular frame.
+        var refCos = Math.cos(pLat);
+        var xB = (bLon - pLon) * refCos * R;
         var yB = (bLat - pLat) * R;
-
-        var avgLatC = (cLat + pLat) / 2.0;
-        var xC = (cLon - pLon) * Math.cos(avgLatC) * R;
+        var xC = (cLon - pLon) * refCos * R;
         var yC = (cLat - pLat) * R;
 
         var lenA = Math.sqrt(xB * xB + yB * yB);
-        
+
         if (lenA == 0.0) {
+            // Degenerate line: fall back to unsigned distance from pin.
             return Math.sqrt(xC * xC + yC * yC).toFloat();
         }
 
-        var cross = xC * yB - yC * xB;
-        if (cross < 0) {
-            cross = -cross;
-        }
-        return (cross / lenA).toFloat();
+        // Signed 2D cross product of (pin->boat) x (pin->you), divided by
+        // |pin->boat|. With pin on the left and boat on the right, the
+        // pre-start side yields a positive value.
+        var signedPerp = (xC * yB - yC * xB) / lenA;
+        return signedPerp.toFloat();
     }
 
     public function getFavoredEnd() as String? {
@@ -223,27 +230,77 @@ class RaceState {
         }
     }
 
+    // Heading-aware time-to-burn. Returns the difference (in seconds) between
+    // the countdown remaining and the time it will take to reach the line on
+    // the *current* heading. Returns null when:
+    //   - timer is idle, GPS data missing, or speed is too low,
+    //   - the boat is already on/above the line (burn no longer meaningful),
+    //   - the boat is sailing parallel to or away from the line, or
+    //   - the projected crossing point falls outside the pin<->boat segment
+    //     (i.e. would cross only an imaginary extension of the line).
     public function getTimeToBurnSeconds() as Number? {
         if (!countdownTimerRunning && timeToGunSeconds == defaultTimerMinutes * 60) {
             return null; // Timer hasn't started
         }
 
-        var distMeters = getDistanceToLineMeters();
-        if (distMeters == null || currentSpeedKnots == null) {
-            return null; // Missing data
+        if (pinEndLocation == null || boatEndLocation == null || currentPosition == null) {
+            return null;
+        }
+        if (currentSpeedKnots == null || currentHeading == null) {
+            return null;
         }
 
-        // Convert knots back to m/s for calculation
         var speedMs = currentSpeedKnots / 1.94384;
-        
         if (speedMs < 0.5) {
-            return null; // Moving too slow, calculation is useless/infinite
+            return null; // Moving too slow, calculation is unstable
         }
 
-        var timeToLineSeconds = distMeters / speedMs;
-        
-        // Positive means we have time to burn (we are early)
-        // Negative means we are late
+        // Build local pin-referenced ENU frame (matches getDistanceToLineMeters).
+        var p = pinEndLocation.toRadians();
+        var b = boatEndLocation.toRadians();
+        var c = currentPosition.toRadians();
+        var R = 6371000.0;
+        var refCos = Math.cos(p[0]);
+        var xB = (b[1] - p[1]) * refCos * R;
+        var yB = (b[0] - p[0]) * R;
+        var xC = (c[1] - p[1]) * refCos * R;
+        var yC = (c[0] - p[0]) * R;
+
+        var lenA = Math.sqrt(xB * xB + yB * yB);
+        if (lenA == 0.0) {
+            return null;
+        }
+
+        // Signed perpendicular distance (positive = below the line / pre-start).
+        var d = (xC * yB - yC * xB) / lenA;
+        if (d <= 0.0) {
+            return null; // Already on or above the line.
+        }
+
+        // Velocity vector from GPS heading (degrees, 0 = N, 90 = E).
+        var headingRad = currentHeading * Math.PI / 180.0;
+        var vx = speedMs * Math.sin(headingRad);
+        var vy = speedMs * Math.cos(headingRad);
+
+        // Rate of change of d along the velocity. Negative => approaching line.
+        var dDot = (vx * yB - vy * xB) / lenA;
+        if (dDot >= -0.05) {
+            // Parallel to or moving away from the line: never crosses.
+            return null;
+        }
+
+        var timeToLineSeconds = -d / dDot;
+
+        // Verify the crossing point falls on the actual line segment, not its
+        // extension past either end.
+        var crossX = xC + vx * timeToLineSeconds;
+        var crossY = yC + vy * timeToLineSeconds;
+        var alongLine = (crossX * xB + crossY * yB) / lenA;
+        if (alongLine < 0.0 || alongLine > lenA) {
+            return null;
+        }
+
+        // Positive => time to burn (early). Negative => late.
         return (timeToGunSeconds - timeToLineSeconds).toNumber();
     }
 }

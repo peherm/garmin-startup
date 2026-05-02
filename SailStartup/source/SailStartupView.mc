@@ -93,9 +93,16 @@ class SailStartupView extends WatchUi.View {
 
         var dist = _raceState.getDistanceToLineMeters();
         if (dist != null) {
-            var distString = dist.format("%d") + " m";
+            var absDist = dist < 0 ? -dist : dist;
+            var distString = absDist.format("%d") + " m";
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(width / 2, height / 2 - (Graphics.getFontHeight(Graphics.FONT_LARGE) / 2), Graphics.FONT_LARGE, distString, Graphics.TEXT_JUSTIFY_CENTER);
+
+            // Below = pre-start side (positive). Above = over the line (negative).
+            var sideLabel = dist >= 0 ? "BELOW" : "ABOVE";
+            var sideColor = dist >= 0 ? Graphics.COLOR_GREEN : Graphics.COLOR_RED;
+            dc.setColor(sideColor, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(width / 2, height * 0.60, Graphics.FONT_XTINY, sideLabel, Graphics.TEXT_JUSTIFY_CENTER);
 
             var favored = _raceState.getFavoredEnd();
             if (favored != null) {
@@ -145,7 +152,14 @@ class SailStartupView extends WatchUi.View {
         dc.drawText(width / 2, height * 0.35, Graphics.FONT_NUMBER_HOT, timerString, Graphics.TEXT_JUSTIFY_CENTER);
 
         var dist = _raceState.getDistanceToLineMeters();
-        var distString = dist != null ? dist.format("%d") + " m" : "--";
+        var distString;
+        if (dist != null) {
+            var absDist = dist < 0 ? -dist : dist;
+            var sideTag = dist >= 0 ? "" : "↑ "; // up arrow = above the line
+            distString = sideTag + absDist.format("%d") + " m";
+        } else {
+            distString = "--";
+        }
         dc.drawText(width / 2, height * 0.60, Graphics.FONT_LARGE, distString, Graphics.TEXT_JUSTIFY_CENTER);
 
         var timeToBurn = _raceState.getTimeToBurnSeconds();

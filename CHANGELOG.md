@@ -8,6 +8,20 @@ Commits follow the [Conventional Commits](https://www.conventionalcommits.org/) 
 
 ## [Unreleased]
 
+### Changed
+- **Signed distance to line.** `getDistanceToLineMeters` now returns a signed
+  perpendicular distance using the pin-on-left / boat-on-right convention:
+  positive = below the line (pre-start side), negative = above (over the
+  line). Wind data is not required. Both pin->boat and pin->you vectors now
+  share a single reference latitude for consistency.
+- **Line page** shows a colored `BELOW` / `ABOVE` tag under the distance.
+  **Race page** distance is prefixed with an up-arrow when above the line.
+- **Heading-aware time-to-burn.** `getTimeToBurnSeconds` now uses GPS heading
+  + speed to compute the perpendicular closure rate to the line, instead of
+  the previous scalar `distance / speed`. Returns `null` when sailing
+  parallel to or away from the line, when the predicted crossing point falls
+  outside the pin<->boat segment, or when already on/above the line.
+
 ## [0.1.3] - 2026-04-28
 
 ### Added
