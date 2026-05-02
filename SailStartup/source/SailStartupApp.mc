@@ -5,7 +5,7 @@ import Toybox.Position;
 import Toybox.Math;
 
 class SailStartupApp extends Application.AppBase {
-    public static const VERSION = "0.1.3";
+    public static const VERSION = "0.1.4";
     private var _raceState as RaceState;
     private var _recorder as SailRecorder;
 

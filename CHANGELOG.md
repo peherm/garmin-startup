@@ -8,6 +8,8 @@ Commits follow the [Conventional Commits](https://www.conventionalcommits.org/) 
 
 ## [Unreleased]
 
+## [0.1.4] - 2026-05-02
+
 ### Changed
 - **Signed distance to line.** `getDistanceToLineMeters` now returns a signed
   perpendicular distance using the pin-on-left / boat-on-right convention:
@@ -77,7 +79,8 @@ Commits follow the [Conventional Commits](https://www.conventionalcommits.org/) 
 - Splash screen with version display.
 - Initial GitHub Actions CI pipeline building the `.prg` for Forerunner 255.
 
-[Unreleased]: https://github.com/peherm/garmin-startup/compare/v0.1.3...HEAD
+[Unreleased]: https://github.com/peherm/garmin-startup/compare/v0.1.4...HEAD
+[0.1.4]: https://github.com/peherm/garmin-startup/releases/tag/v0.1.4
 [0.1.3]: https://github.com/peherm/garmin-startup/releases/tag/v0.1.3
 [0.1.2]: https://github.com/peherm/garmin-startup/releases/tag/v0.1.2
 [0.1.0]: https://github.com/peherm/garmin-startup/commits/main
