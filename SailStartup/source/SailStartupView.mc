@@ -76,14 +76,17 @@ class SailStartupView extends WatchUi.View {
                     Graphics.FONT_NUMBER_THAI_HOT, 
                     timerString, Graphics.TEXT_JUSTIFY_CENTER);
 
-        // Draw timer length and hint
-        var lengthString = "Length: " + _raceState.defaultTimerMinutes + "m (Hold UP)";
-        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, height * 0.75, Graphics.FONT_XTINY, lengthString, Graphics.TEXT_JUSTIFY_CENTER);
-        
-        if (!_raceState.countdownTimerRunning && _raceState.timeToGunSeconds != _raceState.defaultTimerMinutes * 60) {
+        var showResetHint = !_raceState.countdownTimerRunning && _raceState.timeToGunSeconds != _raceState.defaultTimerMinutes * 60;
+
+        if (showResetHint) {
+            // Show reset hint above the page-indicator dots, in a larger font for readability.
             dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-            dc.drawText(width / 2, height * 0.85, Graphics.FONT_XTINY, "Press Back to Reset", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(width / 2, height * 0.74, Graphics.FONT_TINY, "Back to Reset", Graphics.TEXT_JUSTIFY_CENTER);
+        } else {
+            // Draw timer length and hint
+            var lengthString = "Length: " + _raceState.defaultTimerMinutes + "m (Hold UP)";
+            dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(width / 2, height * 0.75, Graphics.FONT_XTINY, lengthString, Graphics.TEXT_JUSTIFY_CENTER);
         }
     }
 

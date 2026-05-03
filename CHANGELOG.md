@@ -8,6 +8,13 @@ Commits follow the [Conventional Commits](https://www.conventionalcommits.org/) 
 
 ## [Unreleased]
 
+## [0.1.5] - 2026-05-03
+
+### Fixed
+- **Timer page reset hint.** The red "Back to Reset" text no longer overlaps
+  the page-indicator dots. Moved up the screen and bumped to `FONT_TINY` for
+  readability.
+
 ## [0.1.4] - 2026-05-02
 
 ### Changed
