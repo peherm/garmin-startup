@@ -65,7 +65,7 @@ jobs:
         path: out
 
     - name: Create GitHub Release
-      uses: softprops/action-gh-release@v2
+      uses: softprops/action-gh-release@v3
       with:
         files: out/SailStartup.prg
         generate_release_notes: true
