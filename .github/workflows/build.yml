@@ -34,7 +34,7 @@ jobs:
         test -s developer_key
 
     - name: Build Sail StartUp
-      uses: blackshadev/garmin-connectiq-build-action@9.1.0
+      uses: blackshadev/garmin-connectiq-build-action@9.2.0
       with:
         projectJungle: SailStartup/monkey.jungle
         developerKey: developer_key
